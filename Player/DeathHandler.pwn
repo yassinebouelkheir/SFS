@@ -26,6 +26,6 @@ public OnPlayerDeath(playerid, killerid, reason)
 	SendDeathMessage(killerid, playerid, reason);
 
 	PlayerInfo[playerid][Deaths]++;
-	if(IsPlayerConnected[killerid]) PlayerInfo[killerid][Kills]++;
+	if(IsPlayerConnected(killerid)) PlayerInfo[killerid][Kills]++;
 	return 0;
 }

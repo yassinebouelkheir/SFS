@@ -14,28 +14,23 @@
 */
 
  /* 
-    ScriptFile    : main.pwn
+    ScriptFile    : AdminCommands.pwn
     Author        : XeonMaster
     Version       : 1.0
     License       : GNU General v3.0
     Developers    : None
 */
 
+// Moderator
 
-// Server 
-#include "Server/Includes.pwn"
-#include "Server/GlobalVars.pwn"
-#include "Server/Gamemode.pwn"
-#include "Server/Dialogs.pwn"
-#include "Server/IRC.pwn"
-#include "Server/Discord.pwn"
-#include "Server/MySQL.pwn"
 
-// Player
-#include "Player/Connections.pwn"
-#include "Player/ClassRequest.pwn"
-#include "Player/DeathHandler.pwn"
-#include "Player/Spawn.pwn"
-#include "Player/ChatHandler.pwn"
-#include "Player/VehicleHandler.pwn"
-#include "Player/Commands.pwn"
+
+// Administrator
+
+
+
+// Manager
+
+
+
+// Owner

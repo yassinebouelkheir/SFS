@@ -91,8 +91,3 @@ public OnPlayerSpawn(playerid)
     }
 	return 1;
 }
-
-public OnPlayerDeath(playerid)
-{
-	return 1;
-}
