@@ -22,14 +22,16 @@
 */
 
 // Constants - Dialogs
-#define DIALOG_INVALID  (0)
-#define DIALOG_LOGIN    (1)
-#define DIALOG_REGISTER (2)
-#define DIALOG_SKIN 	(3)
-#define DIALOG_VEH 		(4)
+#define DIALOG_INVALID     (0)
+#define DIALOG_LOGIN       (1)
+#define DIALOG_REGISTER    (2)
+#define DIALOG_SKIN 	   (3)
+#define DIALOG_VEH 		   (4)
+#define DIALOG_CHANGE_NAME (5)
+#define DIALOG_CHANGE_PASS (6)
 
 // Constants - Worlds
-#define WORLD_LOGIN 	(1)
+#define WORLD_LOGIN 	   (1)
 
 // Macros
 #define PRESSED(%0) \
@@ -74,7 +76,9 @@ enum ENUM_PLAYER_DATA
 
     PlayerTimer,
     bool:PMDisabled,
-    VirtualCar
+    VirtualCar,
+
+    LastNameChange
 }
 
 new PlayerInfo[MAX_PLAYERS][ENUM_PLAYER_DATA]; 
@@ -116,6 +120,18 @@ new VehicleNames[][] =
 };
 
 // Functions
+forward NameExists(name[]);
+stock NameExists(name[])
+{
+	new Cache:result, count, string[85];
+	mysql_format(Database, string, sizeof(string), "SELECT `USERNAME` FROM `PLAYERS` WHERE `USERNAME` = '%e' LIMIT 1", name);
+	result = mysql_query(Database, string);
+	cache_get_row_count(count);
+	cache_delete(result);
+	if(count) return false;
+	else return true;
+}
+
 forward GetLevelName(level);
 stock GetLevelName(level)
 {
@@ -168,7 +184,7 @@ stock ResetPlayerVariables(playerid)
 	PlayerInfo[playerid][PMDisabled] = false;
 	DestroyVehicle(PlayerInfo[playerid][VirtualCar]);
 	PlayerInfo[playerid][VirtualCar] = -1;
-
+	PlayerInfo[playerid][LastNameChange] = -1;
 	KillTimer(PlayerInfo[playerid][PlayerTimer]);
 }
 

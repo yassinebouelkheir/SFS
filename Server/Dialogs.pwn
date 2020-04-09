@@ -28,7 +28,6 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 		case DIALOG_REGISTER:
 		{
 			if(!response) return Kick(playerid);
-
 			if(strlen(inputtext) <= 4 || strlen(inputtext) > 60)
 			{
 		    	SendClientMessage(playerid, -1, "{FF0000}[SFServer]: {C3C3C3}Invalid password length, Please try again (should between 4 - 60 characters).");
@@ -81,6 +80,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 				SetPVarInt(playerid, "FirstSpawn", 1);
 				SpawnPlayer(playerid);
 		    }
+		    return 1;
 		}
 		case DIALOG_LOGIN:
 		{
@@ -135,6 +135,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 						{FF0000}-{FFFFFF} Create a topic in our forum https://www.forum.com", "Login", "Quit");
 				}
 			}
+			return 1;
 		}
 		case DIALOG_SKIN:
 		{
@@ -148,6 +149,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
             	format(string, sizeof(string), "{FF0000}[SFServer]: {C3C3C3}Your skin has been changed to %d", listitem);
             	SendClientMessage(playerid, -1, string);
             }
+            return 1;
 		}
 		case DIALOG_VEH:
 		{
@@ -168,6 +170,32 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 				format(string, sizeof(string), "{FF0000}[SFServer]: {C3C3C3}You spawned %s (Id: %d).", GetVehicleName(PlayerInfo[playerid][VirtualCar]), 400+listitem);
 				SendClientMessage(playerid, -1, string);
 			}
+			return 1;
+		}
+		case DIALOG_CHANGE_PASS:
+		{
+			if(strlen(inputtext) < 4) return SendClientMessage(playerid, -1, "{FF0000}[SFServer]: {C3C3C3}Invalid password length, password length should be atleast 4 characters.");
+			new string[154];
+
+			SHA256_PassHash(inputtext, PlayerInfo[playerid][Salt], PlayerInfo[playerid][Password], 65);
+
+			mysql_format(Database, string, sizeof(string), "UPDATE `PLAYERS` SET `PASSWORD` = '%e' WHERE `USERNAME` = '%e'", PlayerInfo[playerid][Password], GetName(playerid));
+			mysql_tquery(Database, string);
+			SendClientMessage(playerid, -1, "{FF0000}[SFServer]: {C3C3C3}Your password have been changed successfuly.");
+			return 1;
+		}
+		case DIALOG_CHANGE_NAME:
+		{
+			if(strlen(inputtext) < 3 || strlen(inputtext) > 20) return SendClientMessage(playerid, -1, "{FF0000}[SFServer]: {C3C3C3}Invalid name length, name length should be between 3 and 20 characters.");
+			if(NameExists(inputtext)) return SendClientMessage(playerid, -1, "{FF0000}[SFServer]: {C3C3C3}Invalid name, this name is already taken.");
+			new name[24];
+			name = GetName(playerid);
+			if(SetPlayerName(playerid, inputtext) != 1) return SendClientMessage(playerid, -1, "{FF0000}[SFServer]: {C3C3C3}Invalid name, Please try again.");
+			new string[107];
+			mysql_format(Database, string, sizeof(string), "UPDATE `PLAYERS` SET `USERNAME` = '%e' WHERE `USERNAME` = '%e'", inputtext, name);
+			mysql_tquery(Database, string);
+		 	SendClientMessage(playerid, -1, "{FF0000}[SFServer]: {C3C3C3}Your name have been changed successfuly.");
+			return 1;
 		}
 	}
 	return 1;

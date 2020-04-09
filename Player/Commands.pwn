@@ -113,6 +113,22 @@ CMD:skins(playerid, params[])
 
 CMD:change(playerid, params[])
 {
+	new param[20];
+    if (sscanf(params, "s[20]", param)) return SendClientMessage(playerid, -1, "{FF0000}[SFServer]: {C3C3C3}Invalid Syntax, please use {CC6600}/change [password/name]{C3C3C3}.");
+    if (!strcmp(param, "password", true, 8))
+    {
+    	ShowPlayerDialog(playerid, DIALOG_CHANGE_PASS, DIALOG_STYLE_PASSWORD, "{FF0000}SFS: {FFFFFF}Change your password", "{FFFFFF}Please enter your new password below:{FFFFFF}", "Finish", "Cancel");
+    	return 1;
+    }
+    else if(!strcmp(param, "name", true, 4))
+    {	
+    	ShowPlayerDialog(playerid, DIALOG_CHANGE_NAME, DIALOG_STYLE_INPUT, "{FF0000}SFS: {FFFFFF}Change your nickname", "{FFFFFF}Please enter your new nickname below:\n\n\
+    		{FF0000}- {FFFFFF}Please choose nickname between and 3-20 characters.\n\
+    		{FF0000}- {FFFFFF}Please use only a-z, A-Z, 0-9.\n\
+    		{FF0000}- {FFFFFF}Note that you won't be able to change your nickname for the next 7 days.\n", "Finish", "Cancel");
+    	return 1;
+    }
+    else SendClientMessage(playerid, -1, "{FF0000}[SFServer]: {C3C3C3}Invalid Syntax, please use {CC6600}/change [password/name]{C3C3C3}.");
 	return 1;
 }
 
