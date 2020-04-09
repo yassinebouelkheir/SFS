@@ -122,6 +122,7 @@ CMD:change(playerid, params[])
     }
     else if(!strcmp(param, "name", true, 4))
     {	
+    	if((gettime() - PlayerInfo[playerid][LastNameChange]) < 604800) SendClientMessage(playerid, -1, "{FF0000}[SFServer]: {C3C3C3}You just changed your name recently, you can't change it right now.");
     	ShowPlayerDialog(playerid, DIALOG_CHANGE_NAME, DIALOG_STYLE_INPUT, "{FF0000}SFS: {FFFFFF}Change your nickname", "{FFFFFF}Please enter your new nickname below:\n\n\
     		{FF0000}- {FFFFFF}Please choose nickname between and 3-20 characters.\n\
     		{FF0000}- {FFFFFF}Please use only a-z, A-Z, 0-9.\n\

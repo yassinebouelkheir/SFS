@@ -194,6 +194,12 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 			new string[107];
 			mysql_format(Database, string, sizeof(string), "UPDATE `PLAYERS` SET `USERNAME` = '%e' WHERE `USERNAME` = '%e'", inputtext, name);
 			mysql_tquery(Database, string);
+
+			PlayerInfo[playerid][LastNameChange] = gettime();
+
+			mysql_format(Database, string, sizeof(string), "UPDATE `PLAYERDATA` SET `LASTNAMECHANGE` = %d WHERE `ID` = '%e'", PlayerInfo[playerid][LastNameChange], PlayerInfo[playerid][ID]);
+			mysql_tquery(Database, string);
+
 		 	SendClientMessage(playerid, -1, "{FF0000}[SFServer]: {C3C3C3}Your name have been changed successfuly.");
 			return 1;
 		}
