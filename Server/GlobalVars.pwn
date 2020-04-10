@@ -128,8 +128,8 @@ stock NameExists(name[])
 	result = mysql_query(Database, string);
 	cache_get_row_count(count);
 	cache_delete(result);
-	if(count) return false;
-	else return true;
+	if(count) return true;
+	else return false;
 }
 
 forward GetLevelName(level);
