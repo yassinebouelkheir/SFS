@@ -36,16 +36,18 @@ public OnPlayerConnect(playerid)
     
     SetPlayerColor(playerid, colour);
 
-    new string[100];
+    new string[100], str[41];
     GetPlayerIp(playerid, string, sizeof(string));
-    mysql_format(Database, string, sizeof(string), "INSERT INTO `connections`(`USERNAME`, `IP`) VALUES ('%e', '%e')", GetName(playerid), string);
+
+    gpci(playerid, str, sizeof(str));
+    PlayerInfo[playerid][ClientID] = str;
+    
+    mysql_format(Database, string, sizeof(string), "INSERT INTO `connections`(`USERNAME`, `IP`, `CLIENTID`) VALUES ('%e', '%e', '%e')", GetName(playerid), string, PlayerInfo[playerid][ClientID]);
     mysql_tquery(Database, string);
 
     new string2[24];
     GetPlayerCountry(playerid, string2, sizeof(string2));
     PlayerInfo[playerid][Country] = string2;
-    printf("country1: %s", string2);
-    printf("country2: %s", PlayerInfo[playerid][Country]);
 	return 1;
 }
 

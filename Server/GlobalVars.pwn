@@ -21,6 +21,9 @@
     Developers    : None
 */
 
+// Natives
+native gpci(playerid, serial[], len);
+
 // Constants - Dialogs
 #define DIALOG_INVALID     (0)
 #define DIALOG_LOGIN       (1)
@@ -29,6 +32,8 @@
 #define DIALOG_VEH 		   (4)
 #define DIALOG_CHANGE_NAME (5)
 #define DIALOG_CHANGE_PASS (6)
+#define DIALOG_ACMDS_MOD   (7)
+#define DIALOG_ACMDS_ADMIN (8)
 
 // Constants - Worlds
 #define WORLD_LOGIN 	   (1)
@@ -42,7 +47,8 @@ new
 	GlobalTimer,
 	TotalVeh,
 	Text: Login[8],
-    MySQL: Database
+    MySQL: Database,
+    bool: GlobalChat
 ;
 
 enum ENUM_PLAYER_DATA
@@ -75,10 +81,12 @@ enum ENUM_PLAYER_DATA
     bool: LoggedIn,
 
     PlayerTimer,
-    bool:PMDisabled,
+    bool: PMDisabled,
     VirtualCar,
 
-    LastNameChange
+    LastNameChange,
+    ClientID[41],
+    bool: IsSpectating
 }
 
 new PlayerInfo[MAX_PLAYERS][ENUM_PLAYER_DATA]; 

@@ -39,3 +39,4 @@
 #include "Player/ChatHandler.pwn"
 #include "Player/VehicleHandler.pwn"
 #include "Player/Commands.pwn"
+#include "Player/AdminCommands.pwn"

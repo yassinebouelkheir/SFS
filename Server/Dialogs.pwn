@@ -203,6 +203,57 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 		 	SendClientMessage(playerid, -1, "{FF0000}[SFServer]: {C3C3C3}Your name have been changed successfuly.");
 			return 1;
 		}
+		case DIALOG_ACMDS_MOD:
+		{
+			if(response)
+			{
+				if(PlayerInfo[playerid][Admin] < 3)
+				{
+					ShowPlayerDialog(playerid, DIALOG_INVALID, DIALOG_STYLE_MSGBOX, "{FF0000}SFS: {FFFFFF}Admin Commands", "\
+						{CC6600}Administrator Commands:{FFFFFF}!\n\n\
+						/cc        \t{FF0000}-{FFFFFF} .\n\
+						/ban       \t{FF0000}-{FFFFFF} .\n\
+						/oban      \t{FF0000}-{FFFFFF} .\n\
+						/unban     \t{FF0000}-{FFFFFF} .\n\
+						/aka       \t{FF0000}-{FFFFFF} .\n\
+						/akill     \t{FF0000}-{FFFFFF} .\n\
+						/givecash  \t{FF0000}-{FFFFFF} .\n\
+						/giveweapon\t{FF0000}-{FFFFFF} .\n\
+					", "Cancel", "");
+				}
+				else
+				{
+					ShowPlayerDialog(playerid, DIALOG_ACMDS_ADMIN, DIALOG_STYLE_MSGBOX, "{FF0000}SFS: {FFFFFF}Admin Commands", "\
+						{CC6600}Administrator Commands:{FFFFFF}!\n\n\
+						/cc        \t{FF0000}-{FFFFFF} .\n\
+						/ban       \t{FF0000}-{FFFFFF} .\n\
+						/oban      \t{FF0000}-{FFFFFF} .\n\
+						/unban     \t{FF0000}-{FFFFFF} .\n\
+						/aka       \t{FF0000}-{FFFFFF} .\n\
+						/akill     \t{FF0000}-{FFFFFF} .\n\
+						/givecash  \t{FF0000}-{FFFFFF} .\n\
+						/giveweapon\t{FF0000}-{FFFFFF} .\n\
+					", "Next", "Cancel");		
+				}
+			}
+			return 1;
+		}
+		case DIALOG_ACMDS_ADMIN:
+		{
+			if(response)
+			{
+				ShowPlayerDialog(playerid, DIALOG_INVALID, DIALOG_STYLE_MSGBOX, "{FF0000}SFS: {FFFFFF}Admin Commands", "\
+					{CC6600}Manager Commands:{FFFFFF}!\n\n\
+					/givevip   \t{FF0000}-{FFFFFF} .\n\
+					/dchat 	   \t{FF0000}-{FFFFFF} .\n\
+					/setweather\t{FF0000}-{FFFFFF} .\n\
+					/settime   \t{FF0000}-{FFFFFF} .\n\
+					/fakedeath \t{FF0000}-{FFFFFF} .\n\
+					/setkills  \t{FF0000}-{FFFFFF} .\n\
+					/setdeath  \t{FF0000}-{FFFFFF} .\n\
+				", "Cancel", "");
+			}
+		}
 	}
 	return 1;
 }

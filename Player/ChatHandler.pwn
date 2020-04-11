@@ -102,8 +102,15 @@ public OnPlayerText(playerid, text[])
 			// Gangs chat
 		}
 	}
-	new string[168];
-	format(string, sizeof(string), "{%06x}%s [%d]: {FFFFFF}%s", GetPlayerColor(playerid) >>> 8, GetName(playerid), playerid, text);
-	SendClientMessageToAll(-1, string);
+	if(!GlobalChat && !PlayerInfo[playerid][Admin])
+	{
+		SendClientMessage(playerid, -1, "{0000FF}[SFAdmin]: {C3C3C3}Global Chat is disabled at the moment.");
+	}
+	else 
+	{
+		new string[168];
+		format(string, sizeof(string), "{%06x}%s [%d]: {FFFFFF}%s", GetPlayerColor(playerid) >>> 8, GetName(playerid), playerid, text);
+		SendClientMessageToAll(-1, string);
+	}
 	return 0;
 }
