@@ -150,7 +150,7 @@ stock GetLevelName(level)
 		case 1: strcat(string, "{CC6600}Moderator{FFFFFF}");
 		case 2: strcat(string, "{FFFF00}Administrator{FFFFFF}");
 		case 3: strcat(string, "{339933}Manager{FFFFFF}");
-		case 4: strcat(string, "{0000FF}Owner{FFFFFF}");
+		case 4: strcat(string, "{FF0000}Owner{FFFFFF}");
 	}
 	return string;
 }

@@ -36,7 +36,7 @@ public OnPlayerConnect(playerid)
     
     SetPlayerColor(playerid, colour);
 
-    new string[100], str[41];
+    new string[256], str[41];
     GetPlayerIp(playerid, string, sizeof(string));
 
     gpci(playerid, str, sizeof(str));

@@ -47,3 +47,13 @@ public OnPlayerStateChange(playerid, newstate, oldstate)
 {
     return 1;
 }
+
+public OnVehicleDamageStatusUpdate(vehicleid, playerid)
+{
+    if(GetPVarInt(playerid, "IsGod"))
+    {
+        RepairVehicle(vehicleid);
+        SetVehicleHealth(vehicleid, 1000);
+    }
+    return 1;
+}

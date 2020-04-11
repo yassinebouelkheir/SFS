@@ -28,7 +28,7 @@ CMD:acmds(playerid)
 	if(PlayerInfo[playerid][Admin] < 2)
 	{
 		ShowPlayerDialog(playerid, DIALOG_INVALID, DIALOG_STYLE_MSGBOX, "{FF0000}SFS: {FFFFFF}Admin Commands", "\
-			{CC6600}Moderator Commands:{FFFFFF}!\n\n\
+			{CC6600}Moderator Commands:{FFFFFF}\n\n\
 			/spec    \t{FF0000}-{FFFFFF} .\n\
 			/specoff \t{FF0000}-{FFFFFF} .\n\
 			/ann     \t{FF0000}-{FFFFFF} .\n\
@@ -45,7 +45,7 @@ CMD:acmds(playerid)
 	else
 	{
 		ShowPlayerDialog(playerid, DIALOG_ACMDS_MOD, DIALOG_STYLE_MSGBOX, "{FF0000}SFS: {FFFFFF}Admin Commands", "\
-			{CC6600}Moderator Commands:{FFFFFF}!\n\n\
+			{CC6600}Moderator Commands:{FFFFFF}\n\n\
 			/spec    \t{FF0000}-{FFFFFF} .\n\
 			/specoff \t{FF0000}-{FFFFFF} .\n\
 			/ann     \t{FF0000}-{FFFFFF} .\n\
@@ -172,10 +172,18 @@ CMD:god(playerid, params[])
 {
 	if(PlayerInfo[playerid][Admin] < 1) return 0; 
 	new id;
-	if(sscanf(params, "u", id)) return id = playerid;
+	if(sscanf(params, "u", id)) id = playerid;
 	if(!IsPlayerConnected(id)) return SendClientMessage(playerid, -1, "{0000FF}[SFAdmin]: {C3C3C3}Invalid playerid, This player is not connected."); 
-
-	SetPlayerHealth(playerid, 99999.0);
+	if(GetPVarInt(id, "IsGod"))
+	{
+		SetPlayerHealth(id, 99.0);
+		SetPVarInt(id, "IsGod", 0);
+	}
+	else
+	{
+		SetPlayerHealth(id, 99999.0);
+		SetPVarInt(id, "IsGod", 1);
+	}
 	return 1;	
 }
 
@@ -268,7 +276,7 @@ CMD:givevip(playerid, params[])
 	SendClientMessage(id, -1, "{0000FF}[SFAdmin]: {C3C3C3}You have been given a VIP Status, Congratulations.");
 
 	new string[82];
-	mysql_format(Database, string, sizeof(string), "UPDATE `PLAYERDATA` SET `VIP` = 1 WHERE `USERNAME` = '%e'", GetName(id));
+	mysql_format(Database, string, sizeof(string), "UPDATE `PLAYERDATA` SET `VIP` = 1 WHERE `ID` = %d", PlayerInfo[id][ID]);
 	mysql_tquery(Database, string);
 	return 1;
 }
@@ -366,14 +374,14 @@ CMD:setlevel(playerid, params[])
 	if(level < 0 || level > 4) return SendClientMessage(playerid, -1, "{0000FF}[SFAdmin]: {C3C3C3}Invalid level, Please try again.");
 	if(!IsPlayerConnected(id)) return SendClientMessage(playerid, -1, "{0000FF}[SFAdmin]: {C3C3C3}Invalid playerid, This player is not connected.");
 
-	new string[91];
-	if(PlayerInfo[id][Admin] > level) format(string, sizeof(string), "{0000FF}[SFAdmin]: {C3C3C3}You have been promoted to an %s{C3C3C3}.", GetLevelName(level));
+	new string[128];
+	if(PlayerInfo[id][Admin] < level) format(string, sizeof(string), "{0000FF}[SFAdmin]: {C3C3C3}You have been promoted to an %s{C3C3C3}.", GetLevelName(level));
 	else format(string, sizeof(string), "{0000FF}[SFAdmin]: {C3C3C3}You have been demoted to an %s{C3C3C3}.", GetLevelName(level));
 
 	PlayerInfo[id][Admin] = level;
 	SendClientMessage(id, -1, string);
 
-	mysql_format(Database, string, sizeof(string), "UPDATE `PLAYERDATA` SET `ADMIN` = %d WHERE `USERNAME` = '%e'", level, GetName(id));
+	mysql_format(Database, string, sizeof(string), "UPDATE `PLAYERDATA` SET `ADMIN` = %d WHERE `ID` = %d", level, PlayerInfo[id][ID]);
 	mysql_tquery(Database, string);
 	return 1;
 }

@@ -163,7 +163,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 				}
 				new Float:x, Float:y, Float:z;
 				GetPlayerPos(playerid, x, y, z);
-				PlayerInfo[playerid][VirtualCar] = CreateVehicle(400+listitem, x + 3, y, z, 0, 0,0, -1);
+				PlayerInfo[playerid][VirtualCar] = CreateVehicle(400+listitem, x + 3, y, z, 0, GetPlayerColor(playerid), GetPlayerColor(playerid), -1);
 				PutPlayerInVehicle(playerid, PlayerInfo[playerid][VirtualCar], 0);
 
 				new string[77];
@@ -210,7 +210,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 				if(PlayerInfo[playerid][Admin] < 3)
 				{
 					ShowPlayerDialog(playerid, DIALOG_INVALID, DIALOG_STYLE_MSGBOX, "{FF0000}SFS: {FFFFFF}Admin Commands", "\
-						{CC6600}Administrator Commands:{FFFFFF}!\n\n\
+						{FFFF00}Administrator Commands:{FFFFFF}\n\n\
 						/cc        \t{FF0000}-{FFFFFF} .\n\
 						/ban       \t{FF0000}-{FFFFFF} .\n\
 						/oban      \t{FF0000}-{FFFFFF} .\n\
@@ -224,7 +224,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 				else
 				{
 					ShowPlayerDialog(playerid, DIALOG_ACMDS_ADMIN, DIALOG_STYLE_MSGBOX, "{FF0000}SFS: {FFFFFF}Admin Commands", "\
-						{CC6600}Administrator Commands:{FFFFFF}!\n\n\
+						{FFFF00}Administrator Commands:{FFFFFF}\n\n\
 						/cc        \t{FF0000}-{FFFFFF} .\n\
 						/ban       \t{FF0000}-{FFFFFF} .\n\
 						/oban      \t{FF0000}-{FFFFFF} .\n\
@@ -243,7 +243,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 			if(response)
 			{
 				ShowPlayerDialog(playerid, DIALOG_INVALID, DIALOG_STYLE_MSGBOX, "{FF0000}SFS: {FFFFFF}Admin Commands", "\
-					{CC6600}Manager Commands:{FFFFFF}!\n\n\
+					{339933}Manager Commands:{FFFFFF}\n\n\
 					/givevip   \t{FF0000}-{FFFFFF} .\n\
 					/dchat 	   \t{FF0000}-{FFFFFF} .\n\
 					/setweather\t{FF0000}-{FFFFFF} .\n\

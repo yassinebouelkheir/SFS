@@ -278,7 +278,7 @@ CMD:admins(playerid)
 
 	foreach(new i : Player)
 	{
-		if(PlayerInfo[i][Admin] > 0) format(string, sizeof(string), "%s{%06x}%s [%d]{FF0000}-%s\n", string, GetPlayerColor(i) >>> 8, GetName(i), i, GetLevelName(PlayerInfo[i][Admin]));
+		if(PlayerInfo[i][Admin] > 0) format(string, sizeof(string), "%s{%06x}%s [%d]{FF0000} - %s\n", string, GetPlayerColor(i) >>> 8, GetName(i), i, GetLevelName(PlayerInfo[i][Admin]));
 	}
 
 	strcat(string, "\n{FFFFFF}If you need help by anything you can ask our staff using: @ [text] or /help [text].");
@@ -294,7 +294,7 @@ CMD:vips(playerid)
 
 	foreach(new i : Player)
 	{
-		if(PlayerInfo[i][Admin] == 0 && PlayerInfo[i][VIP]) format(string, sizeof(string), "%s{%06x}%s [%d]{FF0000}-{6600CC}VIP\n", string, GetPlayerColor(playerid) >>> 8, GetName(i), i);
+		if(PlayerInfo[i][Admin] == 0 && PlayerInfo[i][VIP]) format(string, sizeof(string), "%s{%06x}%s [%d]{FF0000} - {6600CC}VIP\n", string, GetPlayerColor(playerid) >>> 8, GetName(i), i);
 	}
 
 	strcat(string, "\n{FFFFFF}If you need help by anything you can ask our staff using: @ [text] or /help [text].");
