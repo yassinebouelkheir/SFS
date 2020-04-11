@@ -320,7 +320,7 @@ CMD:setweather(playerid, params[])
 {
 	if(PlayerInfo[playerid][Admin] < 3) return SendClientMessage(playerid, -1, "{0000FF}[SFAdmin]: {C3C3C3}Invalid Syntax, please use {CC6600}/setweather [weatherid]{C3C3C3}."); 
 	new id;
-	if(sscanf(params, "d", id)) return 1;
+	if(sscanf(params, "i", id)) return 1;
 
 	SetWeather(id);
 	return 1;
@@ -330,7 +330,7 @@ CMD:settime(playerid, params[])
 {
 	if(PlayerInfo[playerid][Admin] < 3) return SendClientMessage(playerid, -1, "{0000FF}[SFAdmin]: {C3C3C3}Invalid Syntax, please use {CC6600}/settime [time]{C3C3C3}."); 
 	new id;
-	if(sscanf(params, "d", id)) return 1;
+	if(sscanf(params, "i", id)) return 1;
 	
 	SetWorldTime(id);
 	return 1;
@@ -344,9 +344,9 @@ CMD:fakedeath(playerid, params[])
 
 CMD:setkills(playerid, params[])
 {
-	if(PlayerInfo[playerid][Admin] < 3) return SendClientMessage(playerid, -1, "{0000FF}[SFAdmin]: {C3C3C3}Invalid Syntax, please use {CC6600}/setkills [playerid/name] [count]{C3C3C3}."); 
+	if(PlayerInfo[playerid][Admin] < 3) return 0; 
 	new id, count;
-	if(sscanf(params, "ud", id, count)) return 1;
+	if(sscanf(params, "ui", id, count)) return SendClientMessage(playerid, -1, "{0000FF}[SFAdmin]: {C3C3C3}Invalid Syntax, please use {CC6600}/setkills [playerid/name] [count]{C3C3C3}."); 
 	if(!IsPlayerConnected(id)) return SendClientMessage(playerid, -1, "{0000FF}[SFAdmin]: {C3C3C3}Invalid playerid, This player is not connected.");
 
 	PlayerInfo[id][Kills] = count;
@@ -355,9 +355,9 @@ CMD:setkills(playerid, params[])
 
 CMD:setdeaths(playerid, params[])
 {
-	if(PlayerInfo[playerid][Admin] < 3) return SendClientMessage(playerid, -1, "{0000FF}[SFAdmin]: {C3C3C3}Invalid Syntax, please use {CC6600}/setdeaths [playerid/name] [deaths]{C3C3C3}.");
+	if(PlayerInfo[playerid][Admin] < 3) return 0;
 	new id, count;
-	if(sscanf(params, "ud", id, count)) return 1;
+	if(sscanf(params, "ui", id, count)) return SendClientMessage(playerid, -1, "{0000FF}[SFAdmin]: {C3C3C3}Invalid Syntax, please use {CC6600}/setdeaths [playerid/name] [deaths]{C3C3C3}.");
 	if(!IsPlayerConnected(id)) return SendClientMessage(playerid, -1, "{0000FF}[SFAdmin]: {C3C3C3}Invalid playerid, This player is not connected.");
 
 	PlayerInfo[id][Deaths] = count;
@@ -369,7 +369,7 @@ CMD:setlevel(playerid, params[])
 {
 	if(PlayerInfo[playerid][Admin] != 4 && !IsPlayerAdmin(playerid)) return 0; 
 	new id, level;
-	if(sscanf(params, "ud", id, level)) return 1;
+	if(sscanf(params, "ui", id, level)) return 1;
 	if(PlayerInfo[id][Admin] == level) return SendClientMessage(playerid, -1, "{0000FF}[SFAdmin]: {C3C3C3}This player already has this level.");
 	if(level < 0 || level > 4) return SendClientMessage(playerid, -1, "{0000FF}[SFAdmin]: {C3C3C3}Invalid level, Please try again.");
 	if(!IsPlayerConnected(id)) return SendClientMessage(playerid, -1, "{0000FF}[SFAdmin]: {C3C3C3}Invalid playerid, This player is not connected.");

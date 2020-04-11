@@ -48,7 +48,7 @@ new
 	TotalVeh,
 	Text: Login[8],
     MySQL: Database,
-    bool: GlobalChat
+    bool: GlobalChat = true
 ;
 
 enum ENUM_PLAYER_DATA
@@ -174,7 +174,8 @@ stock ResetPlayerVariables(playerid)
 {
 	DeletePVar(playerid, "FirstSpawn");
 	DeletePVar(playerid, "LastPM");
-
+	DeletePVar(playerid, "IsGod");
+	
 	PlayerInfo[playerid][ID] = -1;
 	PlayerInfo[playerid][PasswordFails] = 0;
 	PlayerInfo[playerid][Skin] = 0;
@@ -194,6 +195,8 @@ stock ResetPlayerVariables(playerid)
 	PlayerInfo[playerid][VirtualCar] = -1;
 	PlayerInfo[playerid][LastNameChange] = -1;
 	KillTimer(PlayerInfo[playerid][PlayerTimer]);
+    PlayerInfo[playerid][IsSpectating] = false;
+
 }
 
 forward SendAdminMessage(level, message[]);

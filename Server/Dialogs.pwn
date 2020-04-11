@@ -145,6 +145,8 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 			{
 				SetPlayerSkin(playerid, listitem);
 				PlayerInfo[playerid][Skin] = listitem;
+				SetSpawnInfo(playerid, 0, PlayerInfo[playerid][Skin], 1958.33, 1343.12, 15.36, 269.15, 26, 36, 28, 150, 24, 150);
+				
 				new string[62];
             	format(string, sizeof(string), "{FF0000}[SFServer]: {C3C3C3}Your skin has been changed to %d", listitem);
             	SendClientMessage(playerid, -1, string);
@@ -163,7 +165,9 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 				}
 				new Float:x, Float:y, Float:z;
 				GetPlayerPos(playerid, x, y, z);
-				PlayerInfo[playerid][VirtualCar] = CreateVehicle(400+listitem, x + 3, y, z, 0, GetPlayerColor(playerid), GetPlayerColor(playerid), -1);
+				PlayerInfo[playerid][VirtualCar] = CreateVehicle(400+listitem, x + 3, y, z, 0, random(125)+1, random(125)+1, -1);
+				SetVehicleNumberPlate(PlayerInfo[playerid][VirtualCar], GetName(playerid));
+				SetVehicleToRespawn(PlayerInfo[playerid][VirtualCar]);
 				PutPlayerInVehicle(playerid, PlayerInfo[playerid][VirtualCar], 0);
 
 				new string[77];

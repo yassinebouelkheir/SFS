@@ -25,6 +25,7 @@ public OnPlayerDeath(playerid, killerid, reason)
 {
 	SendDeathMessage(killerid, playerid, reason);
 
+	if(GetPVarInt(playerid, "IsGod")) SetPVarInt(playerid, "IsGod", 0);
 	PlayerInfo[playerid][Deaths]++;
 	if(IsPlayerConnected(killerid)) PlayerInfo[killerid][Kills]++;
 	return 0;
