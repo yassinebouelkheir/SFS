@@ -53,3 +53,4 @@ dkms.conf
 Executable Windows/logs/warnings.log
 *.log
 Executable Windows/server_log.txt
+*.log
