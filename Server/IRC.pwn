@@ -70,7 +70,7 @@ stock IRC_Init()
 	return 1;
 }
 
-public IRC_OnConnect(botid, ip[], port)
+public IRC_OnConnect(botid, const ip[], port)
 {
 	printf("*** IRC_OnConnect: Bot ID %d connected to %s:%d", botid, ip, port);
 	IRC_JoinChannel(botid, IRC_ECHO);
@@ -79,46 +79,46 @@ public IRC_OnConnect(botid, ip[], port)
 	return 1;
 }
 
-public IRC_OnDisconnect(botid, ip[], port, reason[])
+public IRC_OnDisconnect(botid, const ip[], port, const reason[])
 {
 	printf("*** IRC_OnDisconnect: Bot ID %d disconnected from %s:%d (%s)", botid, ip, port, reason);
 	IRC_RemoveFromGroup(groupID, botid);
 	return 1;
 }
 
-public IRC_OnConnectAttempt(botid, ip[], port)
+public IRC_OnConnectAttempt(botid, const ip[], port)
 {
 	printf("*** IRC_OnConnectAttempt: Bot ID %d attempting to connect to %s:%d...", botid, ip, port);
 	return 1;
 }
 
 
-public IRC_OnConnectAttemptFail(botid, ip[], port, reason[])
+public IRC_OnConnectAttemptFail(botid, const ip[], port, const reason[])
 {
 	printf("*** IRC_OnConnectAttemptFail: Bot ID %d failed to connect to %s:%d (%s)", botid, ip, port, reason);
 	return 1;
 }
 
-public IRC_OnJoinChannel(botid, channel[])
+public IRC_OnJoinChannel(botid, const channel[])
 {
 	printf("*** IRC_OnJoinChannel: Bot ID %d joined channel %s", botid, channel);
 	return 1;
 }
 
-public IRC_OnLeaveChannel(botid, channel[], message[])
+public IRC_OnLeaveChannel(botid, const channel[], const message[])
 {
 	printf("*** IRC_OnLeaveChannel: Bot ID %d left channel %s (%s)", botid, channel, message);
 	return 1;
 }
 
-public IRC_OnInvitedToChannel(botid, channel[], invitinguser[], invitinghost[])
+public IRC_OnInvitedToChannel(botid, const channel[], const invitinguser[], const invitinghost[])
 {
 	printf("*** IRC_OnInvitedToChannel: Bot ID %d invited to channel %s by %s (%s)", botid, channel, invitinguser, invitinghost);
 	IRC_JoinChannel(botid, channel);
 	return 1;
 }
 
-public IRC_OnKickedFromChannel(botid, channel[], oppeduser[], oppedhost[], message[])
+public IRC_OnKickedFromChannel(botid, const channel[], const oppeduser[], const oppedhost[], const message[])
 {
 	printf("*** IRC_OnKickedFromChannel: Bot ID %d kicked by %s (%s) from channel %s (%s)", botid, oppeduser, oppedhost, channel, message);
 	IRC_JoinChannel(botid, channel);
