@@ -100,7 +100,7 @@ public ShowLoginDialog(playerid)
 			{FFFFFF}Welcome back, Good to see you again!\n\n\
 			{FF0000}-{FFFFFF} Please insert your password below in order to continue.\n\n\
 			Forgot your password? Here is some options for you:\n\n\
-			{FF0000}-{FFFFFF} Ask one of our staff memebers in our IRC Channel #sfs.help\n\
+			{FF0000}-{FFFFFF} Ask one of our staff memebers in our IRC Channel #sfs\n\
 			{FF0000}-{FFFFFF} Create a topic in our forum https://www.forum.com", "Login", "Quit");
 	}
 	else

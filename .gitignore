@@ -58,3 +58,5 @@ Executable Windows/server_log.txt
 *.txt
 Server/Compilation/rus.txt
 Server/IRC.pwn
+main.amx
+Executable Windows/gamemodes/main.amx

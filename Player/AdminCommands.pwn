@@ -392,7 +392,7 @@ CMD:givecash(playerid, params[])
 		foreach(new i : Player) { GivePlayerMoney(i, cash); SetPlayerScore(id, GetPlayerMoney(id)); }
 		SendClientMessageToAll(-1, "{0000FF}[SFAdmin]: {C3C3C3}You have been given some cash by an administrator.");
 		new string[150]; 
-		format(string, sizeof(string), "{%06x}%s (Id: %d){C3C3C3} gave $%s to everyone.", GetPlayerColor(id) >>> 8, GetName(id), id, FormatNumber(cash));
+		format(string, sizeof(string), "{%06x}%s (Id: %d){C3C3C3} gave $%s to everyone.", GetPlayerColor(playerid) >>> 8, GetName(playerid), playerid, FormatNumber(cash));
 		SendAdminMessage(1, string);
 	}
 	else
