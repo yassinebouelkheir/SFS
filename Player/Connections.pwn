@@ -24,7 +24,8 @@
 public OnPlayerConnect(playerid)
 {
     ResetPlayerVariables(playerid);
-
+    if(IsPlayerNPC(playerid)) return 1;
+    
 	new colour = 0xFFFFFF00;
     new red = random(255);
     new green = random(255);
@@ -42,12 +43,16 @@ public OnPlayerConnect(playerid)
     gpci(playerid, str, sizeof(str));
     PlayerInfo[playerid][ClientID] = str;
     
-    mysql_format(Database, string, sizeof(string), "INSERT INTO `connections`(`USERNAME`, `IP`, `CLIENTID`) VALUES ('%e', '%e', '%e')", GetName(playerid), string, PlayerInfo[playerid][ClientID]);
+    mysql_format(Database, string, sizeof(string), "INSERT INTO `connections`(`USERNAME`, `IP`, `CLEINTID`) VALUES ('%e', '%e', '%e')", GetName(playerid), string, PlayerInfo[playerid][ClientID]);
     mysql_tquery(Database, string);
 
     new string2[24];
     GetPlayerCountry(playerid, string2, sizeof(string2));
     PlayerInfo[playerid][Country] = string2;
+
+    GetPlayerIp(playerid, str, sizeof(str));
+    mysql_format(Database, string, sizeof(string), "SELECT * FROM `BANINFO` WHERE `CLIENTID` = '%e' OR `IP` = '%e' OR USERNAME = '%e' LIMIT 1", PlayerInfo[playerid][ClientID], str, GetName(playerid));
+    mysql_tquery(Database, string, "CheckBan", "iss", playerid, PlayerInfo[playerid][ClientID], str);
 	return 1;
 }
 
@@ -92,7 +97,21 @@ public OnPlayerDisconnect(playerid, reason)
     }
 
     ResetPlayerVariables(playerid);
-    format(string, sizeof(string), "{C3C3C3}*{FFFFFF}%s{C3C3C3}({FFFFFF}%d{C3C3C3}) has left {FF0000}Stunt Freeroam Server{C3C3C3}.", GetName(playerid), playerid);
+
+    switch(reason)
+    {
+        case 0: format(string, sizeof(string), "{C3C3C3}*{FFFFFF}%s{C3C3C3}({FFFFFF}%d{C3C3C3}) has left {FF0000}Stunt Freeroam Server{C3C3C3} (Timeout/Crash).", GetName(playerid), playerid); 
+        case 1: format(string, sizeof(string), "{C3C3C3}*{FFFFFF}%s{C3C3C3}({FFFFFF}%d{C3C3C3}) has left {FF0000}Stunt Freeroam Server{C3C3C3}.", GetName(playerid), playerid);
+        case 2: format(string, sizeof(string), "{C3C3C3}*{FFFFFF}%s{C3C3C3}({FFFFFF}%d{C3C3C3}) has left {FF0000}Stunt Freeroam Server{C3C3C3} (Kicked/Banned).", GetName(playerid), playerid);
+    }
 	SendClientMessageToAll(-1, string);
+
+    switch(reason)
+    {
+        case 0: format(string, sizeof(string), "02[%d] 03*** %s has left the server. (Timeout/Crash)", playerid, GetName(playerid));
+        case 1: format(string, sizeof(string), "02[%d] 03*** %s has left the server.", playerid, GetName(playerid));
+        case 2: format(string, sizeof(string), "02[%d] 03*** %s has left the server. (Kicked/Banned)", playerid, GetName(playerid));
+    }
+    IRC_GroupSay(groupID, IRC_ECHO, string);
 	return 1;
 }

@@ -37,6 +37,7 @@ native gpci(playerid, serial[], len);
 
 // Constants - Worlds
 #define WORLD_LOGIN 	   (1)
+#define WORLD_KICK		   (2)
 
 // Macros
 #define PRESSED(%0) \
@@ -48,7 +49,11 @@ new
 	TotalVeh,
 	Text: Login[8],
     MySQL: Database,
-    bool: GlobalChat = true
+    bool: GlobalChat = true,
+    NPCBus[14],
+    Text3D: NPCText[14],
+    botIDs[4], 
+    groupID
 ;
 
 enum ENUM_PLAYER_DATA
@@ -128,6 +133,30 @@ new VehicleNames[][] =
 };
 
 // Functions
+forward KickTimer(type, playerid);
+public KickTimer(type, playerid)
+{
+    switch(type)
+    {
+    	case 0: Kick(playerid);
+    	case 1: Ban(playerid);
+    }
+    return 1;
+}
+
+forward ConnectSecondNPCs();
+public ConnectSecondNPCs()
+{
+	ConnectNPC("[SAP]Bus[65][1]", "Gunthers");
+    ConnectNPC("[SAP]Bus[52][1]", "Guntherss");
+    ConnectNPC("[SAP]Bus[07][1]", "SAP07");
+    ConnectNPC("[SAP]Bus[30][1]", "SAP30");
+    ConnectNPC("[SAP]Bus[40][1]", "SAP40");
+    ConnectNPC("[SAP]Bus[57][1]", "SAP57");
+    ConnectNPC("[SAP]Bus[18][1]", "SAP18");
+	return 1;
+}
+
 forward NameExists(name[]);
 stock NameExists(name[])
 {
@@ -199,11 +228,82 @@ stock ResetPlayerVariables(playerid)
 
 }
 
+forward GetWeekDay(day=0, month=0, year=0);
+stock GetWeekDay(day=0, month=0, year=0) // thanks to yom (https://forum.sa-mp.com/showthread.php?t=66545)
+{
+  if (!day)
+    getdate(year, month, day);
+
+  new
+    weekday_str[10],
+    j,
+    e
+  ;
+
+  if (month <= 2)
+  {
+    month += 12;
+    --year;
+  }
+
+  j = year % 100;
+  e = year / 100;
+
+  switch ((day + (month+1)*26/10 + j + j/4 + e/4 - 2*e) % 7)
+  {
+    case 0: weekday_str = "Saturday";
+    case 1: weekday_str = "Sunday";
+    case 2: weekday_str = "Monday";
+    case 3: weekday_str = "Tuesday";
+    case 4: weekday_str = "Wednesday";
+    case 5: weekday_str = "Thursday";
+    case 6: weekday_str = "Friday";
+  }
+
+  return weekday_str;
+}
+
+forward FormatNumber(iNum, const szChar[] = ",");
+stock FormatNumber(iNum, const szChar[] = ",") // thanks to RyDeR
+{
+    new
+        szStr[16]
+    ;
+    format(szStr, sizeof(szStr), "%d", iNum);
+    
+    for(new iLen = strlen(szStr) - 3; iLen > 0; iLen -= 3)
+    {
+        strins(szStr, szChar, iLen);
+    }
+    return szStr;
+}
+
+forward GetMonthName(month);
+stock GetMonthName(month)
+{
+    new ma[20];
+    switch(month)
+    {
+        case 1: ma = "January";
+        case 2: ma = "February";
+        case 3: ma = "March";
+        case 4: ma = "April";
+        case 5: ma = "May";
+        case 6: ma = "June";
+        case 7: ma = "July";
+        case 8: ma = "August";
+        case 9: ma = "September";
+        case 10: ma = "October";
+        case 11: ma = "November";
+        case 12: ma = "December";
+    }
+    return ma;
+}
 forward SendAdminMessage(level, message[]);
 stock SendAdminMessage(level, message[])
 {
 	new string[256];
-	format(string, sizeof(string), "{0000FF}[SFAdmin]: {C3C3C3} %s", message);
+	format(string, sizeof(string), "{0000FF}[SFAdmin]: {C3C3C3}%s", message);
 	foreach(new i : Player)
 	{
 		if(PlayerInfo[i][Admin] >= level)
@@ -218,7 +318,7 @@ forward SendPMToAdmins(playerid, targetid, message[]);
 stock SendPMToAdmins(playerid, targetid, message[])
 {
 	new string[256];
-	format(string, sizeof(string), "{0000FF}[SFAdmin.Private]: %s to %s:{C3C3C3} %s", GetName(playerid), GetName(targetid), message);
+	format(string, sizeof(string), "{0000FF}[SFAdmin.Private]:{C3C3C3} %s to %s:{FFFFFF} %s", GetName(playerid), GetName(targetid), message);
 	foreach(new i : Player)
 	{
 		if(PlayerInfo[i][Admin] > 1)

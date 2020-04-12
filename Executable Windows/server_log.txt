@@ -154,3 +154,1814 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [15:38:01] 	Version: 1.0 | Author: XeonMaster   
 [15:38:01] -------------------------------------------------------------
 [15:38:01] Number of vehicle models: 173
+[15:41:43] [connection] 127.0.0.1:57273 requests connection cookie.
+[15:41:44] [connection] incoming connection: 127.0.0.1:57273 id: 0
+[15:41:45] [join] XeonTM has joined the server (0:127.0.0.1)
+[15:44:47] RCON (In-Game): Player #0 (XeonTM) has logged in.
+[15:46:28] [part] XeonTM has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:52:27] 
+[15:52:27] Server Plugins
+[15:52:27] --------------
+[15:52:27]  Loading plugin: mysql.dll
+[15:52:27]  >> plugin.mysql: R41-4 successfully loaded.
+[15:52:27]   Loaded.
+[15:52:27]  Loading plugin: sscanf.dll
+[15:52:27] 
+
+[15:52:27]  ===============================
+
+[15:52:27]       sscanf plugin loaded.     
+
+[15:52:27]          Version:  2.8.3        
+
+[15:52:27]   (c) 2018 Alex "Y_Less" Cole  
+
+[15:52:27]  ===============================
+
+[15:52:27]   Loaded.
+[15:52:27]  Loading plugin: mapandreas.dll
+[15:52:27]   Loaded.
+[15:52:27]  Loaded 3 plugins.
+
+[15:52:27] 
+[15:52:27] Filterscripts
+[15:52:27] ---------------
+[15:52:27]   Loaded 0 filterscripts.
+
+[15:52:27] Initialization of 'SEF Global Gamemode'..
+[15:52:27] Loaded 3 vehicles from: vehicles/trains.txt
+[15:52:27] Loaded 3 vehicles from: vehicles/pilots.txt
+[15:52:27] Loaded 15 vehicles from: vehicles/lv_law.txt
+[15:52:27] Loaded 39 vehicles from: vehicles/lv_airport.txt
+[15:52:27] Loaded 255 vehicles from: vehicles/lv_gen.txt
+[15:52:27] Loaded 38 vehicles from: vehicles/sf_law.txt
+[15:52:27] Loaded 35 vehicles from: vehicles/sf_airport.txt
+[15:52:27] Loaded 353 vehicles from: vehicles/sf_gen.txt
+[15:52:27] Loaded 24 vehicles from: vehicles/ls_law.txt
+[15:52:27] Loaded 37 vehicles from: vehicles/ls_airport.txt
+[15:52:27] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
+[15:52:27] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
+[15:52:27] Loaded 71 vehicles from: vehicles/whetstone.txt
+[15:52:27] Loaded 168 vehicles from: vehicles/bone.txt
+[15:52:27] Loaded 61 vehicles from: vehicles/flint.txt
+[15:52:27] Loaded 96 vehicles from: vehicles/tierra.txt
+[15:52:27] Loaded 96 vehicles from: vehicles/red_county.txt
+[15:52:27] Completed... (1/4)
+[15:52:27] Initialization of 'MySQL Connection'..
+[15:52:27] [SFMySQL]: Connected.
+[15:52:27] Completed... (2/4)
+[15:52:27] Initialization of 'Discord Connection'..
+[15:52:27] Completed... (3/4)
+[15:52:27] Initialization of 'IRC Connection'..
+[15:52:27] Completed... (4/5)
+[15:52:27] Initialization of 'Other startup plugins'..
+[15:52:27] Completed... (5/5)
+[15:52:27] -------------------------------------------------------------
+[15:52:27] 	Everything Loaded, Welcome to.
+[15:52:27] -------------------------------------------------------------
+[15:52:27] -------------------------------------------------------------
+[15:52:27]      #####                            
+[15:52:27]     #     #  #####  #    #  #    #  ##### 
+[15:52:27]     #          #    #    #  ##   #    #   
+[15:52:27]      #####     #    #    #  # #  #    #   
+[15:52:27]           #    #    #    #  #  # #    #   
+[15:52:27]     #     #    #    #    #  #   ##    #   
+[15:52:27]      #####     #     ####   #    #    #   
+[15:52:27]     #######                                                  
+[15:52:27]     #       #####  ###### ###### #####   ####    ##   #    # 
+[15:52:27]     #       #    # #      #      #    # #    #  #  #  ##  ## 
+[15:52:27]     #####   #    # #####  #####  #    # #    # #    # # ## # 
+[15:52:27]     #       #####  #      #      #####  #    # ###### #    # 
+[15:52:27]     #       #   #  #      #      #   #  #    # #    # #    # 
+[15:52:27]     #       #    # ###### ###### #    #  ####  #    # #    # 
+[15:52:27]      #####                                     
+[15:52:27]     #     #  ######  #####   #    #  ######  #####  
+[15:52:27]     #        #       #    #  #    #  #       #    # 
+[15:52:27]      #####   #####   #    #  #    #  #####   #    # 
+[15:52:27]           #  #       #####   #    #  #       #####  
+[15:52:27]     #     #  #       #   #    #  #   #       #   #  
+[15:52:27]      #####   ######  #    #    ##    ######  #    # 
+[15:52:27] 
+
+[15:52:27] -------------------------------------------------------------
+[15:52:27] -------------------------------------------------------------
+[15:52:27] 	Version: 1.0 | Author: XeonMaster   
+[15:52:27] -------------------------------------------------------------
+[15:52:27] Number of vehicle models: 173
+[15:52:45] [connection] 127.0.0.1:51833 requests connection cookie.
+[15:52:46] [connection] incoming connection: 127.0.0.1:51833 id: 0
+[15:52:46] [join] XeonTM has joined the server (0:127.0.0.1)
+[15:53:48] RCON (In-Game): Player #0 (XeonTM) has logged in.
+[15:55:45] [part] XeonTM has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:03:02] 
+[16:03:02] Server Plugins
+[16:03:02] --------------
+[16:03:02]  Loading plugin: mysql.dll
+[16:03:02]  >> plugin.mysql: R41-4 successfully loaded.
+[16:03:02]   Loaded.
+[16:03:02]  Loading plugin: sscanf.dll
+[16:03:02] 
+
+[16:03:02]  ===============================
+
+[16:03:02]       sscanf plugin loaded.     
+
+[16:03:02]          Version:  2.8.3        
+
+[16:03:02]   (c) 2018 Alex "Y_Less" Cole  
+
+[16:03:02]  ===============================
+
+[16:03:02]   Loaded.
+[16:03:02]  Loading plugin: mapandreas.dll
+[16:03:02]   Loaded.
+[16:03:02]  Loaded 3 plugins.
+
+[16:03:02] 
+[16:03:02] Filterscripts
+[16:03:02] ---------------
+[16:03:02]   Loaded 0 filterscripts.
+
+[16:03:02] Initialization of 'SEF Global Gamemode'..
+[16:03:02] Loaded 3 vehicles from: vehicles/trains.txt
+[16:03:02] Loaded 3 vehicles from: vehicles/pilots.txt
+[16:03:02] Loaded 15 vehicles from: vehicles/lv_law.txt
+[16:03:02] Loaded 39 vehicles from: vehicles/lv_airport.txt
+[16:03:02] Loaded 255 vehicles from: vehicles/lv_gen.txt
+[16:03:02] Loaded 38 vehicles from: vehicles/sf_law.txt
+[16:03:02] Loaded 35 vehicles from: vehicles/sf_airport.txt
+[16:03:02] Loaded 353 vehicles from: vehicles/sf_gen.txt
+[16:03:02] Loaded 24 vehicles from: vehicles/ls_law.txt
+[16:03:02] Loaded 37 vehicles from: vehicles/ls_airport.txt
+[16:03:02] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
+[16:03:02] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
+[16:03:02] Loaded 71 vehicles from: vehicles/whetstone.txt
+[16:03:02] Loaded 168 vehicles from: vehicles/bone.txt
+[16:03:02] Loaded 61 vehicles from: vehicles/flint.txt
+[16:03:02] Loaded 96 vehicles from: vehicles/tierra.txt
+[16:03:02] Loaded 96 vehicles from: vehicles/red_county.txt
+[16:03:02] Completed... (1/4)
+[16:03:02] Initialization of 'MySQL Connection'..
+[16:03:02] [SFMySQL]: Connected.
+[16:03:02] Completed... (2/4)
+[16:03:02] Initialization of 'Discord Connection'..
+[16:03:02] Completed... (3/4)
+[16:03:02] Initialization of 'IRC Connection'..
+[16:03:02] Completed... (4/5)
+[16:03:02] Initialization of 'Other startup plugins'..
+[16:03:02] Completed... (5/5)
+[16:03:02] -------------------------------------------------------------
+[16:03:02] 	Everything Loaded, Welcome to.
+[16:03:02] -------------------------------------------------------------
+[16:03:02] -------------------------------------------------------------
+[16:03:02]      #####                            
+[16:03:02]     #     #  #####  #    #  #    #  ##### 
+[16:03:02]     #          #    #    #  ##   #    #   
+[16:03:02]      #####     #    #    #  # #  #    #   
+[16:03:02]           #    #    #    #  #  # #    #   
+[16:03:02]     #     #    #    #    #  #   ##    #   
+[16:03:02]      #####     #     ####   #    #    #   
+[16:03:02]     #######                                                  
+[16:03:02]     #       #####  ###### ###### #####   ####    ##   #    # 
+[16:03:02]     #       #    # #      #      #    # #    #  #  #  ##  ## 
+[16:03:02]     #####   #    # #####  #####  #    # #    # #    # # ## # 
+[16:03:02]     #       #####  #      #      #####  #    # ###### #    # 
+[16:03:02]     #       #   #  #      #      #   #  #    # #    # #    # 
+[16:03:02]     #       #    # ###### ###### #    #  ####  #    # #    # 
+[16:03:02]      #####                                     
+[16:03:02]     #     #  ######  #####   #    #  ######  #####  
+[16:03:02]     #        #       #    #  #    #  #       #    # 
+[16:03:02]      #####   #####   #    #  #    #  #####   #    # 
+[16:03:02]           #  #       #####   #    #  #       #####  
+[16:03:02]     #     #  #       #   #    #  #   #       #   #  
+[16:03:02]      #####   ######  #    #    ##    ######  #    # 
+[16:03:02] 
+
+[16:03:02] -------------------------------------------------------------
+[16:03:02] -------------------------------------------------------------
+[16:03:02] 	Version: 1.0 | Author: XeonMaster   
+[16:03:02] -------------------------------------------------------------
+[16:03:02] Number of vehicle models: 173
+[16:03:57] [connection] 127.0.0.1:59595 requests connection cookie.
+[16:03:58] [connection] incoming connection: 127.0.0.1:59595 id: 0
+[16:03:58] [join] XeonTM has joined the server (0:127.0.0.1)
+[16:05:23] [part] XeonTM has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:05:42] 
+[16:05:42] Server Plugins
+[16:05:42] --------------
+[16:05:42]  Loading plugin: mysql.dll
+[16:05:42]  >> plugin.mysql: R41-4 successfully loaded.
+[16:05:42]   Loaded.
+[16:05:42]  Loading plugin: sscanf.dll
+[16:05:42] 
+
+[16:05:42]  ===============================
+
+[16:05:42]       sscanf plugin loaded.     
+
+[16:05:42]          Version:  2.8.3        
+
+[16:05:42]   (c) 2018 Alex "Y_Less" Cole  
+
+[16:05:42]  ===============================
+
+[16:05:42]   Loaded.
+[16:05:42]  Loading plugin: mapandreas.dll
+[16:05:42]   Loaded.
+[16:05:42]  Loaded 3 plugins.
+
+[16:05:42] 
+[16:05:42] Filterscripts
+[16:05:42] ---------------
+[16:05:42]   Loaded 0 filterscripts.
+
+[16:05:42] Initialization of 'SEF Global Gamemode'..
+[16:05:42] Loaded 3 vehicles from: vehicles/trains.txt
+[16:05:42] Loaded 3 vehicles from: vehicles/pilots.txt
+[16:05:42] Loaded 15 vehicles from: vehicles/lv_law.txt
+[16:05:42] Loaded 39 vehicles from: vehicles/lv_airport.txt
+[16:05:42] Loaded 255 vehicles from: vehicles/lv_gen.txt
+[16:05:42] Loaded 38 vehicles from: vehicles/sf_law.txt
+[16:05:42] Loaded 35 vehicles from: vehicles/sf_airport.txt
+[16:05:42] Loaded 353 vehicles from: vehicles/sf_gen.txt
+[16:05:42] Loaded 24 vehicles from: vehicles/ls_law.txt
+[16:05:42] Loaded 37 vehicles from: vehicles/ls_airport.txt
+[16:05:42] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
+[16:05:42] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
+[16:05:42] Loaded 71 vehicles from: vehicles/whetstone.txt
+[16:05:42] Loaded 168 vehicles from: vehicles/bone.txt
+[16:05:42] Loaded 61 vehicles from: vehicles/flint.txt
+[16:05:42] Loaded 96 vehicles from: vehicles/tierra.txt
+[16:05:42] Loaded 96 vehicles from: vehicles/red_county.txt
+[16:05:42] Completed... (1/4)
+[16:05:42] Initialization of 'MySQL Connection'..
+[16:05:42] [SFMySQL]: Connected.
+[16:05:42] Completed... (2/4)
+[16:05:42] Initialization of 'Discord Connection'..
+[16:05:42] Completed... (3/4)
+[16:05:42] Initialization of 'IRC Connection'..
+[16:05:42] Completed... (4/5)
+[16:05:42] Initialization of 'Other startup plugins'..
+[16:05:42] Completed... (5/5)
+[16:05:42] -------------------------------------------------------------
+[16:05:42] 	Everything Loaded, Welcome to.
+[16:05:42] -------------------------------------------------------------
+[16:05:42] -------------------------------------------------------------
+[16:05:42]      #####                            
+[16:05:42]     #     #  #####  #    #  #    #  ##### 
+[16:05:42]     #          #    #    #  ##   #    #   
+[16:05:42]      #####     #    #    #  # #  #    #   
+[16:05:42]           #    #    #    #  #  # #    #   
+[16:05:42]     #     #    #    #    #  #   ##    #   
+[16:05:42]      #####     #     ####   #    #    #   
+[16:05:42]     #######                                                  
+[16:05:42]     #       #####  ###### ###### #####   ####    ##   #    # 
+[16:05:42]     #       #    # #      #      #    # #    #  #  #  ##  ## 
+[16:05:42]     #####   #    # #####  #####  #    # #    # #    # # ## # 
+[16:05:42]     #       #####  #      #      #####  #    # ###### #    # 
+[16:05:42]     #       #   #  #      #      #   #  #    # #    # #    # 
+[16:05:42]     #       #    # ###### ###### #    #  ####  #    # #    # 
+[16:05:42]      #####                                     
+[16:05:42]     #     #  ######  #####   #    #  ######  #####  
+[16:05:42]     #        #       #    #  #    #  #       #    # 
+[16:05:42]      #####   #####   #    #  #    #  #####   #    # 
+[16:05:42]           #  #       #####   #    #  #       #####  
+[16:05:42]     #     #  #       #   #    #  #   #       #   #  
+[16:05:42]      #####   ######  #    #    ##    ######  #    # 
+[16:05:42] 
+
+[16:05:42] -------------------------------------------------------------
+[16:05:42] -------------------------------------------------------------
+[16:05:42] 	Version: 1.0 | Author: XeonMaster   
+[16:05:42] -------------------------------------------------------------
+[16:05:42] Number of vehicle models: 173
+[16:06:01] [connection] 127.0.0.1:54943 requests connection cookie.
+[16:06:02] [connection] incoming connection: 127.0.0.1:54943 id: 0
+[16:06:02] [join] XeonTM has joined the server (0:127.0.0.1)
+[16:06:47] RCON (In-Game): Player #0 (XeonTM) has logged in.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:10:16] 
+[16:10:16] Server Plugins
+[16:10:16] --------------
+[16:10:16]  Loading plugin: mysql.dll
+[16:10:16]  >> plugin.mysql: R41-4 successfully loaded.
+[16:10:16]   Loaded.
+[16:10:16]  Loading plugin: sscanf.dll
+[16:10:16] 
+
+[16:10:16]  ===============================
+
+[16:10:16]       sscanf plugin loaded.     
+
+[16:10:16]          Version:  2.8.3        
+
+[16:10:16]   (c) 2018 Alex "Y_Less" Cole  
+
+[16:10:16]  ===============================
+
+[16:10:16]   Loaded.
+[16:10:16]  Loading plugin: mapandreas.dll
+[16:10:16]   Loaded.
+[16:10:16]  Loaded 3 plugins.
+
+[16:10:16] 
+[16:10:16] Filterscripts
+[16:10:16] ---------------
+[16:10:16]   Loaded 0 filterscripts.
+
+[16:10:16] Initialization of 'SEF Global Gamemode'..
+[16:10:16] Loaded 3 vehicles from: vehicles/trains.txt
+[16:10:16] Loaded 3 vehicles from: vehicles/pilots.txt
+[16:10:16] Loaded 15 vehicles from: vehicles/lv_law.txt
+[16:10:16] Loaded 39 vehicles from: vehicles/lv_airport.txt
+[16:10:16] Loaded 255 vehicles from: vehicles/lv_gen.txt
+[16:10:16] Loaded 38 vehicles from: vehicles/sf_law.txt
+[16:10:16] Loaded 35 vehicles from: vehicles/sf_airport.txt
+[16:10:16] Loaded 353 vehicles from: vehicles/sf_gen.txt
+[16:10:16] Loaded 24 vehicles from: vehicles/ls_law.txt
+[16:10:16] Loaded 37 vehicles from: vehicles/ls_airport.txt
+[16:10:16] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
+[16:10:16] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
+[16:10:16] Loaded 71 vehicles from: vehicles/whetstone.txt
+[16:10:16] Loaded 168 vehicles from: vehicles/bone.txt
+[16:10:16] Loaded 61 vehicles from: vehicles/flint.txt
+[16:10:16] Loaded 96 vehicles from: vehicles/tierra.txt
+[16:10:16] Loaded 96 vehicles from: vehicles/red_county.txt
+[16:10:16] Completed... (1/4)
+[16:10:16] Initialization of 'MySQL Connection'..
+[16:10:16] [SFMySQL]: Connected.
+[16:10:16] Completed... (2/4)
+[16:10:16] Initialization of 'Discord Connection'..
+[16:10:16] Completed... (3/4)
+[16:10:16] Initialization of 'IRC Connection'..
+[16:10:16] Completed... (4/5)
+[16:10:16] Initialization of 'Other startup plugins'..
+[16:10:16] Completed... (5/5)
+[16:10:16] -------------------------------------------------------------
+[16:10:16] 	Everything Loaded, Welcome to.
+[16:10:16] -------------------------------------------------------------
+[16:10:16] -------------------------------------------------------------
+[16:10:16]      #####                            
+[16:10:16]     #     #  #####  #    #  #    #  ##### 
+[16:10:16]     #          #    #    #  ##   #    #   
+[16:10:16]      #####     #    #    #  # #  #    #   
+[16:10:16]           #    #    #    #  #  # #    #   
+[16:10:16]     #     #    #    #    #  #   ##    #   
+[16:10:16]      #####     #     ####   #    #    #   
+[16:10:16]     #######                                                  
+[16:10:16]     #       #####  ###### ###### #####   ####    ##   #    # 
+[16:10:16]     #       #    # #      #      #    # #    #  #  #  ##  ## 
+[16:10:16]     #####   #    # #####  #####  #    # #    # #    # # ## # 
+[16:10:16]     #       #####  #      #      #####  #    # ###### #    # 
+[16:10:16]     #       #   #  #      #      #   #  #    # #    # #    # 
+[16:10:16]     #       #    # ###### ###### #    #  ####  #    # #    # 
+[16:10:16]      #####                                     
+[16:10:16]     #     #  ######  #####   #    #  ######  #####  
+[16:10:16]     #        #       #    #  #    #  #       #    # 
+[16:10:16]      #####   #####   #    #  #    #  #####   #    # 
+[16:10:16]           #  #       #####   #    #  #       #####  
+[16:10:16]     #     #  #       #   #    #  #   #       #   #  
+[16:10:16]      #####   ######  #    #    ##    ######  #    # 
+[16:10:16] 
+
+[16:10:16] -------------------------------------------------------------
+[16:10:16] -------------------------------------------------------------
+[16:10:16] 	Version: 1.0 | Author: XeonMaster   
+[16:10:16] -------------------------------------------------------------
+[16:10:16] Number of vehicle models: 173
+[16:10:35] [connection] 127.0.0.1:60902 requests connection cookie.
+[16:10:37] [connection] incoming connection: 127.0.0.1:60902 id: 0
+[16:10:37] [join] XeonTM has joined the server (0:127.0.0.1)
+[16:14:39] [part] XeonTM has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:14:48] 
+[16:14:48] Server Plugins
+[16:14:48] --------------
+[16:14:48]  Loading plugin: mysql.dll
+[16:14:48]  >> plugin.mysql: R41-4 successfully loaded.
+[16:14:48]   Loaded.
+[16:14:48]  Loading plugin: sscanf.dll
+[16:14:48] 
+
+[16:14:48]  ===============================
+
+[16:14:48]       sscanf plugin loaded.     
+
+[16:14:48]          Version:  2.8.3        
+
+[16:14:48]   (c) 2018 Alex "Y_Less" Cole  
+
+[16:14:48]  ===============================
+
+[16:14:48]   Loaded.
+[16:14:48]  Loading plugin: mapandreas.dll
+[16:14:48]   Loaded.
+[16:14:48]  Loaded 3 plugins.
+
+[16:14:48] 
+[16:14:48] Filterscripts
+[16:14:48] ---------------
+[16:14:48]   Loaded 0 filterscripts.
+
+[16:14:48] Initialization of 'SEF Global Gamemode'..
+[16:14:48] Loaded 3 vehicles from: vehicles/trains.txt
+[16:14:48] Loaded 3 vehicles from: vehicles/pilots.txt
+[16:14:48] Loaded 15 vehicles from: vehicles/lv_law.txt
+[16:14:48] Loaded 39 vehicles from: vehicles/lv_airport.txt
+[16:14:48] Loaded 255 vehicles from: vehicles/lv_gen.txt
+[16:14:48] Loaded 38 vehicles from: vehicles/sf_law.txt
+[16:14:48] Loaded 35 vehicles from: vehicles/sf_airport.txt
+[16:14:48] Loaded 353 vehicles from: vehicles/sf_gen.txt
+[16:14:48] Loaded 24 vehicles from: vehicles/ls_law.txt
+[16:14:48] Loaded 37 vehicles from: vehicles/ls_airport.txt
+[16:14:48] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
+[16:14:48] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
+[16:14:48] Loaded 71 vehicles from: vehicles/whetstone.txt
+[16:14:48] Loaded 168 vehicles from: vehicles/bone.txt
+[16:14:48] Loaded 61 vehicles from: vehicles/flint.txt
+[16:14:48] Loaded 96 vehicles from: vehicles/tierra.txt
+[16:14:48] Loaded 96 vehicles from: vehicles/red_county.txt
+[16:14:48] Completed... (1/4)
+[16:14:48] Initialization of 'MySQL Connection'..
+[16:14:48] [SFMySQL]: Connected.
+[16:14:48] Completed... (2/4)
+[16:14:48] Initialization of 'Discord Connection'..
+[16:14:48] Completed... (3/4)
+[16:14:48] Initialization of 'IRC Connection'..
+[16:14:48] Completed... (4/5)
+[16:14:48] Initialization of 'Other startup plugins'..
+[16:14:48] Completed... (5/5)
+[16:14:48] -------------------------------------------------------------
+[16:14:48] 	Everything Loaded, Welcome to.
+[16:14:48] -------------------------------------------------------------
+[16:14:48] -------------------------------------------------------------
+[16:14:48]      #####                            
+[16:14:48]     #     #  #####  #    #  #    #  ##### 
+[16:14:48]     #          #    #    #  ##   #    #   
+[16:14:48]      #####     #    #    #  # #  #    #   
+[16:14:48]           #    #    #    #  #  # #    #   
+[16:14:48]     #     #    #    #    #  #   ##    #   
+[16:14:48]      #####     #     ####   #    #    #   
+[16:14:48]     #######                                                  
+[16:14:48]     #       #####  ###### ###### #####   ####    ##   #    # 
+[16:14:48]     #       #    # #      #      #    # #    #  #  #  ##  ## 
+[16:14:48]     #####   #    # #####  #####  #    # #    # #    # # ## # 
+[16:14:48]     #       #####  #      #      #####  #    # ###### #    # 
+[16:14:48]     #       #   #  #      #      #   #  #    # #    # #    # 
+[16:14:48]     #       #    # ###### ###### #    #  ####  #    # #    # 
+[16:14:48]      #####                                     
+[16:14:48]     #     #  ######  #####   #    #  ######  #####  
+[16:14:48]     #        #       #    #  #    #  #       #    # 
+[16:14:48]      #####   #####   #    #  #    #  #####   #    # 
+[16:14:48]           #  #       #####   #    #  #       #####  
+[16:14:48]     #     #  #       #   #    #  #   #       #   #  
+[16:14:48]      #####   ######  #    #    ##    ######  #    # 
+[16:14:48] 
+
+[16:14:48] -------------------------------------------------------------
+[16:14:48] -------------------------------------------------------------
+[16:14:48] 	Version: 1.0 | Author: XeonMaster   
+[16:14:48] -------------------------------------------------------------
+[16:14:48] Number of vehicle models: 173
+[16:15:07] [connection] 127.0.0.1:56870 requests connection cookie.
+[16:15:08] [connection] incoming connection: 127.0.0.1:56870 id: 0
+[16:15:09] [join] XeonTM has joined the server (0:127.0.0.1)
+[16:24:54] [chat] [XeonTM]: test
+[16:25:14] [part] XeonTM has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:25:20] 
+[16:25:20] Server Plugins
+[16:25:20] --------------
+[16:25:20]  Loading plugin: mysql.dll
+[16:25:20]  >> plugin.mysql: R41-4 successfully loaded.
+[16:25:20]   Loaded.
+[16:25:20]  Loading plugin: sscanf.dll
+[16:25:20] 
+
+[16:25:20]  ===============================
+
+[16:25:20]       sscanf plugin loaded.     
+
+[16:25:20]          Version:  2.8.3        
+
+[16:25:20]   (c) 2018 Alex "Y_Less" Cole  
+
+[16:25:20]  ===============================
+
+[16:25:20]   Loaded.
+[16:25:20]  Loading plugin: mapandreas.dll
+[16:25:20]   Loaded.
+[16:25:20]  Loaded 3 plugins.
+
+[16:25:20] 
+[16:25:20] Filterscripts
+[16:25:20] ---------------
+[16:25:20]   Loaded 0 filterscripts.
+
+[16:25:20] Initialization of 'SEF Global Gamemode'..
+[16:25:20] Loaded 3 vehicles from: vehicles/trains.txt
+[16:25:20] Loaded 3 vehicles from: vehicles/pilots.txt
+[16:25:20] Loaded 15 vehicles from: vehicles/lv_law.txt
+[16:25:20] Loaded 39 vehicles from: vehicles/lv_airport.txt
+[16:25:20] Loaded 255 vehicles from: vehicles/lv_gen.txt
+[16:25:20] Loaded 38 vehicles from: vehicles/sf_law.txt
+[16:25:20] Loaded 35 vehicles from: vehicles/sf_airport.txt
+[16:25:20] Loaded 353 vehicles from: vehicles/sf_gen.txt
+[16:25:20] Loaded 24 vehicles from: vehicles/ls_law.txt
+[16:25:20] Loaded 37 vehicles from: vehicles/ls_airport.txt
+[16:25:20] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
+[16:25:20] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
+[16:25:20] Loaded 71 vehicles from: vehicles/whetstone.txt
+[16:25:20] Loaded 168 vehicles from: vehicles/bone.txt
+[16:25:20] Loaded 61 vehicles from: vehicles/flint.txt
+[16:25:20] Loaded 96 vehicles from: vehicles/tierra.txt
+[16:25:20] Loaded 96 vehicles from: vehicles/red_county.txt
+[16:25:20] Completed... (1/4)
+[16:25:20] Initialization of 'MySQL Connection'..
+[16:25:20] [SFMySQL]: Connected.
+[16:25:20] Completed... (2/4)
+[16:25:20] Initialization of 'Discord Connection'..
+[16:25:20] Completed... (3/4)
+[16:25:20] Initialization of 'IRC Connection'..
+[16:25:20] Completed... (4/5)
+[16:25:20] Initialization of 'Other startup plugins'..
+[16:25:20] Completed... (5/5)
+[16:25:20] -------------------------------------------------------------
+[16:25:20] 	Everything Loaded, Welcome to.
+[16:25:20] -------------------------------------------------------------
+[16:25:20] -------------------------------------------------------------
+[16:25:20]      #####                            
+[16:25:20]     #     #  #####  #    #  #    #  ##### 
+[16:25:20]     #          #    #    #  ##   #    #   
+[16:25:20]      #####     #    #    #  # #  #    #   
+[16:25:20]           #    #    #    #  #  # #    #   
+[16:25:20]     #     #    #    #    #  #   ##    #   
+[16:25:20]      #####     #     ####   #    #    #   
+[16:25:20]     #######                                                  
+[16:25:20]     #       #####  ###### ###### #####   ####    ##   #    # 
+[16:25:20]     #       #    # #      #      #    # #    #  #  #  ##  ## 
+[16:25:20]     #####   #    # #####  #####  #    # #    # #    # # ## # 
+[16:25:20]     #       #####  #      #      #####  #    # ###### #    # 
+[16:25:20]     #       #   #  #      #      #   #  #    # #    # #    # 
+[16:25:20]     #       #    # ###### ###### #    #  ####  #    # #    # 
+[16:25:20]      #####                                     
+[16:25:20]     #     #  ######  #####   #    #  ######  #####  
+[16:25:20]     #        #       #    #  #    #  #       #    # 
+[16:25:20]      #####   #####   #    #  #    #  #####   #    # 
+[16:25:20]           #  #       #####   #    #  #       #####  
+[16:25:20]     #     #  #       #   #    #  #   #       #   #  
+[16:25:20]      #####   ######  #    #    ##    ######  #    # 
+[16:25:20] 
+
+[16:25:20] -------------------------------------------------------------
+[16:25:20] -------------------------------------------------------------
+[16:25:20] 	Version: 1.0 | Author: XeonMaster   
+[16:25:20] -------------------------------------------------------------
+[16:25:20] Number of vehicle models: 173
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:26:53] 
+[16:26:53] Server Plugins
+[16:26:53] --------------
+[16:26:53]  Loading plugin: mysql.dll
+[16:26:53]  >> plugin.mysql: R41-4 successfully loaded.
+[16:26:53]   Loaded.
+[16:26:53]  Loading plugin: sscanf.dll
+[16:26:53] 
+
+[16:26:53]  ===============================
+
+[16:26:53]       sscanf plugin loaded.     
+
+[16:26:53]          Version:  2.8.3        
+
+[16:26:53]   (c) 2018 Alex "Y_Less" Cole  
+
+[16:26:53]  ===============================
+
+[16:26:53]   Loaded.
+[16:26:53]  Loading plugin: mapandreas.dll
+[16:26:53]   Loaded.
+[16:26:53]  Loaded 3 plugins.
+
+[16:26:53] 
+[16:26:53] Filterscripts
+[16:26:53] ---------------
+[16:26:53]   Loaded 0 filterscripts.
+
+[16:26:53] Initialization of 'SEF Global Gamemode'..
+[16:26:53] Loaded 3 vehicles from: vehicles/trains.txt
+[16:26:53] Loaded 3 vehicles from: vehicles/pilots.txt
+[16:26:53] Loaded 15 vehicles from: vehicles/lv_law.txt
+[16:26:53] Loaded 39 vehicles from: vehicles/lv_airport.txt
+[16:26:53] Loaded 255 vehicles from: vehicles/lv_gen.txt
+[16:26:53] Loaded 38 vehicles from: vehicles/sf_law.txt
+[16:26:53] Loaded 35 vehicles from: vehicles/sf_airport.txt
+[16:26:53] Loaded 353 vehicles from: vehicles/sf_gen.txt
+[16:26:53] Loaded 24 vehicles from: vehicles/ls_law.txt
+[16:26:53] Loaded 37 vehicles from: vehicles/ls_airport.txt
+[16:26:53] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
+[16:26:53] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
+[16:26:53] Loaded 71 vehicles from: vehicles/whetstone.txt
+[16:26:53] Loaded 168 vehicles from: vehicles/bone.txt
+[16:26:53] Loaded 61 vehicles from: vehicles/flint.txt
+[16:26:53] Loaded 96 vehicles from: vehicles/tierra.txt
+[16:26:53] Loaded 96 vehicles from: vehicles/red_county.txt
+[16:26:53] Completed... (1/4)
+[16:26:53] Initialization of 'MySQL Connection'..
+[16:26:53] [SFMySQL]: Connected.
+[16:26:53] Completed... (2/4)
+[16:26:53] Initialization of 'Discord Connection'..
+[16:26:53] Completed... (3/4)
+[16:26:53] Initialization of 'IRC Connection'..
+[16:26:53] Completed... (4/5)
+[16:26:53] Initialization of 'Other startup plugins'..
+[16:26:53] Completed... (5/5)
+[16:26:53] -------------------------------------------------------------
+[16:26:53] 	Everything Loaded, Welcome to.
+[16:26:53] -------------------------------------------------------------
+[16:26:53] -------------------------------------------------------------
+[16:26:53]      #####                            
+[16:26:53]     #     #  #####  #    #  #    #  ##### 
+[16:26:53]     #          #    #    #  ##   #    #   
+[16:26:53]      #####     #    #    #  # #  #    #   
+[16:26:53]           #    #    #    #  #  # #    #   
+[16:26:53]     #     #    #    #    #  #   ##    #   
+[16:26:53]      #####     #     ####   #    #    #   
+[16:26:53]     #######                                                  
+[16:26:53]     #       #####  ###### ###### #####   ####    ##   #    # 
+[16:26:53]     #       #    # #      #      #    # #    #  #  #  ##  ## 
+[16:26:53]     #####   #    # #####  #####  #    # #    # #    # # ## # 
+[16:26:53]     #       #####  #      #      #####  #    # ###### #    # 
+[16:26:53]     #       #   #  #      #      #   #  #    # #    # #    # 
+[16:26:53]     #       #    # ###### ###### #    #  ####  #    # #    # 
+[16:26:53]      #####                                     
+[16:26:53]     #     #  ######  #####   #    #  ######  #####  
+[16:26:53]     #        #       #    #  #    #  #       #    # 
+[16:26:53]      #####   #####   #    #  #    #  #####   #    # 
+[16:26:53]           #  #       #####   #    #  #       #####  
+[16:26:53]     #     #  #       #   #    #  #   #       #   #  
+[16:26:53]      #####   ######  #    #    ##    ######  #    # 
+[16:26:53] 
+
+[16:26:54] -------------------------------------------------------------
+[16:26:54] -------------------------------------------------------------
+[16:26:54] 	Version: 1.0 | Author: XeonMaster   
+[16:26:54] -------------------------------------------------------------
+[16:26:54] Number of vehicle models: 173
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:27:23] 
+[16:27:23] Server Plugins
+[16:27:23] --------------
+[16:27:23]  Loading plugin: mysql.dll
+[16:27:23]  >> plugin.mysql: R41-4 successfully loaded.
+[16:27:23]   Loaded.
+[16:27:23]  Loading plugin: sscanf.dll
+[16:27:23] 
+
+[16:27:23]  ===============================
+
+[16:27:23]       sscanf plugin loaded.     
+
+[16:27:23]          Version:  2.8.3        
+
+[16:27:23]   (c) 2018 Alex "Y_Less" Cole  
+
+[16:27:23]  ===============================
+
+[16:27:23]   Loaded.
+[16:27:23]  Loading plugin: mapandreas.dll
+[16:27:23]   Loaded.
+[16:27:23]  Loaded 3 plugins.
+
+[16:27:23] 
+[16:27:23] Filterscripts
+[16:27:23] ---------------
+[16:27:23]   Loaded 0 filterscripts.
+
+[16:27:24] Initialization of 'SEF Global Gamemode'..
+[16:27:24] Loaded 3 vehicles from: vehicles/trains.txt
+[16:27:24] Loaded 3 vehicles from: vehicles/pilots.txt
+[16:27:24] Loaded 15 vehicles from: vehicles/lv_law.txt
+[16:27:24] Loaded 39 vehicles from: vehicles/lv_airport.txt
+[16:27:24] Loaded 255 vehicles from: vehicles/lv_gen.txt
+[16:27:24] Loaded 38 vehicles from: vehicles/sf_law.txt
+[16:27:24] Loaded 35 vehicles from: vehicles/sf_airport.txt
+[16:27:24] Loaded 353 vehicles from: vehicles/sf_gen.txt
+[16:27:24] Loaded 24 vehicles from: vehicles/ls_law.txt
+[16:27:24] Loaded 37 vehicles from: vehicles/ls_airport.txt
+[16:27:24] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
+[16:27:24] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
+[16:27:24] Loaded 71 vehicles from: vehicles/whetstone.txt
+[16:27:24] Loaded 168 vehicles from: vehicles/bone.txt
+[16:27:24] Loaded 61 vehicles from: vehicles/flint.txt
+[16:27:24] Loaded 96 vehicles from: vehicles/tierra.txt
+[16:27:24] Loaded 96 vehicles from: vehicles/red_county.txt
+[16:27:24] Completed... (1/4)
+[16:27:24] Initialization of 'MySQL Connection'..
+[16:27:24] [SFMySQL]: Connected.
+[16:27:24] Completed... (2/4)
+[16:27:24] Initialization of 'Discord Connection'..
+[16:27:24] Completed... (3/4)
+[16:27:24] Initialization of 'IRC Connection'..
+[16:27:24] Completed... (4/5)
+[16:27:24] Initialization of 'Other startup plugins'..
+[16:27:24] Completed... (5/5)
+[16:27:24] -------------------------------------------------------------
+[16:27:24] 	Everything Loaded, Welcome to.
+[16:27:24] -------------------------------------------------------------
+[16:27:24] -------------------------------------------------------------
+[16:27:24]      #####                            
+[16:27:24]     #     #  #####  #    #  #    #  ##### 
+[16:27:24]     #          #    #    #  ##   #    #   
+[16:27:24]      #####     #    #    #  # #  #    #   
+[16:27:24]           #    #    #    #  #  # #    #   
+[16:27:24]     #     #    #    #    #  #   ##    #   
+[16:27:24]      #####     #     ####   #    #    #   
+[16:27:24]     #######                                                  
+[16:27:24]     #       #####  ###### ###### #####   ####    ##   #    # 
+[16:27:24]     #       #    # #      #      #    # #    #  #  #  ##  ## 
+[16:27:24]     #####   #    # #####  #####  #    # #    # #    # # ## # 
+[16:27:24]     #       #####  #      #      #####  #    # ###### #    # 
+[16:27:24]     #       #   #  #      #      #   #  #    # #    # #    # 
+[16:27:24]     #       #    # ###### ###### #    #  ####  #    # #    # 
+[16:27:24]      #####                                     
+[16:27:24]     #     #  ######  #####   #    #  ######  #####  
+[16:27:24]     #        #       #    #  #    #  #       #    # 
+[16:27:24]      #####   #####   #    #  #    #  #####   #    # 
+[16:27:24]           #  #       #####   #    #  #       #####  
+[16:27:24]     #     #  #       #   #    #  #   #       #   #  
+[16:27:24]      #####   ######  #    #    ##    ######  #    # 
+[16:27:24] 
+
+[16:27:24] -------------------------------------------------------------
+[16:27:24] -------------------------------------------------------------
+[16:27:24] 	Version: 1.0 | Author: XeonMaster   
+[16:27:24] -------------------------------------------------------------
+[16:27:24] Number of vehicle models: 173
+[16:28:10] [connection] 192.168.1.37:55886 requests connection cookie.
+[16:28:11] [connection] 192.168.1.37:55886 requests connection cookie.
+[16:28:12] [connection] 192.168.1.37:55886 requests connection cookie.
+[16:28:13] [connection] 192.168.1.37:55886 requests connection cookie.
+[16:28:14] [connection] 192.168.1.37:55886 requests connection cookie.
+[16:28:15] [connection] 192.168.1.37:55886 requests connection cookie.
+[16:28:16] [connection] 192.168.1.37:55887 requests connection cookie.
+[16:28:17] [connection] 192.168.1.37:55887 requests connection cookie.
+[16:28:18] [connection] 192.168.1.37:55887 requests connection cookie.
+[16:28:19] [connection] 192.168.1.37:55887 requests connection cookie.
+[16:28:20] [connection] 192.168.1.37:55887 requests connection cookie.
+[16:28:21] [connection] 192.168.1.37:55887 requests connection cookie.
+[16:31:13] [connection] 192.168.1.37:56222 requests connection cookie.
+[16:31:13] [connection] 127.0.0.1:57498 requests connection cookie.
+[16:31:14] [connection] incoming connection: 192.168.1.37:56222 id: 0
+[16:31:14] [connection] incoming connection: 127.0.0.1:57498 id: 1
+[16:31:15] [join] XeonTM has joined the server (1:127.0.0.1)
+[16:31:15] [join] [Hz]ZakiTM has joined the server (0:192.168.1.37)
+[16:31:51] [chat] [[Hz]ZakiTM]: give me co-owner please !
+[16:31:52] [kill] XeonTM killed [Hz]ZakiTM UZI
+[16:31:54] [chat] [[Hz]ZakiTM]: give me co-owner please !
+[16:31:57] [chat] [[Hz]ZakiTM]: give me co-owner 
+[16:32:01] [chat] [XeonTM]: test
+[16:32:05] [chat] [[Hz]ZakiTM]: tets
+[16:32:14] [chat] [XeonTM]: test
+[16:32:15] [chat] [[Hz]ZakiTM]: ok
+[16:32:24] [chat] [[Hz]ZakiTM]: now give me owner
+[16:32:28] [chat] [[Hz]ZakiTM]: or co owner
+[16:32:32] [chat] [XeonTM]: test
+[16:32:32] [chat] [[Hz]ZakiTM]: lol
+[16:33:09] [kill] XeonTM killed [Hz]ZakiTM Sawn-off Shotgun
+[16:33:46] [kill] XeonTM killed [Hz]ZakiTM UZI
+[16:34:11] [kill] [Hz]ZakiTM killed XeonTM Sawn-off Shotgun
+[16:34:12] [chat] [[Hz]ZakiTM]: ez
+[16:35:15] [chat] [[Hz]ZakiTM]: ok thanks
+[16:35:15] [chat] [XeonTM]: test
+[16:36:37] [death] XeonTM died 54
+[16:38:03] [chat] [[Hz]ZakiTM]: that's better
+[16:38:07] [chat] [[Hz]ZakiTM]: damn
+[16:39:56] [part] XeonTM has left the server (1:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:10:36] 
+[16:10:36] Server Plugins
+[16:10:36] --------------
+[16:10:36]  Loading plugin: mysql.dll
+[16:10:36]  >> plugin.mysql: R41-4 successfully loaded.
+[16:10:36]   Loaded.
+[16:10:36]  Loading plugin: sscanf.dll
+[16:10:36] 
+
+[16:10:36]  ===============================
+
+[16:10:36]       sscanf plugin loaded.     
+
+[16:10:36]          Version:  2.8.3        
+
+[16:10:36]   (c) 2018 Alex "Y_Less" Cole  
+
+[16:10:36]  ===============================
+
+[16:10:36]   Loaded.
+[16:10:36]  Loading plugin: mapandreas.dll
+[16:10:36]   Loaded.
+[16:10:36]  Loaded 3 plugins.
+
+[16:10:36] 
+[16:10:36] Filterscripts
+[16:10:36] ---------------
+[16:10:36]   Loaded 0 filterscripts.
+
+[16:10:36] Initialization of 'SEF Global Gamemode'..
+[16:10:36] Loaded 3 vehicles from: vehicles/trains.txt
+[16:10:36] Loaded 3 vehicles from: vehicles/pilots.txt
+[16:10:36] Loaded 15 vehicles from: vehicles/lv_law.txt
+[16:10:36] Loaded 39 vehicles from: vehicles/lv_airport.txt
+[16:10:36] Loaded 255 vehicles from: vehicles/lv_gen.txt
+[16:10:36] Loaded 38 vehicles from: vehicles/sf_law.txt
+[16:10:36] Loaded 35 vehicles from: vehicles/sf_airport.txt
+[16:10:36] Loaded 353 vehicles from: vehicles/sf_gen.txt
+[16:10:36] Loaded 24 vehicles from: vehicles/ls_law.txt
+[16:10:36] Loaded 37 vehicles from: vehicles/ls_airport.txt
+[16:10:36] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
+[16:10:37] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
+[16:10:37] Loaded 71 vehicles from: vehicles/whetstone.txt
+[16:10:37] Loaded 168 vehicles from: vehicles/bone.txt
+[16:10:37] Loaded 61 vehicles from: vehicles/flint.txt
+[16:10:37] Loaded 96 vehicles from: vehicles/tierra.txt
+[16:10:37] Loaded 96 vehicles from: vehicles/red_county.txt
+[16:10:37] Completed... (1/4)
+[16:10:37] Initialization of 'MySQL Connection'..
+[16:10:37] [SFMySQL]: Connected.
+[16:10:37] Completed... (2/4)
+[16:10:37] Initialization of 'Discord Connection'..
+[16:10:37] Completed... (3/4)
+[16:10:37] Initialization of 'IRC Connection'..
+[16:10:37] Completed... (4/5)
+[16:10:37] Initialization of 'Other startup plugins'..
+[16:10:37] Completed... (5/5)
+[16:10:37] -------------------------------------------------------------
+[16:10:37] 	Everything Loaded, Welcome to.
+[16:10:37] -------------------------------------------------------------
+[16:10:37] -------------------------------------------------------------
+[16:10:37]      #####                            
+[16:10:37]     #     #  #####  #    #  #    #  ##### 
+[16:10:37]     #          #    #    #  ##   #    #   
+[16:10:37]      #####     #    #    #  # #  #    #   
+[16:10:37]           #    #    #    #  #  # #    #   
+[16:10:37]     #     #    #    #    #  #   ##    #   
+[16:10:37]      #####     #     ####   #    #    #   
+[16:10:37]     #######                                                  
+[16:10:37]     #       #####  ###### ###### #####   ####    ##   #    # 
+[16:10:37]     #       #    # #      #      #    # #    #  #  #  ##  ## 
+[16:10:37]     #####   #    # #####  #####  #    # #    # #    # # ## # 
+[16:10:37]     #       #####  #      #      #####  #    # ###### #    # 
+[16:10:37]     #       #   #  #      #      #   #  #    # #    # #    # 
+[16:10:37]     #       #    # ###### ###### #    #  ####  #    # #    # 
+[16:10:37]      #####                                     
+[16:10:37]     #     #  ######  #####   #    #  ######  #####  
+[16:10:37]     #        #       #    #  #    #  #       #    # 
+[16:10:37]      #####   #####   #    #  #    #  #####   #    # 
+[16:10:37]           #  #       #####   #    #  #       #####  
+[16:10:37]     #     #  #       #   #    #  #   #       #   #  
+[16:10:37]      #####   ######  #    #    ##    ######  #    # 
+[16:10:37] 
+
+[16:10:37] -------------------------------------------------------------
+[16:10:37] -------------------------------------------------------------
+[16:10:37] 	Version: 1.0 | Author: XeonMaster   
+[16:10:37] -------------------------------------------------------------
+[16:10:37] Number of vehicle models: 173
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:58:46] 
+[16:58:46] Server Plugins
+[16:58:46] --------------
+[16:58:46]  Loading plugin: mysql.dll
+[16:58:46]  >> plugin.mysql: R41-4 successfully loaded.
+[16:58:46]   Loaded.
+[16:58:46]  Loading plugin: sscanf.dll
+[16:58:46] 
+
+[16:58:46]  ===============================
+
+[16:58:46]       sscanf plugin loaded.     
+
+[16:58:46]          Version:  2.8.3        
+
+[16:58:46]   (c) 2018 Alex "Y_Less" Cole  
+
+[16:58:46]  ===============================
+
+[16:58:46]   Loaded.
+[16:58:46]  Loading plugin: mapandreas.dll
+[16:58:46]   Loaded.
+[16:58:46]  Loaded 3 plugins.
+
+[16:58:46] 
+[16:58:46] Filterscripts
+[16:58:46] ---------------
+[16:58:46]   Loaded 0 filterscripts.
+
+[16:58:46] Initialization of 'SEF Global Gamemode'..
+[16:58:46] Loaded 3 vehicles from: vehicles/trains.txt
+[16:58:46] Loaded 3 vehicles from: vehicles/pilots.txt
+[16:58:46] Loaded 15 vehicles from: vehicles/lv_law.txt
+[16:58:46] Loaded 39 vehicles from: vehicles/lv_airport.txt
+[16:58:46] Loaded 255 vehicles from: vehicles/lv_gen.txt
+[16:58:46] Loaded 38 vehicles from: vehicles/sf_law.txt
+[16:58:46] Loaded 35 vehicles from: vehicles/sf_airport.txt
+[16:58:46] Loaded 353 vehicles from: vehicles/sf_gen.txt
+[16:58:46] Loaded 24 vehicles from: vehicles/ls_law.txt
+[16:58:46] Loaded 37 vehicles from: vehicles/ls_airport.txt
+[16:58:46] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
+[16:58:46] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
+[16:58:46] Loaded 71 vehicles from: vehicles/whetstone.txt
+[16:58:46] Loaded 168 vehicles from: vehicles/bone.txt
+[16:58:46] Loaded 61 vehicles from: vehicles/flint.txt
+[16:58:46] Loaded 96 vehicles from: vehicles/tierra.txt
+[16:58:46] Loaded 96 vehicles from: vehicles/red_county.txt
+[16:58:47] [connection] 127.0.0.1:49442 requests connection cookie.
+[16:58:47] [connection] 127.0.0.1:49443 requests connection cookie.
+[16:58:47] Completed... (1/4)
+[16:58:47] Initialization of 'MySQL Connection'..
+[16:58:47] [SFMySQL]: Connected.
+[16:58:47] Completed... (2/4)
+[16:58:47] Initialization of 'Discord Connection'..
+[16:58:47] Completed... (3/4)
+[16:58:47] Initialization of 'IRC Connection'..
+[16:58:47] Completed... (4/5)
+[16:58:47] Initialization of 'Other startup plugins'..
+[16:58:47] [connection] 127.0.0.1:49444 requests connection cookie.
+[16:58:47] [connection] 127.0.0.1:49445 requests connection cookie.
+[16:58:47] [connection] 127.0.0.1:49446 requests connection cookie.
+[16:58:47] [connection] 127.0.0.1:49447 requests connection cookie.
+[16:58:47] Completed... (5/5)
+[16:58:47] -------------------------------------------------------------
+[16:58:47] 	Everything Loaded, Welcome to.
+[16:58:47] -------------------------------------------------------------
+[16:58:47] -------------------------------------------------------------
+[16:58:47]      #####                            
+[16:58:47]     #     #  #####  #    #  #    #  ##### 
+[16:58:47]     #          #    #    #  ##   #    #   
+[16:58:47]      #####     #    #    #  # #  #    #   
+[16:58:47]           #    #    #    #  #  # #    #   
+[16:58:47]     #     #    #    #    #  #   ##    #   
+[16:58:47]      #####     #     ####   #    #    #   
+[16:58:47]     #######                                                  
+[16:58:47]     #       #####  ###### ###### #####   ####    ##   #    # 
+[16:58:47]     #       #    # #      #      #    # #    #  #  #  ##  ## 
+[16:58:47]     #####   #    # #####  #####  #    # #    # #    # # ## # 
+[16:58:47]     #       #####  #      #      #####  #    # ###### #    # 
+[16:58:47]     #       #   #  #      #      #   #  #    # #    # #    # 
+[16:58:47]     #       #    # ###### ###### #    #  ####  #    # #    # 
+[16:58:47]      #####                                     
+[16:58:47]     #     #  ######  #####   #    #  ######  #####  
+[16:58:47]     #        #       #    #  #    #  #       #    # 
+[16:58:47]      #####   #####   #    #  #    #  #####   #    # 
+[16:58:47]           #  #       #####   #    #  #       #####  
+[16:58:47]     #     #  #       #   #    #  #   #       #   #  
+[16:58:47]      #####   ######  #    #    ##    ######  #    # 
+[16:58:47] 
+
+[16:58:47] -------------------------------------------------------------
+[16:58:47] -------------------------------------------------------------
+[16:58:47] 	Version: 1.0 | Author: XeonMaster   
+[16:58:47] -------------------------------------------------------------
+[16:58:47] Number of vehicle models: 173
+[16:58:47] [connection] 127.0.0.1:49448 requests connection cookie.
+[16:58:47] [connection] 127.0.0.1:49449 requests connection cookie.
+[16:58:47] [connection] 127.0.0.1:49450 requests connection cookie.
+[16:58:47] [connection] 127.0.0.1:49451 requests connection cookie.
+[16:58:47] [connection] 127.0.0.1:49452 requests connection cookie.
+[16:58:47] [connection] 127.0.0.1:49453 requests connection cookie.
+[16:58:47] [connection] 127.0.0.1:49454 requests connection cookie.
+[16:58:47] [connection] 127.0.0.1:49455 requests connection cookie.
+[16:58:47] [connection] 127.0.0.1:49456 requests connection cookie.
+[16:58:47] [connection] 127.0.0.1:49457 requests connection cookie.
+[16:58:47] [connection] 127.0.0.1:49458 requests connection cookie.
+[16:58:47] [connection] 127.0.0.1:49459 requests connection cookie.
+[16:58:47] [connection] 127.0.0.1:49460 requests connection cookie.
+[16:58:47] [connection] 127.0.0.1:49461 requests connection cookie.
+[16:58:47] [connection] 127.0.0.1:49462 requests connection cookie.
+[16:58:47] [connection] 127.0.0.1:49463 requests connection cookie.
+[16:58:47] [connection] 127.0.0.1:49464 requests connection cookie.
+[16:58:47] [connection] 127.0.0.1:49465 requests connection cookie.
+[16:58:47] [connection] 127.0.0.1:49466 requests connection cookie.
+[16:58:47] [connection] 127.0.0.1:49467 requests connection cookie.
+[16:58:47] [connection] 127.0.0.1:49468 requests connection cookie.
+[16:58:47] [connection] 127.0.0.1:49469 requests connection cookie.
+[16:58:47] [connection] 127.0.0.1:49470 requests connection cookie.
+[16:58:47] [connection] 127.0.0.1:49471 requests connection cookie.
+[16:58:47] [connection] 127.0.0.1:49472 requests connection cookie.
+[16:58:47] [connection] 127.0.0.1:49473 requests connection cookie.
+[16:58:47] [connection] 127.0.0.1:49474 requests connection cookie.
+[16:58:47] [connection] 127.0.0.1:49475 requests connection cookie.
+[16:58:47] [connection] 127.0.0.1:49476 requests connection cookie.
+[16:58:47] [connection] 127.0.0.1:49477 requests connection cookie.
+[16:58:47] [connection] 127.0.0.1:49478 requests connection cookie.
+[16:58:47] [connection] 127.0.0.1:49479 requests connection cookie.
+[16:58:48] [connection] 127.0.0.1:49480 requests connection cookie.
+[16:58:48] [connection] 127.0.0.1:49481 requests connection cookie.
+[16:58:48] [connection] 127.0.0.1:49482 requests connection cookie.
+[16:58:48] [connection] 127.0.0.1:49483 requests connection cookie.
+[16:58:48] [connection] 127.0.0.1:49484 requests connection cookie.
+[16:58:48] [connection] 127.0.0.1:49485 requests connection cookie.
+[16:58:48] [connection] 127.0.0.1:49486 requests connection cookie.
+[16:58:48] [connection] 127.0.0.1:49487 requests connection cookie.
+[16:58:48] [connection] 127.0.0.1:49488 requests connection cookie.
+[16:58:48] [connection] 127.0.0.1:49489 requests connection cookie.
+[16:58:48] [connection] 127.0.0.1:49490 requests connection cookie.
+[16:58:48] [connection] 127.0.0.1:49491 requests connection cookie.
+[16:58:48] [connection] 127.0.0.1:49492 requests connection cookie.
+[16:58:48] [connection] incoming connection: 127.0.0.1:49442 id: 0
+[16:58:48] [connection] 127.0.0.1:49493 requests connection cookie.
+[16:58:48] [connection] incoming connection: 127.0.0.1:49443 id: 1
+[16:58:48] [connection] incoming connection: 127.0.0.1:49444 id: 2
+[16:58:48] [connection] incoming connection: 127.0.0.1:49445 id: 3
+[16:58:48] [connection] incoming connection: 127.0.0.1:49446 id: 4
+[16:58:48] [connection] incoming connection: 127.0.0.1:49447 id: 5
+[16:58:48] [connection] incoming connection: 127.0.0.1:49448 id: 6
+[16:58:48] [connection] 127.0.0.1:49494 requests connection cookie.
+[16:58:48] [connection] 127.0.0.1:49495 requests connection cookie.
+[16:58:48] [connection] 127.0.0.1:49496 requests connection cookie.
+[16:58:48] [connection] 127.0.0.1:49497 requests connection cookie.
+[16:58:48] [connection] 127.0.0.1:49498 requests connection cookie.
+[16:58:48] [connection] 127.0.0.1:49499 requests connection cookie.
+[16:58:48] [connection] incoming connection: 127.0.0.1:49449 id: 7
+[16:58:48] [connection] incoming connection: 127.0.0.1:49450 id: 8
+[16:58:48] [connection] incoming connection: 127.0.0.1:49451 id: 9
+[16:58:48] [connection] incoming connection: 127.0.0.1:49452 id: 10
+[16:58:48] [connection] incoming connection: 127.0.0.1:49453 id: 11
+[16:58:48] [npc:join] [SAP]Bus[65][0] has joined the server (0:127.0.0.1)
+[16:58:48] [connection] incoming connection: 127.0.0.1:49454 id: 12
+[16:58:48] [npc:join] [SAP]Bus[52][0] has joined the server (1:127.0.0.1)
+[16:58:48] [npc:join] [SAP]Bus[07][0] has joined the server (2:127.0.0.1)
+[16:58:48] [connection] 127.0.0.1:49500 requests connection cookie.
+[16:58:48] [connection] 127.0.0.1:49501 requests connection cookie.
+[16:58:48] [connection] 127.0.0.1:49502 requests connection cookie.
+[16:58:48] [connection] 127.0.0.1:49503 requests connection cookie.
+[16:58:48] [connection] 127.0.0.1:49504 requests connection cookie.
+[16:58:48] [connection] 127.0.0.1:49505 requests connection cookie.
+[16:58:48] [connection] incoming connection: 127.0.0.1:49455 id: 13
+[16:58:48] [npc:join] [SAP]Bus[30][0] has joined the server (3:127.0.0.1)
+[16:58:48] [connection] 127.0.0.1:49506 requests connection cookie.
+[16:58:48] [connection] incoming connection: 127.0.0.1:49456 id: 14
+[16:58:48] [connection] incoming connection: 127.0.0.1:49457 id: 15
+[16:58:48] [npc:join] [SAP]Bus[40][0] has joined the server (4:127.0.0.1)
+[16:58:48] [npc:join] [SAP]Bus[57][0] has joined the server (5:127.0.0.1)
+[16:58:48] [npc:join] [SAP]Bus[18][0] has joined the server (6:127.0.0.1)
+[16:58:48] [connection] incoming connection: 127.0.0.1:49458 id: 16
+[16:58:48] [connection] incoming connection: 127.0.0.1:49459 id: 17
+[16:58:48] [connection] 127.0.0.1:49507 requests connection cookie.
+[16:58:48] [connection] incoming connection: 127.0.0.1:49460 id: 18
+[16:58:48] [connection] incoming connection: 127.0.0.1:49461 id: 19
+[16:58:48] [connection] incoming connection: 127.0.0.1:49462 id: 20
+[16:58:48] [npc:join] [SAP]Bus[65][1] has joined the server (7:127.0.0.1)
+[16:58:48] [connection] 127.0.0.1:49508 requests connection cookie.
+[16:58:48] [connection] 127.0.0.1:49509 requests connection cookie.
+[16:58:48] [connection] 127.0.0.1:49510 requests connection cookie.
+[16:58:48] [connection] 127.0.0.1:49511 requests connection cookie.
+[16:58:48] [connection] 127.0.0.1:49512 requests connection cookie.
+[16:58:48] [connection] 127.0.0.1:49513 requests connection cookie.
+[16:58:48] [connection] incoming connection: 127.0.0.1:49463 id: 21
+[16:58:48] [connection] 127.0.0.1:49514 requests connection cookie.
+[16:58:48] [npc:join] [SAP]Bus[52][1] has joined the server (8:127.0.0.1)
+[16:58:48] [connection] incoming connection: 127.0.0.1:49464 id: 22
+[16:58:48] [npc:join] [SAP]Bus[07][1] has joined the server (9:127.0.0.1)
+[16:58:48] [npc:join] [SAP]Bus[30][1] has joined the server (10:127.0.0.1)
+[16:58:48] [connection] incoming connection: 127.0.0.1:49465 id: 23
+[16:58:48] [npc:join] [SAP]Bus[40][1] has joined the server (11:127.0.0.1)
+[16:58:48] [npc:join] [SAP]Bus[57][1] has joined the server (12:127.0.0.1)
+[16:58:48] [npc:join] [SAP]Bus[18][1] has joined the server (13:127.0.0.1)
+[16:58:48] [connection] incoming connection: 127.0.0.1:49466 id: 24
+[16:58:48] [connection] incoming connection: 127.0.0.1:49467 id: 25
+[16:58:48] [connection] incoming connection: 127.0.0.1:49468 id: 26
+[16:58:48] [connection] 127.0.0.1:49515 requests connection cookie.
+[16:58:48] [connection] incoming connection: 127.0.0.1:49469 id: 27
+[16:58:48] [connection] incoming connection: 127.0.0.1:49470 id: 28
+[16:58:48] [connection] 127.0.0.1:49516 requests connection cookie.
+[16:58:48] [connection] 127.0.0.1:49517 requests connection cookie.
+[16:58:48] [connection] 127.0.0.1:49518 requests connection cookie.
+[16:58:48] [connection] 127.0.0.1:49519 requests connection cookie.
+[16:58:48] [connection] 127.0.0.1:49520 requests connection cookie.
+[16:58:48] [connection] 127.0.0.1:49521 requests connection cookie.
+[16:58:48] [connection] incoming connection: 127.0.0.1:49471 id: 14
+[16:58:48] [connection] incoming connection: 127.0.0.1:49472 id: 15
+[16:58:48] [connection] incoming connection: 127.0.0.1:49473 id: 16
+[16:58:48] [connection] incoming connection: 127.0.0.1:49474 id: 29
+[16:58:48] [connection] incoming connection: 127.0.0.1:49475 id: 30
+[16:58:48] [connection] incoming connection: 127.0.0.1:49476 id: 31
+[16:58:48] [connection] incoming connection: 127.0.0.1:49477 id: 32
+[16:58:48] [connection] incoming connection: 127.0.0.1:49478 id: 33
+[16:58:48] [connection] incoming connection: 127.0.0.1:49479 id: 34
+[16:58:49] [connection] 127.0.0.1:49522 requests connection cookie.
+[16:58:49] [connection] 127.0.0.1:49523 requests connection cookie.
+[16:58:49] [connection] 127.0.0.1:49524 requests connection cookie.
+[16:58:49] [connection] 127.0.0.1:49525 requests connection cookie.
+[16:58:49] [connection] 127.0.0.1:49526 requests connection cookie.
+[16:58:49] [connection] 127.0.0.1:49527 requests connection cookie.
+[16:58:49] [connection] incoming connection: 127.0.0.1:49480 id: 17
+[16:58:49] [connection] incoming connection: 127.0.0.1:49481 id: 18
+[16:58:49] [connection] 127.0.0.1:49528 requests connection cookie.
+[16:58:49] [connection] incoming connection: 127.0.0.1:49482 id: 19
+[16:58:49] [connection] incoming connection: 127.0.0.1:49483 id: 20
+[16:58:49] [connection] incoming connection: 127.0.0.1:49484 id: 21
+[16:58:49] [connection] incoming connection: 127.0.0.1:49485 id: 22
+[16:58:49] [connection] incoming connection: 127.0.0.1:49486 id: 23
+[16:58:49] [connection] incoming connection: 127.0.0.1:49487 id: 24
+[16:58:49] [connection] 127.0.0.1:49529 requests connection cookie.
+[16:58:49] [connection] 127.0.0.1:49530 requests connection cookie.
+[16:58:49] [connection] 127.0.0.1:49531 requests connection cookie.
+[16:58:49] [connection] 127.0.0.1:49532 requests connection cookie.
+[16:58:49] [connection] 127.0.0.1:49533 requests connection cookie.
+[16:58:49] [connection] 127.0.0.1:49534 requests connection cookie.
+[16:58:49] [connection] 127.0.0.1:49535 requests connection cookie.
+[16:58:49] [connection] incoming connection: 127.0.0.1:49488 id: 14
+[16:58:49] [connection] incoming connection: 127.0.0.1:49489 id: 15
+[16:58:49] [connection] incoming connection: 127.0.0.1:49490 id: 16
+[16:58:49] [connection] incoming connection: 127.0.0.1:49491 id: 25
+[16:58:49] [connection] incoming connection: 127.0.0.1:49492 id: 26
+[16:58:49] [connection] incoming connection: 127.0.0.1:49493 id: 27
+[16:58:49] [connection] incoming connection: 127.0.0.1:49494 id: 28
+[16:58:49] [connection] 127.0.0.1:49536 requests connection cookie.
+[16:58:49] [connection] 127.0.0.1:49537 requests connection cookie.
+[16:58:49] [connection] 127.0.0.1:49538 requests connection cookie.
+[16:58:49] [connection] 127.0.0.1:49539 requests connection cookie.
+[16:58:49] [connection] 127.0.0.1:49540 requests connection cookie.
+[16:58:49] [connection] 127.0.0.1:49541 requests connection cookie.
+[16:58:49] [connection] 127.0.0.1:49542 requests connection cookie.
+[16:58:49] [connection] incoming connection: 127.0.0.1:49495 id: 17
+[16:58:49] [connection] incoming connection: 127.0.0.1:49496 id: 18
+[16:58:49] [connection] incoming connection: 127.0.0.1:49497 id: 19
+[16:58:49] [connection] incoming connection: 127.0.0.1:49498 id: 20
+[16:58:49] [connection] incoming connection: 127.0.0.1:49499 id: 21
+[16:58:49] [connection] incoming connection: 127.0.0.1:49500 id: 29
+[16:58:49] [connection] incoming connection: 127.0.0.1:49501 id: 30
+[16:58:49] [connection] incoming connection: 127.0.0.1:49502 id: 31
+[16:58:49] [connection] 127.0.0.1:49543 requests connection cookie.
+[16:58:49] [connection] 127.0.0.1:49544 requests connection cookie.
+[16:58:49] [connection] 127.0.0.1:49545 requests connection cookie.
+[16:58:49] [connection] 127.0.0.1:49546 requests connection cookie.
+[16:58:49] [connection] 127.0.0.1:49547 requests connection cookie.
+[16:58:49] [connection] 127.0.0.1:49548 requests connection cookie.
+[16:58:49] [connection] incoming connection: 127.0.0.1:49503 id: 22
+[16:58:49] [connection] incoming connection: 127.0.0.1:49504 id: 14
+[16:58:49] [connection] 127.0.0.1:49549 requests connection cookie.
+[16:58:49] [connection] incoming connection: 127.0.0.1:49505 id: 15
+[16:58:49] [connection] incoming connection: 127.0.0.1:49506 id: 16
+[16:58:49] [connection] incoming connection: 127.0.0.1:49507 id: 23
+[16:58:49] [connection] incoming connection: 127.0.0.1:49508 id: 24
+[16:58:49] [connection] incoming connection: 127.0.0.1:49509 id: 25
+[16:58:49] [connection] 127.0.0.1:49550 requests connection cookie.
+[16:58:49] [connection] 127.0.0.1:49551 requests connection cookie.
+[16:58:49] [connection] 127.0.0.1:49552 requests connection cookie.
+[16:58:49] [connection] 127.0.0.1:49553 requests connection cookie.
+[16:58:49] [connection] 127.0.0.1:49554 requests connection cookie.
+[16:58:49] [connection] 127.0.0.1:49555 requests connection cookie.
+[16:58:49] [connection] incoming connection: 127.0.0.1:49510 id: 17
+[16:58:49] [connection] incoming connection: 127.0.0.1:49511 id: 18
+[16:58:49] [connection] incoming connection: 127.0.0.1:49512 id: 19
+[16:58:49] [connection] incoming connection: 127.0.0.1:49513 id: 20
+[16:58:49] [connection] incoming connection: 127.0.0.1:49514 id: 21
+[16:58:49] [connection] incoming connection: 127.0.0.1:49515 id: 26
+[16:58:49] [connection] incoming connection: 127.0.0.1:49516 id: 27
+[16:58:49] [connection] incoming connection: 127.0.0.1:49517 id: 28
+[16:58:49] [connection] 127.0.0.1:49556 requests connection cookie.
+[16:58:49] [connection] 127.0.0.1:49557 requests connection cookie.
+[16:58:49] [connection] 127.0.0.1:49558 requests connection cookie.
+[16:58:49] [connection] 127.0.0.1:49559 requests connection cookie.
+[16:58:49] [connection] 127.0.0.1:49560 requests connection cookie.
+[16:58:50] [connection] 127.0.0.1:49561 requests connection cookie.
+[16:58:50] [connection] 127.0.0.1:49562 requests connection cookie.
+[16:58:50] [connection] incoming connection: 127.0.0.1:49518 id: 14
+[16:58:50] [connection] incoming connection: 127.0.0.1:49519 id: 15
+[16:58:50] [connection] incoming connection: 127.0.0.1:49520 id: 16
+[16:58:50] [connection] incoming connection: 127.0.0.1:49521 id: 22
+[16:58:50] [connection] incoming connection: 127.0.0.1:49522 id: 23
+[16:58:50] [connection] incoming connection: 127.0.0.1:49523 id: 29
+[16:58:50] [connection] 127.0.0.1:49563 requests connection cookie.
+[16:58:50] [connection] 127.0.0.1:49564 requests connection cookie.
+[16:58:50] [connection] 127.0.0.1:49565 requests connection cookie.
+[16:58:50] [connection] 127.0.0.1:49566 requests connection cookie.
+[16:58:50] [connection] 127.0.0.1:49567 requests connection cookie.
+[16:58:50] [connection] 127.0.0.1:49568 requests connection cookie.
+[16:58:50] [connection] 127.0.0.1:49569 requests connection cookie.
+[16:58:50] [connection] incoming connection: 127.0.0.1:49524 id: 30
+[16:58:50] [connection] incoming connection: 127.0.0.1:49525 id: 17
+[16:58:50] [connection] incoming connection: 127.0.0.1:49526 id: 18
+[16:58:50] [connection] incoming connection: 127.0.0.1:49527 id: 19
+[16:58:50] [connection] incoming connection: 127.0.0.1:49528 id: 20
+[16:58:50] [connection] incoming connection: 127.0.0.1:49529 id: 21
+[16:58:50] [connection] incoming connection: 127.0.0.1:49530 id: 24
+[16:58:50] [connection] 127.0.0.1:49570 requests connection cookie.
+[16:58:50] [connection] 127.0.0.1:49571 requests connection cookie.
+[16:58:50] [connection] 127.0.0.1:49572 requests connection cookie.
+[16:58:50] [connection] 127.0.0.1:49573 requests connection cookie.
+[16:58:50] [connection] 127.0.0.1:49574 requests connection cookie.
+[16:58:50] [connection] 127.0.0.1:49575 requests connection cookie.
+[16:58:50] [connection] 127.0.0.1:49576 requests connection cookie.
+[16:58:50] [connection] incoming connection: 127.0.0.1:49531 id: 25
+[16:58:50] [connection] incoming connection: 127.0.0.1:49532 id: 14
+[16:58:50] [connection] incoming connection: 127.0.0.1:49533 id: 15
+[16:58:50] [connection] incoming connection: 127.0.0.1:49534 id: 16
+[16:58:50] [connection] incoming connection: 127.0.0.1:49535 id: 22
+[16:58:50] [connection] incoming connection: 127.0.0.1:49536 id: 26
+[16:58:50] [connection] 127.0.0.1:49577 requests connection cookie.
+[16:58:50] [connection] 127.0.0.1:49578 requests connection cookie.
+[16:58:50] [connection] 127.0.0.1:49579 requests connection cookie.
+[16:58:50] [connection] 127.0.0.1:49580 requests connection cookie.
+[16:58:50] [connection] 127.0.0.1:49581 requests connection cookie.
+[16:58:50] [connection] 127.0.0.1:49582 requests connection cookie.
+[16:58:50] [connection] 127.0.0.1:49583 requests connection cookie.
+[16:58:50] [connection] incoming connection: 127.0.0.1:49537 id: 27
+[16:58:50] [connection] incoming connection: 127.0.0.1:49538 id: 17
+[16:58:50] [connection] incoming connection: 127.0.0.1:49539 id: 18
+[16:58:50] [connection] incoming connection: 127.0.0.1:49540 id: 23
+[16:58:50] [connection] incoming connection: 127.0.0.1:49542 id: 28
+[16:58:50] [connection] incoming connection: 127.0.0.1:49541 id: 29
+[16:58:50] [connection] incoming connection: 127.0.0.1:49543 id: 30
+[16:58:50] [connection] incoming connection: 127.0.0.1:49544 id: 31
+[16:58:50] [connection] 127.0.0.1:49584 requests connection cookie.
+[16:58:50] [connection] 127.0.0.1:49585 requests connection cookie.
+[16:58:50] [connection] 127.0.0.1:49586 requests connection cookie.
+[16:58:50] [connection] 127.0.0.1:49587 requests connection cookie.
+[16:58:50] [connection] 127.0.0.1:49588 requests connection cookie.
+[16:58:50] [connection] 127.0.0.1:49589 requests connection cookie.
+[16:58:50] [connection] 127.0.0.1:49590 requests connection cookie.
+[16:58:50] [connection] incoming connection: 127.0.0.1:49545 id: 14
+[16:58:50] [connection] incoming connection: 127.0.0.1:49546 id: 15
+[16:58:50] [connection] incoming connection: 127.0.0.1:49547 id: 19
+[16:58:50] [connection] incoming connection: 127.0.0.1:49548 id: 20
+[16:58:50] [connection] incoming connection: 127.0.0.1:49549 id: 21
+[16:58:50] [connection] incoming connection: 127.0.0.1:49550 id: 24
+[16:58:50] [connection] 127.0.0.1:49591 requests connection cookie.
+[16:58:50] [connection] 127.0.0.1:49592 requests connection cookie.
+[16:58:50] [connection] 127.0.0.1:49593 requests connection cookie.
+[16:58:50] [connection] 127.0.0.1:49594 requests connection cookie.
+[16:58:50] [connection] 127.0.0.1:49595 requests connection cookie.
+[16:58:50] [connection] 127.0.0.1:49596 requests connection cookie.
+[16:58:50] [connection] incoming connection: 127.0.0.1:49551 id: 16
+[16:58:50] [connection] incoming connection: 127.0.0.1:49552 id: 17
+[16:58:50] [connection] incoming connection: 127.0.0.1:49553 id: 18
+[16:58:50] [connection] incoming connection: 127.0.0.1:49554 id: 22
+[16:58:50] [connection] incoming connection: 127.0.0.1:49555 id: 25
+[16:58:50] [connection] 127.0.0.1:49597 requests connection cookie.
+[16:58:50] [connection] 127.0.0.1:49598 requests connection cookie.
+[16:58:50] [connection] 127.0.0.1:49599 requests connection cookie.
+[16:58:50] [connection] 127.0.0.1:49600 requests connection cookie.
+[16:58:50] [connection] 127.0.0.1:49601 requests connection cookie.
+[16:58:50] [connection] 127.0.0.1:49602 requests connection cookie.
+[16:58:51] [connection] 127.0.0.1:49603 requests connection cookie.
+[16:58:51] [connection] incoming connection: 127.0.0.1:49556 id: 14
+[16:58:51] [connection] incoming connection: 127.0.0.1:49557 id: 15
+[16:58:51] [connection] incoming connection: 127.0.0.1:49558 id: 23
+[16:58:51] [connection] incoming connection: 127.0.0.1:49559 id: 26
+[16:58:51] [connection] incoming connection: 127.0.0.1:49560 id: 27
+[16:58:51] [connection] incoming connection: 127.0.0.1:49561 id: 28
+[16:58:51] [connection] 127.0.0.1:49605 requests connection cookie.
+[16:58:51] [connection] incoming connection: 127.0.0.1:49562 id: 29
+[16:58:51] [connection] 127.0.0.1:49604 requests connection cookie.
+[16:58:51] [connection] 127.0.0.1:49606 requests connection cookie.
+[16:58:51] [connection] 127.0.0.1:49607 requests connection cookie.
+[16:58:51] [connection] 127.0.0.1:49608 requests connection cookie.
+[16:58:51] [connection] 127.0.0.1:49609 requests connection cookie.
+[16:58:51] [connection] 127.0.0.1:49610 requests connection cookie.
+[16:58:51] [connection] 127.0.0.1:49611 requests connection cookie.
+[16:58:51] [connection] 127.0.0.1:49612 requests connection cookie.
+[16:58:51] [connection] incoming connection: 127.0.0.1:49563 id: 16
+[16:58:51] [connection] incoming connection: 127.0.0.1:49564 id: 17
+[16:58:51] [connection] incoming connection: 127.0.0.1:49565 id: 18
+[16:58:51] [connection] incoming connection: 127.0.0.1:49566 id: 19
+[16:58:51] [connection] incoming connection: 127.0.0.1:49567 id: 20
+[16:58:51] [connection] incoming connection: 127.0.0.1:49568 id: 21
+[16:58:51] [connection] incoming connection: 127.0.0.1:49569 id: 24
+[16:58:51] [connection] 127.0.0.1:49613 requests connection cookie.
+[16:58:51] [connection] 127.0.0.1:49614 requests connection cookie.
+[16:58:51] [connection] 127.0.0.1:49615 requests connection cookie.
+[16:58:51] [connection] 127.0.0.1:49616 requests connection cookie.
+[16:58:51] [connection] 127.0.0.1:49618 requests connection cookie.
+[16:58:51] [connection] 127.0.0.1:49617 requests connection cookie.
+[16:58:51] [connection] incoming connection: 127.0.0.1:49570 id: 22
+[16:58:51] [connection] incoming connection: 127.0.0.1:49571 id: 14
+[16:58:51] [connection] incoming connection: 127.0.0.1:49572 id: 15
+[16:58:51] [connection] incoming connection: 127.0.0.1:49573 id: 23
+[16:58:51] [connection] incoming connection: 127.0.0.1:49574 id: 25
+[16:58:51] [connection] incoming connection: 127.0.0.1:49575 id: 26
+[16:58:51] [connection] incoming connection: 127.0.0.1:49576 id: 27
+[16:58:51] [connection] 127.0.0.1:49619 requests connection cookie.
+[16:58:51] [connection] 127.0.0.1:49620 requests connection cookie.
+[16:58:51] [connection] 127.0.0.1:49621 requests connection cookie.
+[16:58:51] [connection] 127.0.0.1:49622 requests connection cookie.
+[16:58:51] [connection] 127.0.0.1:49623 requests connection cookie.
+[16:58:51] [connection] 127.0.0.1:49624 requests connection cookie.
+[16:58:51] [connection] 127.0.0.1:49625 requests connection cookie.
+[16:58:51] [connection] 127.0.0.1:49626 requests connection cookie.
+[16:58:51] [connection] incoming connection: 127.0.0.1:49577 id: 16
+[16:58:51] [connection] incoming connection: 127.0.0.1:49578 id: 17
+[16:58:51] [connection] incoming connection: 127.0.0.1:49579 id: 18
+[16:58:51] [connection] incoming connection: 127.0.0.1:49580 id: 19
+[16:58:51] [connection] incoming connection: 127.0.0.1:49581 id: 20
+[16:58:51] [connection] incoming connection: 127.0.0.1:49582 id: 28
+[16:58:51] [connection] incoming connection: 127.0.0.1:49583 id: 29
+[16:58:51] [connection] incoming connection: 127.0.0.1:49584 id: 30
+[16:58:51] [connection] incoming connection: 127.0.0.1:49585 id: 31
+[16:58:51] [connection] 127.0.0.1:49627 requests connection cookie.
+[16:58:51] [connection] 127.0.0.1:49628 requests connection cookie.
+[16:58:51] [connection] 127.0.0.1:49629 requests connection cookie.
+[16:58:51] [connection] 127.0.0.1:49630 requests connection cookie.
+[16:58:51] [connection] 127.0.0.1:49631 requests connection cookie.
+[16:58:51] [connection] 127.0.0.1:49632 requests connection cookie.
+[16:58:51] [connection] incoming connection: 127.0.0.1:49586 id: 14
+[16:58:51] [connection] incoming connection: 127.0.0.1:49587 id: 15
+[16:58:51] [connection] 127.0.0.1:49633 requests connection cookie.
+[16:58:51] [connection] incoming connection: 127.0.0.1:49588 id: 21
+[16:58:51] [connection] incoming connection: 127.0.0.1:49589 id: 22
+[16:58:51] [connection] incoming connection: 127.0.0.1:49590 id: 23
+[16:58:51] [connection] incoming connection: 127.0.0.1:49591 id: 24
+[16:58:51] [connection] incoming connection: 127.0.0.1:49592 id: 25
+[16:58:51] [connection] incoming connection: 127.0.0.1:49593 id: 32
+[16:58:51] [connection] 127.0.0.1:49634 requests connection cookie.
+[16:58:51] [connection] 127.0.0.1:49635 requests connection cookie.
+[16:58:51] [connection] 127.0.0.1:49636 requests connection cookie.
+[16:58:51] [connection] 127.0.0.1:49637 requests connection cookie.
+[16:58:51] [connection] 127.0.0.1:49638 requests connection cookie.
+[16:58:51] [connection] 127.0.0.1:49639 requests connection cookie.
+[16:58:51] [connection] incoming connection: 127.0.0.1:49594 id: 16
+[16:58:51] [connection] incoming connection: 127.0.0.1:49595 id: 17
+[16:58:51] [connection] incoming connection: 127.0.0.1:49596 id: 18
+[16:58:51] [connection] incoming connection: 127.0.0.1:49597 id: 19
+[16:58:51] [connection] incoming connection: 127.0.0.1:49598 id: 20
+[16:58:51] [connection] 127.0.0.1:49640 requests connection cookie.
+[16:58:51] [connection] incoming connection: 127.0.0.1:49599 id: 26
+[16:58:51] [connection] 127.0.0.1:49641 requests connection cookie.
+[16:58:51] [connection] 127.0.0.1:49642 requests connection cookie.
+[16:58:51] [connection] 127.0.0.1:49643 requests connection cookie.
+[16:58:52] [connection] 127.0.0.1:49644 requests connection cookie.
+[16:58:52] [connection] 127.0.0.1:49645 requests connection cookie.
+[16:58:52] [connection] 127.0.0.1:49646 requests connection cookie.
+[16:58:52] [connection] incoming connection: 127.0.0.1:49600 id: 14
+[16:58:52] [connection] incoming connection: 127.0.0.1:49601 id: 15
+[16:58:52] [connection] 127.0.0.1:49647 requests connection cookie.
+[16:58:52] [connection] incoming connection: 127.0.0.1:49602 id: 21
+[16:58:52] [connection] incoming connection: 127.0.0.1:49603 id: 27
+[16:58:52] [connection] incoming connection: 127.0.0.1:49605 id: 28
+[16:58:52] [connection] incoming connection: 127.0.0.1:49604 id: 29
+[16:58:52] [connection] incoming connection: 127.0.0.1:49606 id: 30
+[16:58:52] [connection] incoming connection: 127.0.0.1:49607 id: 31
+[16:58:52] [connection] 127.0.0.1:49648 requests connection cookie.
+[16:58:52] [connection] 127.0.0.1:49649 requests connection cookie.
+[16:58:52] [connection] 127.0.0.1:49650 requests connection cookie.
+[16:58:52] [connection] 127.0.0.1:49651 requests connection cookie.
+[16:58:52] [connection] 127.0.0.1:49652 requests connection cookie.
+[16:58:52] [connection] 127.0.0.1:49653 requests connection cookie.
+[16:58:52] [connection] incoming connection: 127.0.0.1:49608 id: 16
+[16:58:52] [connection] incoming connection: 127.0.0.1:49609 id: 17
+[16:58:52] [connection] incoming connection: 127.0.0.1:49610 id: 18
+[16:58:52] [connection] incoming connection: 127.0.0.1:49612 id: 22
+[16:58:52] [connection] 127.0.0.1:49654 requests connection cookie.
+[16:58:52] [connection] incoming connection: 127.0.0.1:49611 id: 23
+[16:58:52] [connection] incoming connection: 127.0.0.1:49613 id: 24
+[16:58:52] [connection] incoming connection: 127.0.0.1:49614 id: 25
+[16:58:52] [connection] 127.0.0.1:49655 requests connection cookie.
+[16:58:52] [connection] 127.0.0.1:49656 requests connection cookie.
+[16:58:52] [connection] 127.0.0.1:49657 requests connection cookie.
+[16:58:52] [connection] 127.0.0.1:49658 requests connection cookie.
+[16:58:52] [connection] 127.0.0.1:49659 requests connection cookie.
+[16:58:52] [connection] 127.0.0.1:49660 requests connection cookie.
+[16:58:52] [connection] incoming connection: 127.0.0.1:49615 id: 14
+[16:58:52] [connection] incoming connection: 127.0.0.1:49616 id: 15
+[16:58:52] [connection] incoming connection: 127.0.0.1:49618 id: 19
+[16:58:52] [connection] incoming connection: 127.0.0.1:49617 id: 20
+[16:58:52] [connection] incoming connection: 127.0.0.1:49619 id: 21
+[16:58:52] [connection] 127.0.0.1:49661 requests connection cookie.
+[16:58:52] [connection] incoming connection: 127.0.0.1:49620 id: 26
+[16:58:52] [connection] 127.0.0.1:49662 requests connection cookie.
+[16:58:52] [connection] 127.0.0.1:49663 requests connection cookie.
+[16:58:52] [connection] 127.0.0.1:49664 requests connection cookie.
+[16:58:52] [connection] 127.0.0.1:49665 requests connection cookie.
+[16:58:52] [connection] 127.0.0.1:49673 requests connection cookie.
+[16:58:52] [connection] 127.0.0.1:49674 requests connection cookie.
+[16:58:52] [connection] incoming connection: 127.0.0.1:49622 id: 16
+[16:58:52] [connection] incoming connection: 127.0.0.1:49621 id: 17
+[16:58:52] [connection] incoming connection: 127.0.0.1:49623 id: 18
+[16:58:52] [connection] incoming connection: 127.0.0.1:49624 id: 27
+[16:58:52] [connection] incoming connection: 127.0.0.1:49625 id: 28
+[16:58:52] [connection] incoming connection: 127.0.0.1:49626 id: 29
+[16:58:52] [connection] incoming connection: 127.0.0.1:49627 id: 30
+[16:58:52] [connection] 127.0.0.1:49675 requests connection cookie.
+[16:58:52] [connection] 127.0.0.1:49676 requests connection cookie.
+[16:58:52] [connection] 127.0.0.1:49677 requests connection cookie.
+[16:58:52] [connection] 127.0.0.1:49678 requests connection cookie.
+[16:58:52] [connection] 127.0.0.1:49679 requests connection cookie.
+[16:58:52] [connection] 127.0.0.1:49680 requests connection cookie.
+[16:58:52] [connection] 127.0.0.1:49681 requests connection cookie.
+[16:58:52] [connection] incoming connection: 127.0.0.1:49628 id: 14
+[16:58:52] [connection] incoming connection: 127.0.0.1:49629 id: 15
+[16:58:52] [connection] incoming connection: 127.0.0.1:49630 id: 19
+[16:58:52] [connection] incoming connection: 127.0.0.1:49631 id: 22
+[16:58:52] [connection] incoming connection: 127.0.0.1:49632 id: 23
+[16:58:52] [connection] incoming connection: 127.0.0.1:49633 id: 24
+[16:58:52] [connection] 127.0.0.1:49682 requests connection cookie.
+[16:58:52] [connection] 127.0.0.1:49683 requests connection cookie.
+[16:58:52] [connection] 127.0.0.1:49684 requests connection cookie.
+[16:58:52] [connection] 127.0.0.1:49685 requests connection cookie.
+[16:58:52] [connection] 127.0.0.1:49686 requests connection cookie.
+[16:58:52] [connection] 127.0.0.1:49687 requests connection cookie.
+[16:58:52] [connection] incoming connection: 127.0.0.1:49634 id: 20
+[16:58:52] [connection] incoming connection: 127.0.0.1:49635 id: 16
+[16:58:52] [connection] incoming connection: 127.0.0.1:49636 id: 17
+[16:58:52] [connection] 127.0.0.1:49688 requests connection cookie.
+[16:58:52] [connection] incoming connection: 127.0.0.1:49637 id: 18
+[16:58:52] [connection] incoming connection: 127.0.0.1:49638 id: 21
+[16:58:52] [connection] incoming connection: 127.0.0.1:49639 id: 25
+[16:58:52] [connection] incoming connection: 127.0.0.1:49640 id: 26
+[16:58:52] [connection] incoming connection: 127.0.0.1:49641 id: 27
+[16:58:52] [connection] 127.0.0.1:49689 requests connection cookie.
+[16:58:52] [connection] 127.0.0.1:49690 requests connection cookie.
+[16:58:52] [connection] 127.0.0.1:49691 requests connection cookie.
+[16:58:53] [connection] 127.0.0.1:49692 requests connection cookie.
+[16:58:53] [connection] 127.0.0.1:49693 requests connection cookie.
+[16:58:53] [connection] 127.0.0.1:49694 requests connection cookie.
+[16:58:53] [connection] 127.0.0.1:49695 requests connection cookie.
+[16:58:53] [connection] incoming connection: 127.0.0.1:49642 id: 14
+[16:58:53] [connection] incoming connection: 127.0.0.1:49643 id: 15
+[16:58:53] [connection] incoming connection: 127.0.0.1:49644 id: 19
+[16:58:53] [connection] incoming connection: 127.0.0.1:49645 id: 22
+[16:58:53] [connection] incoming connection: 127.0.0.1:49646 id: 28
+[16:58:53] [connection] incoming connection: 127.0.0.1:49647 id: 29
+[16:58:53] [connection] 127.0.0.1:49696 requests connection cookie.
+[16:58:53] [connection] 127.0.0.1:49697 requests connection cookie.
+[16:58:53] [connection] 127.0.0.1:49698 requests connection cookie.
+[16:58:53] [connection] 127.0.0.1:49699 requests connection cookie.
+[16:58:53] [connection] 127.0.0.1:49700 requests connection cookie.
+[16:58:53] [connection] 127.0.0.1:49701 requests connection cookie.
+[16:58:53] [connection] 127.0.0.1:49702 requests connection cookie.
+[16:58:53] [connection] incoming connection: 127.0.0.1:49648 id: 16
+[16:58:53] [connection] incoming connection: 127.0.0.1:49649 id: 17
+[16:58:53] [connection] incoming connection: 127.0.0.1:49650 id: 18
+[16:58:53] [connection] incoming connection: 127.0.0.1:49651 id: 20
+[16:58:53] [connection] incoming connection: 127.0.0.1:49652 id: 23
+[16:58:53] [connection] incoming connection: 127.0.0.1:49653 id: 24
+[16:58:53] [connection] incoming connection: 127.0.0.1:49654 id: 30
+[16:58:53] [connection] 127.0.0.1:49703 requests connection cookie.
+[16:58:53] [connection] 127.0.0.1:49704 requests connection cookie.
+[16:58:53] [connection] 127.0.0.1:49705 requests connection cookie.
+[16:58:53] [connection] 127.0.0.1:49706 requests connection cookie.
+[16:58:53] [connection] 127.0.0.1:49707 requests connection cookie.
+[16:58:53] [connection] 127.0.0.1:49708 requests connection cookie.
+[16:58:53] [connection] incoming connection: 127.0.0.1:49655 id: 14
+[16:58:53] [connection] incoming connection: 127.0.0.1:49656 id: 15
+[16:58:53] [connection] incoming connection: 127.0.0.1:49657 id: 19
+[16:58:53] [connection] incoming connection: 127.0.0.1:49658 id: 21
+[16:58:53] [connection] incoming connection: 127.0.0.1:49659 id: 25
+[16:58:53] [connection] incoming connection: 127.0.0.1:49660 id: 26
+[16:58:53] [connection] 127.0.0.1:49709 requests connection cookie.
+[16:58:53] [connection] 127.0.0.1:49710 requests connection cookie.
+[16:58:53] [connection] 127.0.0.1:49711 requests connection cookie.
+[16:58:53] [connection] 127.0.0.1:49712 requests connection cookie.
+[16:58:53] [connection] 127.0.0.1:49713 requests connection cookie.
+[16:58:53] [connection] 127.0.0.1:49714 requests connection cookie.
+[16:58:53] [connection] 127.0.0.1:49715 requests connection cookie.
+[16:58:53] [connection] incoming connection: 127.0.0.1:49661 id: 16
+[16:58:53] [connection] incoming connection: 127.0.0.1:49662 id: 17
+[16:58:53] [connection] incoming connection: 127.0.0.1:49663 id: 18
+[16:58:53] [connection] incoming connection: 127.0.0.1:49664 id: 20
+[16:58:53] [connection] 127.0.0.1:49716 requests connection cookie.
+[16:58:53] [connection] incoming connection: 127.0.0.1:49665 id: 22
+[16:58:53] [connection] incoming connection: 127.0.0.1:49673 id: 27
+[16:58:53] [connection] incoming connection: 127.0.0.1:49674 id: 28
+[16:58:53] [connection] incoming connection: 127.0.0.1:49675 id: 29
+[16:58:53] [connection] 127.0.0.1:49717 requests connection cookie.
+[16:58:53] [connection] 127.0.0.1:49718 requests connection cookie.
+[16:58:53] [connection] 127.0.0.1:49719 requests connection cookie.
+[16:58:53] [connection] 127.0.0.1:49720 requests connection cookie.
+[16:58:53] [connection] 127.0.0.1:49721 requests connection cookie.
+[16:58:53] [connection] 127.0.0.1:49722 requests connection cookie.
+[16:58:53] [connection] 127.0.0.1:49723 requests connection cookie.
+[16:58:53] [connection] 127.0.0.1:49724 requests connection cookie.
+[16:58:53] [connection] incoming connection: 127.0.0.1:49676 id: 14
+[16:58:53] [connection] incoming connection: 127.0.0.1:49677 id: 15
+[16:58:53] [connection] incoming connection: 127.0.0.1:49678 id: 19
+[16:58:53] [connection] incoming connection: 127.0.0.1:49679 id: 21
+[16:58:53] [connection] incoming connection: 127.0.0.1:49680 id: 23
+[16:58:53] [connection] incoming connection: 127.0.0.1:49681 id: 24
+[16:58:53] [connection] incoming connection: 127.0.0.1:49682 id: 30
+[16:58:53] [connection] 127.0.0.1:49725 requests connection cookie.
+[16:58:53] [connection] 127.0.0.1:49726 requests connection cookie.
+[16:58:53] [connection] 127.0.0.1:49727 requests connection cookie.
+[16:58:53] [connection] 127.0.0.1:49728 requests connection cookie.
+[16:58:53] [connection] 127.0.0.1:49729 requests connection cookie.
+[16:58:53] [connection] 127.0.0.1:49730 requests connection cookie.
+[16:58:53] [connection] incoming connection: 127.0.0.1:49683 id: 16
+[16:58:53] [connection] incoming connection: 127.0.0.1:49684 id: 17
+[16:58:53] [connection] incoming connection: 127.0.0.1:49685 id: 18
+[16:58:53] [connection] incoming connection: 127.0.0.1:49686 id: 20
+[16:58:53] [connection] incoming connection: 127.0.0.1:49687 id: 22
+[16:58:53] [connection] 127.0.0.1:49731 requests connection cookie.
+[16:58:53] [connection] incoming connection: 127.0.0.1:49688 id: 25
+[16:58:53] [connection] incoming connection: 127.0.0.1:49689 id: 26
+[16:58:53] [connection] incoming connection: 127.0.0.1:49690 id: 31
+[16:58:54] [connection] 127.0.0.1:49732 requests connection cookie.
+[16:58:54] [connection] 127.0.0.1:49733 requests connection cookie.
+[16:58:54] [connection] 127.0.0.1:49734 requests connection cookie.
+[16:58:54] [connection] 127.0.0.1:49735 requests connection cookie.
+[16:58:54] [connection] 127.0.0.1:49736 requests connection cookie.
+[16:58:54] [connection] 127.0.0.1:49737 requests connection cookie.
+[16:58:54] [connection] incoming connection: 127.0.0.1:49691 id: 14
+[16:58:54] [connection] incoming connection: 127.0.0.1:49692 id: 15
+[16:58:54] [connection] 127.0.0.1:49738 requests connection cookie.
+[16:58:54] [connection] incoming connection: 127.0.0.1:49693 id: 19
+[16:58:54] [connection] incoming connection: 127.0.0.1:49694 id: 21
+[16:58:54] [connection] incoming connection: 127.0.0.1:49695 id: 23
+[16:58:54] [connection] incoming connection: 127.0.0.1:49696 id: 27
+[16:58:54] [connection] incoming connection: 127.0.0.1:49697 id: 28
+[16:58:54] [connection] 127.0.0.1:49739 requests connection cookie.
+[16:58:54] [connection] 127.0.0.1:49740 requests connection cookie.
+[16:58:54] [connection] 127.0.0.1:49741 requests connection cookie.
+[16:58:54] [connection] 127.0.0.1:49742 requests connection cookie.
+[16:58:54] [connection] 127.0.0.1:49743 requests connection cookie.
+[16:58:54] [connection] 127.0.0.1:49744 requests connection cookie.
+[16:58:54] [connection] incoming connection: 127.0.0.1:49698 id: 16
+[16:58:54] [connection] incoming connection: 127.0.0.1:49699 id: 17
+[16:58:54] [connection] incoming connection: 127.0.0.1:49700 id: 18
+[16:58:54] [connection] incoming connection: 127.0.0.1:49701 id: 20
+[16:58:54] [connection] incoming connection: 127.0.0.1:49702 id: 22
+[16:58:54] [connection] incoming connection: 127.0.0.1:49703 id: 24
+[16:58:54] [connection] 127.0.0.1:49745 requests connection cookie.
+[16:58:54] [connection] incoming connection: 127.0.0.1:49704 id: 29
+[16:58:54] [connection] incoming connection: 127.0.0.1:49705 id: 30
+[16:58:54] [connection] 127.0.0.1:49746 requests connection cookie.
+[16:58:54] [connection] 127.0.0.1:49747 requests connection cookie.
+[16:58:54] [connection] 127.0.0.1:49748 requests connection cookie.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:59:41] 
+[16:59:41] Server Plugins
+[16:59:41] --------------
+[16:59:41]  Loading plugin: mysql.dll
+[16:59:41]  >> plugin.mysql: R41-4 successfully loaded.
+[16:59:41]   Loaded.
+[16:59:41]  Loading plugin: sscanf.dll
+[16:59:41] 
+
+[16:59:41]  ===============================
+
+[16:59:41]       sscanf plugin loaded.     
+
+[16:59:41]          Version:  2.8.3        
+
+[16:59:41]   (c) 2018 Alex "Y_Less" Cole  
+
+[16:59:41]  ===============================
+
+[16:59:41]   Loaded.
+[16:59:41]  Loading plugin: mapandreas.dll
+[16:59:41]   Loaded.
+[16:59:41]  Loaded 3 plugins.
+
+[16:59:41] 
+[16:59:41] Filterscripts
+[16:59:41] ---------------
+[16:59:41]   Loaded 0 filterscripts.
+
+[16:59:41] Initialization of 'SEF Global Gamemode'..
+[16:59:41] Loaded 3 vehicles from: vehicles/trains.txt
+[16:59:41] Loaded 3 vehicles from: vehicles/pilots.txt
+[16:59:41] Loaded 15 vehicles from: vehicles/lv_law.txt
+[16:59:41] Loaded 39 vehicles from: vehicles/lv_airport.txt
+[16:59:41] Loaded 255 vehicles from: vehicles/lv_gen.txt
+[16:59:41] Loaded 38 vehicles from: vehicles/sf_law.txt
+[16:59:41] Loaded 35 vehicles from: vehicles/sf_airport.txt
+[16:59:41] Loaded 353 vehicles from: vehicles/sf_gen.txt
+[16:59:41] Loaded 24 vehicles from: vehicles/ls_law.txt
+[16:59:41] Loaded 37 vehicles from: vehicles/ls_airport.txt
+[16:59:41] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
+[16:59:41] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
+[16:59:41] Loaded 71 vehicles from: vehicles/whetstone.txt
+[16:59:41] Loaded 168 vehicles from: vehicles/bone.txt
+[16:59:41] Loaded 61 vehicles from: vehicles/flint.txt
+[16:59:41] Loaded 96 vehicles from: vehicles/tierra.txt
+[16:59:41] Loaded 96 vehicles from: vehicles/red_county.txt
+[16:59:41] [connection] 127.0.0.1:49754 requests connection cookie.
+[16:59:41] [connection] 127.0.0.1:49755 requests connection cookie.
+[16:59:41] Completed... (1/4)
+[16:59:41] Initialization of 'MySQL Connection'..
+[16:59:41] [SFMySQL]: Connected.
+[16:59:41] Completed... (2/4)
+[16:59:41] Initialization of 'Discord Connection'..
+[16:59:41] Completed... (3/4)
+[16:59:41] Initialization of 'IRC Connection'..
+[16:59:41] Completed... (4/5)
+[16:59:41] Initialization of 'Other startup plugins'..
+[16:59:41] [connection] 127.0.0.1:49756 requests connection cookie.
+[16:59:41] [connection] 127.0.0.1:49757 requests connection cookie.
+[16:59:41] [connection] 127.0.0.1:49758 requests connection cookie.
+[16:59:41] Completed... (5/5)
+[16:59:41] -------------------------------------------------------------
+[16:59:41] 	Everything Loaded, Welcome to.
+[16:59:41] -------------------------------------------------------------
+[16:59:41] -------------------------------------------------------------
+[16:59:41]      #####                            
+[16:59:41] [connection] 127.0.0.1:49759 requests connection cookie.
+[16:59:41]     #     #  #####  #    #  #    #  ##### 
+[16:59:41]     #          #    #    #  ##   #    #   
+[16:59:41]      #####     #    #    #  # #  #    #   
+[16:59:41]           #    #    #    #  #  # #    #   
+[16:59:41]     #     #    #    #    #  #   ##    #   
+[16:59:41]      #####     #     ####   #    #    #   
+[16:59:41]     #######                                                  
+[16:59:41]     #       #####  ###### ###### #####   ####    ##   #    # 
+[16:59:41]     #       #    # #      #      #    # #    #  #  #  ##  ## 
+[16:59:41]     #####   #    # #####  #####  #    # #    # #    # # ## # 
+[16:59:41]     #       #####  #      #      #####  #    # ###### #    # 
+[16:59:41]     #       #   #  #      #      #   #  #    # #    # #    # 
+[16:59:41]     #       #    # ###### ###### #    #  ####  #    # #    # 
+[16:59:41]      #####                                     
+[16:59:41]     #     #  ######  #####   #    #  ######  #####  
+[16:59:41]     #        #       #    #  #    #  #       #    # 
+[16:59:41]      #####   #####   #    #  #    #  #####   #    # 
+[16:59:41]           #  #       #####   #    #  #       #####  
+[16:59:41]     #     #  #       #   #    #  #   #       #   #  
+[16:59:41]      #####   ######  #    #    ##    ######  #    # 
+[16:59:41] 
+
+[16:59:41] -------------------------------------------------------------
+[16:59:41] -------------------------------------------------------------
+[16:59:41] 	Version: 1.0 | Author: XeonMaster   
+[16:59:41] -------------------------------------------------------------
+[16:59:41] Number of vehicle models: 173
+[16:59:41] [connection] 127.0.0.1:49760 requests connection cookie.
+[16:59:42] [connection] incoming connection: 127.0.0.1:49754 id: 0
+[16:59:42] [connection] incoming connection: 127.0.0.1:49755 id: 1
+[16:59:42] [connection] incoming connection: 127.0.0.1:49756 id: 2
+[16:59:42] [connection] incoming connection: 127.0.0.1:49757 id: 3
+[16:59:42] [connection] incoming connection: 127.0.0.1:49758 id: 4
+[16:59:42] [connection] incoming connection: 127.0.0.1:49759 id: 5
+[16:59:42] [connection] incoming connection: 127.0.0.1:49760 id: 6
+[16:59:43] [npc:join] [SAP]Bus[65][0] has joined the server (0:127.0.0.1)
+[16:59:43] [npc:join] [SAP]Bus[52][0] has joined the server (1:127.0.0.1)
+[16:59:43] [npc:join] [SAP]Bus[07][0] has joined the server (2:127.0.0.1)
+[16:59:43] [npc:join] [SAP]Bus[30][0] has joined the server (3:127.0.0.1)
+[16:59:43] [npc:join] [SAP]Bus[40][0] has joined the server (4:127.0.0.1)
+[16:59:43] [npc:join] [SAP]Bus[57][0] has joined the server (5:127.0.0.1)
+[16:59:43] [npc:join] [SAP]Bus[18][0] has joined the server (6:127.0.0.1)
+[17:00:10] [connection] 127.0.0.1:55191 requests connection cookie.
+[17:00:11] [connection] incoming connection: 127.0.0.1:55191 id: 7
+[17:00:12] [join] XeonTM has joined the server (7:127.0.0.1)
+[17:00:48] [connection] 127.0.0.1:58197 requests connection cookie.
+[17:00:48] [connection] 127.0.0.1:58198 requests connection cookie.
+[17:00:48] [connection] 127.0.0.1:58199 requests connection cookie.
+[17:00:48] [connection] 127.0.0.1:58200 requests connection cookie.
+[17:00:48] [connection] 127.0.0.1:58201 requests connection cookie.
+[17:00:48] [connection] 127.0.0.1:58202 requests connection cookie.
+[17:00:48] [connection] 127.0.0.1:58203 requests connection cookie.
+[17:00:49] [connection] incoming connection: 127.0.0.1:58197 id: 8
+[17:00:49] [connection] incoming connection: 127.0.0.1:58198 id: 9
+[17:00:49] [connection] incoming connection: 127.0.0.1:58199 id: 10
+[17:00:49] [connection] incoming connection: 127.0.0.1:58200 id: 11
+[17:00:49] [connection] incoming connection: 127.0.0.1:58201 id: 12
+[17:00:49] [connection] incoming connection: 127.0.0.1:58202 id: 13
+[17:00:49] [connection] incoming connection: 127.0.0.1:58203 id: 14
+[17:00:49] [npc:join] [SAP]Bus[65][1] has joined the server (8:127.0.0.1)
+[17:00:49] [npc:join] [SAP]Bus[52][1] has joined the server (9:127.0.0.1)
+[17:00:49] [npc:join] [SAP]Bus[07][1] has joined the server (10:127.0.0.1)
+[17:00:49] [npc:join] [SAP]Bus[30][1] has joined the server (11:127.0.0.1)
+[17:00:49] [npc:join] [SAP]Bus[40][1] has joined the server (12:127.0.0.1)
+[17:00:49] [npc:join] [SAP]Bus[57][1] has joined the server (13:127.0.0.1)
+[17:00:49] [npc:join] [SAP]Bus[18][1] has joined the server (14:127.0.0.1)
+[17:01:55] [connection] 192.168.1.37:60403 requests connection cookie.
+[17:01:56] [connection] incoming connection: 192.168.1.37:60403 id: 15
+[17:01:56] [join] [V]ZakiTM has joined the server (15:192.168.1.37)
+[17:02:15] [chat] [[V]ZakiTM]: who's tf this red in map
+[17:02:27] RCON (In-Game): Player #7 (XeonTM) has logged in.
+[17:02:44] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[17:02:44] sscanf warning: Format specifier does not match parameter count.
+[17:02:52] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[17:02:52] sscanf warning: Format specifier does not match parameter count.
+[17:03:43] [chat] [[V]ZakiTM]:  /setlevel 15 3
+[17:04:28] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[17:04:28] sscanf warning: Format specifier does not match parameter count.
+[17:04:43] [death] [V]ZakiTM died 255
+[17:04:58] [death] [V]ZakiTM died 255
+[17:06:01] [chat] [XeonTM]: test
+[17:06:27] [chat] [[V]ZakiTM]: <ALpha>: !kick 3 time to leave sucker
+[17:06:35] [kill] XeonTM killed [V]ZakiTM Minigun
+[17:06:41] [chat] [[V]ZakiTM]: damn
+[17:06:57] [kill] XeonTM killed [V]ZakiTM Minigun
+[17:07:09] [kill] XeonTM killed [V]ZakiTM Minigun
+[17:08:19] [chat] [[V]ZakiTM]: i got nothing
+[17:08:29] [chat] [[V]ZakiTM]: give me manager
+[17:08:40] [chat] [[V]ZakiTM]: thanks
+[17:08:51] [chat] [[V]ZakiTM]: i am vip too
+[17:08:54] [chat] [[V]ZakiTM]: now i want to kill u
+[17:08:58] [kill] XeonTM killed [V]ZakiTM Minigun
+[17:09:36] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[17:09:36] sscanf warning: Format specifier does not match parameter count.
+[17:09:44] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[17:09:44] sscanf warning: Format specifier does not match parameter count.
+[17:12:07] [death] XeonTM died 255
+[17:12:59] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[17:12:59] sscanf warning: Format specifier does not match parameter count.
+[17:13:15] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[17:13:15] sscanf warning: Format specifier does not match parameter count.
+[17:13:18] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[17:13:18] sscanf warning: Format specifier does not match parameter count.
+[17:13:20] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[17:13:20] sscanf warning: Format specifier does not match parameter count.
+[17:13:22] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[17:13:22] sscanf warning: Format specifier does not match parameter count.
+[17:13:25] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[17:13:25] sscanf warning: Format specifier does not match parameter count.
+[17:13:27] sscanf warning: Strings without a length are deprecated, please add a destination size.
+[17:13:27] sscanf warning: Format specifier does not match parameter count.
+[17:13:29] [part] [V]ZakiTM has left the server (15:2)
+[17:13:37] [part] XeonTM has left the server (7:1)
+[17:13:53] [connection] 192.168.1.37:57560 requests connection cookie.
+[17:13:54] [connection] incoming connection: 192.168.1.37:57560 id: 7
+[17:13:54] [join] [V]ZakiTM has joined the server (7:192.168.1.37)

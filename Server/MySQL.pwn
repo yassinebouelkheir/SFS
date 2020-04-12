@@ -121,3 +121,77 @@ public ShowLoginDialog(playerid)
 	}
 	return 1;
 }
+
+forward GetPlayerAKA(adminid);
+public GetPlayerAKA(adminid)
+{
+	new row = cache_num_rows();
+	if(row != 0)
+	{
+		new string[512];
+		strcat(string, "{FFFFFF}Username\tDate\n");
+		for(new i = 0; i < row; i++)
+		{
+			new user[24], date[24];
+			cache_get_value(i, "USERNAME", user, 24);
+			cache_get_value(i, "DATE", date, 24);
+			format(string, sizeof(string), "%s%s\t%s\n", string, user, date);
+		}
+		ShowPlayerDialog(adminid, DIALOG_INVALID, DIALOG_STYLE_TABLIST_HEADERS, "{FF0000}SFS: {FFFFFF}AKA", string, "Cancel", "");
+	}
+	else
+	{
+		SendClientMessage(adminid, -1, "{0000FF}[SFAdmin]: {C3C3C3}We didn't found anything useful in the database.");
+	}
+	return 1;
+}
+
+forward BanPlayer(playername[], adminame[], days, reason[], clientid[], ip[]);
+stock BanPlayer(playername[], adminame[], days, reason[], clientid[], ip[])
+{
+	new string[390];
+	mysql_format(Database, string, sizeof(string), "INSERT INTO `BANINFO` (`USERNAME`, `ADMIN`, `DAYS`, `REASON`, `CLIENTID`, `IP`, `DATE`) VALUES ('%e', '%e', %d, '%e', '%e', '%e', %d)", playername, adminame, days, reason, clientid, ip, gettime());
+	mysql_tquery(Database, string);
+	return 1;
+}
+
+forward CheckBan(playerid, ip[], clientid[]);
+public CheckBan(playerid, ip[], clientid[])
+{
+	if(cache_num_rows())
+	{
+		for(new i = 0; i < 20; i++) SendClientMessage(playerid, -1, " ");
+
+		SetPlayerVirtualWorld(playerid, WORLD_KICK);
+
+		new string[216], reason[50], y, m, d, h, mins, secs, days, date, admin[24];
+
+		cache_get_value(0, "ADMIN", admin, 24);
+		cache_get_value(0, "REASON", reason, 50);
+		cache_get_value_int(0, "DAYS", days);
+		cache_get_value_int(0, "DATE", date);
+
+		format(string, sizeof(string), "{C3C3C3}You have been banned from {FF0000}Stunt Freeroam Server{C3C3C3}by: {FF0000}%s{C3C3C3}.", admin);
+		SendClientMessage(playerid, -1, string);
+
+		format(string, sizeof(string), "{C3C3C3}Reason: {FFFFFF}%s", reason);
+		SendClientMessage(playerid, -1, string);
+
+		format(string, sizeof(string), "{C3C3C3}Duration: {FFFFFF}%d days", days);
+		SendClientMessage(playerid, -1, string);
+
+		TimestampToDate(date, y, m, d, h, mins, secs, 1, 0);
+
+		format(string, sizeof(string), "{C3C3C3}Date: {FFFFFF}%s %d %s %d at %02d:%02d:%02d", GetWeekDay(d, m, y), d, GetMonthName(m), y, h, mins, secs);
+		SendClientMessage(playerid, -1, string);
+
+		SendClientMessage(playerid, -1, "{C3C3C3}If you think that you are banned, you can fill up a report in our forum.");
+		SendClientMessage(playerid, -1, "{C3C3C3}Forum Link: {FFFFFF}https://forum.com");
+		
+		format(string, sizeof(string), "{FF0000}SFServer{C3C3C3} kicked {%06x}%s (Id: %d){C3C3C3} for: {FFFFFF}Ban Evading.", GetPlayerColor(playerid) >>> 8, GetName(playerid), playerid, GetPlayerColor(playerid) >>> 8, GetName(playerid), playerid);
+		SendAdminMessage(1, string);
+
+		SetTimerEx("KickTimer", 200, false, "ii", 1, playerid);
+	}
+	return 1;
+}

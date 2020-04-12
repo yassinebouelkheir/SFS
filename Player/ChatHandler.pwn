@@ -111,6 +111,9 @@ public OnPlayerText(playerid, text[])
 		new string[168];
 		format(string, sizeof(string), "{%06x}%s [%d]: {FFFFFF}%s", GetPlayerColor(playerid) >>> 8, GetName(playerid), playerid, text);
 		SendClientMessageToAll(-1, string);
+
+		format(string, sizeof(string), "02[%d] 07%s: %s", playerid, GetName(playerid), text);
+		IRC_GroupSay(groupID, IRC_ECHO, string);
 	}
 	return 0;
 }

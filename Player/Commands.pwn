@@ -40,7 +40,8 @@ CMD:pm(playerid, params[])
 
 	SetPVarInt(id, "LastPM", playerid);
 	SetPVarInt(playerid, "LastPM", id);
-	SendPMToAdmins(playerid, id, message);
+	if(PlayerInfo[playerid][Admin] > 2 || PlayerInfo[id][Admin] > 2) return 1;
+	else SendPMToAdmins(playerid, id, message);
 	return 1;
 }
 
@@ -66,7 +67,8 @@ CMD:r(playerid, params[])
 
 	SetPVarInt(id, "LastPM", playerid);
 	SetPVarInt(playerid, "LastPM", id);
-	SendPMToAdmins(playerid, id, message);
+	if(PlayerInfo[playerid][Admin] > 2 || PlayerInfo[id][Admin] > 2) return 1;
+	else SendPMToAdmins(playerid, id, message);
 	return 1;
 }
 
@@ -160,7 +162,7 @@ CMD:stats(playerid, params[])
 	format(string, sizeof(string), "{FFFFFF}%s\t{FF0000}- {C3C3C3}Kills: {FFFFFF}%d\n", string, PlayerInfo[playerid][Kills]);
 	format(string, sizeof(string), "{FFFFFF}%s\t{FF0000}- {C3C3C3}Deaths: {FFFFFF}%d\n", string, PlayerInfo[playerid][Deaths]);
 
-	if(PlayerInfo[playerid][Kills] == 0 && PlayerInfo[playerid][Deaths] == 0) format(string, sizeof(string), "{FFFFFF}%s\t{FF0000}- {C3C3C3}Ratio: {FFFFFF}0.00\n\n\n\n", string);
+	if(PlayerInfo[playerid][Deaths] == 0) format(string, sizeof(string), "{FFFFFF}%s\t{FF0000}- {C3C3C3}Ratio: {FFFFFF}0.00\n\n\n\n", string);
 	else format(string, sizeof(string), "{FFFFFF}%s\t{FF0000}- {C3C3C3}Ratio: {FFFFFF}%0.2f\n\n\n", string, (PlayerInfo[playerid][Kills]/PlayerInfo[playerid][Deaths]));
 
 	format(string, sizeof(string), "{FFFFFF}%s\t{0B98D4}Administrative Statistics:\n\n", string);
@@ -354,8 +356,9 @@ CMD:tp(playerid, params[])
 	format(string, sizeof(string), "{FF0000}[SFServer]: {C3C3C3}%s [%d] has teleported to you.", GetName(playerid), playerid); 
 	SendClientMessage(id, -1, string); 
 
-	format(string, sizeof(string), "{%06x}%s [%d] has teleported to {%06x}%s [%d].", GetPlayerColor(playerid) >>> 8, GetName(playerid), playerid,  GetPlayerColor(playerid) >>> 8, GetName(id), id); 
-	SendAdminMessage(1, string);
+	format(string, sizeof(string), "{%06x}%s [%d] {C3C3C3}has teleported to {%06x}%s [%d]{C3C3C3}.", GetPlayerColor(playerid) >>> 8, GetName(playerid), playerid,  GetPlayerColor(id) >>> 8, GetName(id), id); 
+	if(PlayerInfo[playerid][Admin] > 2 || PlayerInfo[id][Admin] > 2) return 1;
+	else SendAdminMessage(1, string);
 	return 1;
 }	
 

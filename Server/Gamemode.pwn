@@ -148,7 +148,19 @@ public OnGameModeInit()
 
     UsePlayerPedAnims();
     
+    ConnectNPC("[SAP]Bus[65][0]", "Gunthers");
+    ConnectNPC("[SAP]Bus[52][0]", "Guntherss");
+    ConnectNPC("[SAP]Bus[07][0]", "SAP07");
+    ConnectNPC("[SAP]Bus[30][0]", "SAP30");
+    ConnectNPC("[SAP]Bus[40][0]", "SAP40");
+    ConnectNPC("[SAP]Bus[57][0]", "SAP57");
+    ConnectNPC("[SAP]Bus[18][0]", "SAP18");
 
+
+	SetTimer("ConnectSecondNPCs", 60*1000, false);
+
+	IRC_Init();
+	
 	printf("Completed... (1/4)");
 	printf("Initialization of 'MySQL Connection'..");
 
@@ -221,6 +233,12 @@ public OnGameModeExit()
 	}
 	mysql_close(Database);
 	KillTimer(GlobalTimer);
+	
+	for(new i = 0; i < 14; i++) Delete3DTextLabel(NPCText[i]);
+	for(new i = 0; i < 14; i++) DestroyVehicle(NPCBus[i]);
+
+	IRC_Quit(botIDs[1], "Gamemode exiting.");
+	IRC_DestroyGroup(groupID);
 
 	printf("-------------------------------------------------------------");
 	printf("     #####                            ");

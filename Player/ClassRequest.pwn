@@ -23,12 +23,16 @@
 
 public OnPlayerRequestClass(playerid, classid)
 {
+	if(IsPlayerNPC(playerid)) return SpawnPlayer(playerid);
 	if(PlayerInfo[playerid][LoggedIn]) return SpawnPlayer(playerid);
 	
 	PlayIntroMusic(playerid);
 	new string[121];
 	format(string, sizeof(string), "{C3C3C3}*{FFFFFF}%s{C3C3C3}({FFFFFF}%d{C3C3C3}) has joined {FF0000}Stunt Freeroam Server{C3C3C3}.", GetName(playerid), playerid);
 	SendClientMessageToAll(-1, string);
+
+	format(string, sizeof(string), "02[%d] 03*** %s has joined Stunt Freeroam Server.", playerid, GetName(playerid));
+	IRC_GroupSay(groupID, IRC_ECHO, string);
 
 	TextDrawShowForPlayer(playerid, Login[0]);
 	TextDrawShowForPlayer(playerid, Login[1]);

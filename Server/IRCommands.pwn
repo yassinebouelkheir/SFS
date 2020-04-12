@@ -14,26 +14,9 @@
 */
 
  /* 
-    ScriptFile    : Includes.pwn
+    ScriptFile    : IRCommands.pwn
     Author        : XeonMaster
     Version       : 1.0
     License       : GNU General v3.0
     Developers    : None
 */
-
-#include <a_samp> 
-#include <foreach>
-
-#if defined MAX_PLAYERS
-    #undef MAX_PLAYERS
-    #define MAX_PLAYERS 50
-#endif
-        
-#include <a_mysql>
-#include <irc>
-#include <izcmd>
-#include <sscanf2>
-#include <GeoIP>
-#include <mapandreas>
-#include <timestamp>
-#include <DialogStyles>

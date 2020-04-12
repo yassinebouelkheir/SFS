@@ -14,26 +14,23 @@
 */
 
  /* 
-    ScriptFile    : Includes.pwn
+    ScriptFile    : CommandHandler.pwn
     Author        : XeonMaster
     Version       : 1.0
     License       : GNU General v3.0
     Developers    : None
 */
 
-#include <a_samp> 
-#include <foreach>
+public OnPlayerCommandReceived(playerid, cmdtext[])
+{
+	return 1;
+}
 
-#if defined MAX_PLAYERS
-    #undef MAX_PLAYERS
-    #define MAX_PLAYERS 50
-#endif
-        
-#include <a_mysql>
-#include <irc>
-#include <izcmd>
-#include <sscanf2>
-#include <GeoIP>
-#include <mapandreas>
-#include <timestamp>
-#include <DialogStyles>
+public OnPlayerCommandPerformed(playerid, cmdtext[], success)
+{
+	if(success == CMD_FAILURE)
+	{
+		SendClientMessage(playerid, -1, "{FF0000}[SFServer]: {C3C3C3}Invalid Command, please use {CC6600}/cmds{C3C3C3} to see list of our commands.");
+	}
+	return 1;
+}
