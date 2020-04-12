@@ -57,3 +57,4 @@ Executable Windows/server_log.txt
 *.log
 *.txt
 Server/Compilation/rus.txt
+Server/IRC.pwn
