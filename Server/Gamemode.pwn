@@ -148,19 +148,61 @@ public OnGameModeInit()
 
     UsePlayerPedAnims();
     
-    ConnectNPC("[SAP]Bus[65][0]", "Gunthers");
-    ConnectNPC("[SAP]Bus[52][0]", "Guntherss");
-    ConnectNPC("[SAP]Bus[07][0]", "SAP07");
-    ConnectNPC("[SAP]Bus[30][0]", "SAP30");
-    ConnectNPC("[SAP]Bus[40][0]", "SAP40");
-    ConnectNPC("[SAP]Bus[57][0]", "SAP57");
-    ConnectNPC("[SAP]Bus[18][0]", "SAP18");
-
+    ConnectNPC("Bus[65][0]", "Gunthers");
+    ConnectNPC("Bus[52][0]", "Guntherss");
+    ConnectNPC("Bus[07][0]", "SAP07");
+    ConnectNPC("Bus[30][0]", "SAP30");
+    ConnectNPC("Bus[40][0]", "SAP40");
+    ConnectNPC("Bus[57][0]", "SAP57");
+    ConnectNPC("Bus[18][0]", "SAP18");
+    ConnectNPC("Ship[01]", "[LV]Ship[01]");
+    ConnectNPC("Ship[02]", "[LV]Ship[02]");
 
 	SetTimer("ConnectSecondNPCs", 60*1000, false);
 
 	IRC_Init();
 	
+	ShipRails[0] = CreateObject(3524, 2023.45972, 1541.43933, 11.38302,   3.14159, 0.00000, 1.57080);
+	ShipRails[1] = CreateObject(3524, 2023.51624, 1547.25098, 12.36296,   3.14159, 0.00000, 1.57080);
+	ShipRails[2] = CreateObject(3524, 2023.49573, 1548.34265, 11.56833,   3.14159, 0.00000, 1.57080);
+	ShipRails[3] = CreateObject(3524, 2023.53564, 1542.54260, 12.26828,   3.14159, 0.00000, 1.57080);
+	ShipRails[4] = CreateObject(3524, 2023.53918, 1544.79309, 12.68826,   3.14159, 0.00000, 1.57080);
+	ShipRails[5] = CreateObject(3524, 2023.42017, 1540.56287, 10.42307,   3.14159, 0.00000, 1.57080);
+	ShipRails[6] = CreateObject(3524, 2023.48474, 1549.26758, 10.33944,   3.14159, 0.00000, 1.57080);
+	ShipRails[7] = CreateObject(3524, 2023.55640, 1543.60962, 12.68826,   3.14159, 0.00000, 1.57080);
+	ShipRails[8] = CreateObject(3524, 2023.50391, 1546.05151, 12.68826,   3.14159, 0.00000, 1.57080);
+	CreateObject(3498, 2023.49695, 1550.67798, 7.60156,   356.85840, 0.00000, 3.14159);
+	CreateObject(3498, 2023.47888, 1550.05127, 7.60156,   356.85840, 0.00000, 3.14159);
+	CreateObject(11480, 2018.85010, 1533.96082, 11.90202,   0.00000, 0.00000, -85.00000);
+	CreateObject(11313, 2015.78540, 1533.74109, 10.25980,   0.00000, 0.00000, 4.62000);
+	XeonGarage = CreateObject(11313, 2021.93188, 1534.29663, 10.12620, -0.08000, -0.02000, 4.96000); // Open 2021.93188, 1534.29663, 7.82620, -0.08000, -0.02000, 4.96000
+
+	CreateObject(3031, 2003.34277, 1545.09900, 14.09494,   0.00000, 0.00000, 0.00000);
+	CreateObject(2103, 2003.82617, 1545.35437, 12.59410,   0.06000, 0.06000, 92.04010);
+	
+	CreateActor(227, 2028.5239, 1540.0095, 10.8203, 272.5999);
+	CreateActor(228, 2030.4471, 1550.7480, 10.8203, 268.2366);
+	CreateActor(208, 2015.8784, 1549.6310, 10.8392, 181.1758);
+	CreateActor(165, 2015.4298, 1540.9355, 10.8412, 1.6575);
+	CreateActor(164, 2006.1057, 1540.6879, 13.4395, 290.0718);
+	CreateActor(163, 2005.5284, 1548.9258, 13.5550, 253.0747);
+	CreateActor(294, 2000.5347, 1569.3536, 15.3672, 184.9124);
+	CreateActor(228, 2000.9805, 1518.7699, 17.0625, 359.440);
+
+	Create3DTextLabel("{FF0000}SFServer Live Radio\nPowered by: InternetRadio.com", -1, 2003.82617, 1545.35437, 12.59410, 5.0, 0); 
+
+	XeonVeh[0] = CreateVehicle(411, 2018.6184, 1531.8802, 10.4505, 277.1270, 166, 166, 60, 0); // xeoninf
+	new Text3D: tmp =Create3DTextLabel("{FF0000}XeonTM's Vehicle\nSuper, Infernus", -1, 2003.82617, 1545.35437, 12.59410, 5.0, 0);
+	Attach3DTextLabelToVehicle(tmp, XeonVeh[0], 0, 0, 0);
+
+	XeonVeh[1] = CreateVehicle(451, 2018.7941, 1536.1827, 10.4271, 275.8228, 166, 166, 60, 0); // turinf
+	tmp = Create3DTextLabel("{FF0000}XeonTM's Vehicle\nSuper, Turismo", -1, 2003.82617, 1545.35437, 12.59410, 5.0, 0);
+	Attach3DTextLabelToVehicle(tmp, XeonVeh[1], 0, 0, 0);
+
+	GuardVeh[0] = CreateVehicle(560, 2019.4111, 1527.9119, 10.4288, 270.8874, 0, 0, 60, 1); 
+	GuardVeh[1] = CreateVehicle(560, 2028.6774, 1552.8107, 10.4964, 259.7928, 0, 0, 60, 1); 
+	GuardVeh[2] = CreateVehicle(560, 2028.1538, 1532.2986, 10.4506, 317.4567, 0, 0, 60, 1); 
+
 	printf("Completed... (1/4)");
 	printf("Initialization of 'MySQL Connection'..");
 

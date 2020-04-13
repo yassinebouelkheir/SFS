@@ -35,11 +35,16 @@ public OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
 
 public OnPlayerEnterVehicle(playerid, vehicleid, ispassenger)
 {
+    PlayAudioStreamForPlayer(playerid, "http://uk7.internet-radio.com:8040/listen.pls");
+    SetPVarInt(playerid, "Radio", 1);
+    SendClientMessage(playerid, -1, "{F2C80C}[SFS Radio]: {C3C3C3}Now playing '{FFFFFF}Top 100 Music Pop{C3C3C3}' {C3C3C3}by '{FFFFFF}Merge 104.8{C3C3C3}'.");
     return 1;
 }
 
 public OnPlayerExitVehicle(playerid, vehicleid)
 {
+    StopAudioStreamForPlayer(playerid);
+    SetPVarInt(playerid, "Radio", 0);
     return 1;
 }
 
@@ -54,6 +59,19 @@ public OnVehicleDamageStatusUpdate(vehicleid, playerid)
     {
         RepairVehicle(vehicleid);
         SetVehicleHealth(vehicleid, 1000);
+    }
+    return 1;
+}
+
+public OnVehicleStreamIn(vehicleid, forplayerid)
+{
+    if(vehicleid == XeonVeh[0] || vehicleid == XeonVeh[1])
+    {
+        if(PlayerInfo[forplayerid][Admin] != 4) SetVehicleParamsForPlayer(vehicleid, forplayerid, 0, 1);
+    }
+    if(vehicleid == GuardVeh[0] || vehicleid == GuardVeh[1] || vehicleid == GuardVeh[2])
+    {
+        if(PlayerInfo[forplayerid][Admin] < 3) SetVehicleParamsForPlayer(vehicleid, forplayerid, 0, 1);
     }
     return 1;
 }

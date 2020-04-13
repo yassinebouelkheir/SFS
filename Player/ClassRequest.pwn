@@ -42,6 +42,12 @@ public OnPlayerRequestClass(playerid, classid)
 	TextDrawShowForPlayer(playerid, Login[6]);
 	TextDrawShowForPlayer(playerid, Login[7]);
 
+	RemoveBuildingForPlayer(playerid, 3524, 2024.3438, 1540.3906, 11.3125, 0.25);
+	RemoveBuildingForPlayer(playerid, 3524, 2025.8281, 1550.3359, 11.3594, 0.25);
+	RemoveBuildingForPlayer(playerid, 8836, 2027.8828, 1552.1641, 11.2578, 0.25);
+	RemoveBuildingForPlayer(playerid, 3498, 2029.7891, 1550.5625, 7.6016, 0.25);
+	RemoveBuildingForPlayer(playerid, 3498, 2027.8672, 1540.1094, 7.6016, 0.25);
+
 	SetPlayerVirtualWorld(playerid, WORLD_LOGIN);
 	TogglePlayerSpectating(playerid, 1);
 	InterpolateCameraLookAt(playerid, 0,0,0, 3000, 102, 100, 30*1000, CAMERA_MOVE);

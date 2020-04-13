@@ -251,7 +251,7 @@ CMD:kick(playerid, params[])
 	SetPlayerVirtualWorld(id, WORLD_KICK);
 
 	new string[216];
-	format(string, sizeof(string), "{C3C3C3}You have been kicked from {FF0000}Stunt Freeroam Server{C3C3C3}by: {%06x}%s (Id: %d){C3C3C3}.", GetPlayerColor(playerid) >>> 8, GetName(playerid), playerid);
+	format(string, sizeof(string), "{C3C3C3}You have been kicked from {FF0000}Stunt Freeroam Server{C3C3C3} by {%06x}%s (Id: %d){C3C3C3}.", GetPlayerColor(playerid) >>> 8, GetName(playerid), playerid);
 	SendClientMessage(id, -1, string);
 
 	format(string, sizeof(string), "{C3C3C3}Reason: {FFFFFF}%s", reason);
@@ -296,7 +296,7 @@ CMD:ban(playerid, params[])
 	SetPlayerVirtualWorld(id, WORLD_KICK);
 
 	new string[216];
-	format(string, sizeof(string), "{C3C3C3}You have been banned from {FF0000}Stunt Freeroam Server{C3C3C3}by: {%06x}%s (Id: %d){C3C3C3}.", GetPlayerColor(playerid) >>> 8, GetName(playerid), playerid);
+	format(string, sizeof(string), "{C3C3C3}You have been banned from {FF0000}Stunt Freeroam Server{C3C3C3} by {%06x}%s (Id: %d){C3C3C3}.", GetPlayerColor(playerid) >>> 8, GetName(playerid), playerid);
 	SendClientMessage(id, -1, string);
 
 	format(string, sizeof(string), "{C3C3C3}Reason: {FFFFFF}%s", reason);
@@ -312,7 +312,7 @@ CMD:ban(playerid, params[])
 	format(string, sizeof(string), "{C3C3C3}Date: {FFFFFF}%s %d %s %d at %02d:%02d:%02d", GetWeekDay(), Day, GetMonthName(Month), Year, Hour, Minute, Second);
 	SendClientMessage(id, -1, string);
 
-	SendClientMessage(id, -1, "{C3C3C3}If you think that you are banned, you can fill up a report in our forum.");
+	SendClientMessage(id, -1, "{C3C3C3}If you think that you are banned wrongfully, you can fill up a report in our forum.");
 	SendClientMessage(id, -1, "{C3C3C3}Forum Link: {FFFFFF}https://forum.com");
 
 	new ip[16];
@@ -330,7 +330,7 @@ CMD:ban(playerid, params[])
 CMD:unban(playerid, params[])
 {
 	if(PlayerInfo[playerid][Admin] < 2) return 0; 
-	new string[24]; 
+	new string[110]; 
 	if(sscanf(params, "s[24]", string)) return SendClientMessage(playerid, -1, "{0000FF}[SFAdmin]: {C3C3C3}Invalid Syntax, please use {CC6600}/unban [name]{C3C3C3}.");
 
 	mysql_format(Database, string, sizeof(string), "DELETE FROM `BANINFO` WHERE `USERNAME` = '%e'", string);
@@ -620,3 +620,17 @@ CMD:exit(playerid, params[])
 	SendRconCommand("exit");
 	return 1;
 } 
+
+CMD:garage(playerid, params[])
+{
+	if(PlayerInfo[playerid][Admin] != 4) return 0;
+	if(!GarageOpen) {
+		MoveObject(XeonGarage, 2021.93188, 1534.29663, 7.82620, 1.0, -0.08000, -0.02000, 4.96000);
+		GarageOpen = true;
+	}
+	else {
+		MoveObject(XeonGarage, 2021.93188, 1534.29663, 10.12620, 1.0, -0.08000, -0.02000, 4.96000);
+		GarageOpen = false;
+	}
+	return 1;	
+}

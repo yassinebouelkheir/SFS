@@ -2485,3 +2485,2485 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [22:54:51] [join] [GK]ZakiTM has joined the server (15:192.168.1.37)
 [22:55:03] [part] [GK]ZakiTM has left the server (15:2)
 [22:55:34] [chat] [XeonTM]: test
+[23:02:52] [connection] 192.168.1.37:58069 requests connection cookie.
+[23:02:53] [connection] incoming connection: 192.168.1.37:58069 id: 15
+[23:02:53] [join] [GK]ZakiTM has joined the server (15:192.168.1.37)
+[23:04:07] [part] [GK]ZakiTM has left the server (15:2)
+[23:12:17] *** IRC_OnDisconnect: Bot ID 3 disconnected from 37.59.63.55:6667 (An existing connection was forcibly closed by the remote host)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:12:34] 
+[23:12:34] Server Plugins
+[23:12:34] --------------
+[23:12:34]  Loading plugin: mysql.dll
+[23:12:34]  >> plugin.mysql: R41-4 successfully loaded.
+[23:12:34]   Loaded.
+[23:12:34]  Loading plugin: sscanf.dll
+[23:12:34] 
+
+[23:12:34]  ===============================
+
+[23:12:34]       sscanf plugin loaded.     
+
+[23:12:34]          Version:  2.8.3        
+
+[23:12:34]   (c) 2018 Alex "Y_Less" Cole  
+
+[23:12:34]  ===============================
+
+[23:12:34]   Loaded.
+[23:12:34]  Loading plugin: mapandreas.dll
+[23:12:34]   Loaded.
+[23:12:34]  Loading plugin: irc.dll
+[23:12:34] 
+
+*** IRC Plugin v1.4.8 by Incognito loaded ***
+
+[23:12:34]   Loaded.
+[23:12:34]  Loaded 4 plugins.
+
+[23:12:34] 
+[23:12:34] Filterscripts
+[23:12:34] ---------------
+[23:12:34]   Loaded 0 filterscripts.
+
+[23:12:34] Initialization of 'SEF Global Gamemode'..
+[23:12:34] Loaded 3 vehicles from: vehicles/trains.txt
+[23:12:34] Loaded 3 vehicles from: vehicles/pilots.txt
+[23:12:34] Loaded 15 vehicles from: vehicles/lv_law.txt
+[23:12:34] Loaded 39 vehicles from: vehicles/lv_airport.txt
+[23:12:34] Loaded 255 vehicles from: vehicles/lv_gen.txt
+[23:12:34] Loaded 38 vehicles from: vehicles/sf_law.txt
+[23:12:34] Loaded 35 vehicles from: vehicles/sf_airport.txt
+[23:12:34] Loaded 353 vehicles from: vehicles/sf_gen.txt
+[23:12:34] Loaded 24 vehicles from: vehicles/ls_law.txt
+[23:12:34] Loaded 37 vehicles from: vehicles/ls_airport.txt
+[23:12:34] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
+[23:12:34] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
+[23:12:34] Loaded 71 vehicles from: vehicles/whetstone.txt
+[23:12:34] Loaded 168 vehicles from: vehicles/bone.txt
+[23:12:34] Loaded 61 vehicles from: vehicles/flint.txt
+[23:12:34] Loaded 96 vehicles from: vehicles/tierra.txt
+[23:12:34] Loaded 96 vehicles from: vehicles/red_county.txt
+[23:12:34] [connection] 127.0.0.1:58741 requests connection cookie.
+[23:12:34] Completed... (1/4)
+[23:12:34] Initialization of 'MySQL Connection'..
+[23:12:34] [connection] 127.0.0.1:58742 requests connection cookie.
+[23:12:34] [SFMySQL]: Connected.
+[23:12:34] Completed... (2/4)
+[23:12:34] Initialization of 'Discord Connection'..
+[23:12:34] Completed... (3/4)
+[23:12:34] Initialization of 'IRC Connection'..
+[23:12:34] Completed... (4/5)
+[23:12:34] Initialization of 'Other startup plugins'..
+[23:12:34] [connection] 127.0.0.1:58743 requests connection cookie.
+[23:12:34] [connection] 127.0.0.1:58744 requests connection cookie.
+[23:12:34] [connection] 127.0.0.1:58745 requests connection cookie.
+[23:12:34] Completed... (5/5)
+[23:12:34] -------------------------------------------------------------
+[23:12:34] 	Everything Loaded, Welcome to.
+[23:12:34] -------------------------------------------------------------
+[23:12:34] -------------------------------------------------------------
+[23:12:34]      #####                            
+[23:12:34]     #     #  #####  #    #  #    #  ##### 
+[23:12:34]     #          #    #    #  ##   #    #   
+[23:12:34]      #####     #    #    #  # #  #    #   
+[23:12:34]           #    #    #    #  #  # #    #   
+[23:12:34]     #     #    #    #    #  #   ##    #   
+[23:12:34]      #####     #     ####   #    #    #   
+[23:12:34]     #######                                                  
+[23:12:34]     #       #####  ###### ###### #####   ####    ##   #    # 
+[23:12:34]     #       #    # #      #      #    # #    #  #  #  ##  ## 
+[23:12:34]     #####   #    # #####  #####  #    # #    # #    # # ## # 
+[23:12:34]     #       #####  #      #      #####  #    # ###### #    # 
+[23:12:34]     #       #   #  #      #      #   #  #    # #    # #    # 
+[23:12:34]     #       #    # ###### ###### #    #  ####  #    # #    # 
+[23:12:34]      #####                                     
+[23:12:34]     #     #  ######  #####   #    #  ######  #####  
+[23:12:34]     #        #       #    #  #    #  #       #    # 
+[23:12:34]      #####   #####   #    #  #    #  #####   #    # 
+[23:12:34]           #  #       #####   #    #  #       #####  
+[23:12:34]     #     #  #       #   #    #  #   #       #   #  
+[23:12:34]      #####   ######  #    #    ##    ######  #    # 
+[23:12:34] [connection] 127.0.0.1:58746 requests connection cookie.
+[23:12:34] 
+
+[23:12:34] -------------------------------------------------------------
+[23:12:34] -------------------------------------------------------------
+[23:12:34] 	Version: 1.0 | Author: XeonMaster   
+[23:12:34] -------------------------------------------------------------
+[23:12:34] Number of vehicle models: 173
+[23:12:34] [connection] 127.0.0.1:58747 requests connection cookie.
+[23:12:35] [connection] incoming connection: 127.0.0.1:58741 id: 0
+[23:12:35] [connection] incoming connection: 127.0.0.1:58742 id: 1
+[23:12:35] [connection] incoming connection: 127.0.0.1:58743 id: 2
+[23:12:35] [connection] incoming connection: 127.0.0.1:58744 id: 3
+[23:12:35] [connection] incoming connection: 127.0.0.1:58745 id: 4
+[23:12:35] [connection] incoming connection: 127.0.0.1:58746 id: 5
+[23:12:35] [connection] incoming connection: 127.0.0.1:58747 id: 6
+[23:12:35] [npc:join] [SAP]Bus[65][0] has joined the server (0:127.0.0.1)
+[23:12:36] [npc:join] [SAP]Bus[52][0] has joined the server (1:127.0.0.1)
+[23:12:36] [npc:join] [SAP]Bus[07][0] has joined the server (2:127.0.0.1)
+[23:12:36] [npc:join] [SAP]Bus[30][0] has joined the server (3:127.0.0.1)
+[23:12:36] [npc:join] [SAP]Bus[40][0] has joined the server (4:127.0.0.1)
+[23:12:36] [npc:join] [SAP]Bus[57][0] has joined the server (5:127.0.0.1)
+[23:12:36] [npc:join] [SAP]Bus[18][0] has joined the server (6:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:12:53] 
+[23:12:53] Server Plugins
+[23:12:53] --------------
+[23:12:53]  Loading plugin: mysql.dll
+[23:12:53]  >> plugin.mysql: R41-4 successfully loaded.
+[23:12:53]   Loaded.
+[23:12:53]  Loading plugin: sscanf.dll
+[23:12:53] 
+
+[23:12:53]  ===============================
+
+[23:12:53]       sscanf plugin loaded.     
+
+[23:12:53]          Version:  2.8.3        
+
+[23:12:53]   (c) 2018 Alex "Y_Less" Cole  
+
+[23:12:53]  ===============================
+
+[23:12:53]   Loaded.
+[23:12:53]  Loading plugin: mapandreas.dll
+[23:12:53]   Loaded.
+[23:12:53]  Loading plugin: irc.dll
+[23:12:53] 
+
+*** IRC Plugin v1.4.8 by Incognito loaded ***
+
+[23:12:53]   Loaded.
+[23:12:53]  Loaded 4 plugins.
+
+[23:12:53] 
+[23:12:53] Filterscripts
+[23:12:53] ---------------
+[23:12:53]   Loaded 0 filterscripts.
+
+[23:12:53] Initialization of 'SEF Global Gamemode'..
+[23:12:53] Loaded 3 vehicles from: vehicles/trains.txt
+[23:12:53] Loaded 3 vehicles from: vehicles/pilots.txt
+[23:12:53] Loaded 15 vehicles from: vehicles/lv_law.txt
+[23:12:53] Loaded 39 vehicles from: vehicles/lv_airport.txt
+[23:12:53] Loaded 255 vehicles from: vehicles/lv_gen.txt
+[23:12:53] Loaded 38 vehicles from: vehicles/sf_law.txt
+[23:12:53] Loaded 35 vehicles from: vehicles/sf_airport.txt
+[23:12:53] Loaded 353 vehicles from: vehicles/sf_gen.txt
+[23:12:53] Loaded 24 vehicles from: vehicles/ls_law.txt
+[23:12:53] Loaded 37 vehicles from: vehicles/ls_airport.txt
+[23:12:53] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
+[23:12:53] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
+[23:12:53] Loaded 71 vehicles from: vehicles/whetstone.txt
+[23:12:53] Loaded 168 vehicles from: vehicles/bone.txt
+[23:12:53] Loaded 61 vehicles from: vehicles/flint.txt
+[23:12:53] Loaded 96 vehicles from: vehicles/tierra.txt
+[23:12:53] Loaded 96 vehicles from: vehicles/red_county.txt
+[23:12:53] [connection] 127.0.0.1:61965 requests connection cookie.
+[23:12:53] Completed... (1/4)
+[23:12:53] Initialization of 'MySQL Connection'..
+[23:12:53] [connection] 127.0.0.1:61966 requests connection cookie.
+[23:12:53] [SFMySQL]: Connected.
+[23:12:53] Completed... (2/4)
+[23:12:53] Initialization of 'Discord Connection'..
+[23:12:53] Completed... (3/4)
+[23:12:53] Initialization of 'IRC Connection'..
+[23:12:53] Completed... (4/5)
+[23:12:53] Initialization of 'Other startup plugins'..
+[23:12:53] [connection] 127.0.0.1:61967 requests connection cookie.
+[23:12:53] [connection] 127.0.0.1:61968 requests connection cookie.
+[23:12:53] [connection] 127.0.0.1:61969 requests connection cookie.
+[23:12:53] Completed... (5/5)
+[23:12:53] -------------------------------------------------------------
+[23:12:53] 	Everything Loaded, Welcome to.
+[23:12:53] -------------------------------------------------------------
+[23:12:53] -------------------------------------------------------------
+[23:12:53]      #####                            
+[23:12:53]     #     #  #####  #    #  #    #  ##### 
+[23:12:53]     #          #    #    #  ##   #    #   
+[23:12:53]      #####     #    #    #  # #  #    #   
+[23:12:53]           #    #    #    #  #  # #    #   
+[23:12:53]     #     #    #    #    #  #   ##    #   
+[23:12:53]      #####     #     ####   #    #    #   
+[23:12:53]     #######                                                  
+[23:12:53]     #       #####  ###### ###### #####   ####    ##   #    # 
+[23:12:53]     #       #    # #      #      #    # #    #  #  #  ##  ## 
+[23:12:53]     #####   #    # #####  #####  #    # #    # #    # # ## # 
+[23:12:53]     #       #####  #      #      #####  #    # ###### #    # 
+[23:12:53]     #       #   #  #      #      #   #  #    # #    # #    # 
+[23:12:53]     #       #    # ###### ###### #    #  ####  #    # #    # 
+[23:12:53]      #####                                     
+[23:12:53]     #     #  ######  #####   #    #  ######  #####  
+[23:12:53]     #        #       #    #  #    #  #       #    # 
+[23:12:53]      #####   #####   #    #  #    #  #####   #    # 
+[23:12:53]           #  #       #####   #    #  #       #####  
+[23:12:53]     #     #  #       #   #    #  #   #       #   #  
+[23:12:53]      #####   ######  #    #    ##    ######  #    # 
+[23:12:53] 
+
+[23:12:53] -------------------------------------------------------------
+[23:12:53] -------------------------------------------------------------
+[23:12:53] 	Version: 1.0 | Author: XeonMaster   
+[23:12:53] -------------------------------------------------------------
+[23:12:53] Number of vehicle models: 173
+[23:12:53] [connection] 127.0.0.1:61970 requests connection cookie.
+[23:12:53] [connection] 127.0.0.1:61971 requests connection cookie.
+[23:12:54] [connection] incoming connection: 127.0.0.1:61965 id: 0
+[23:12:54] [connection] incoming connection: 127.0.0.1:61966 id: 1
+[23:12:54] [connection] incoming connection: 127.0.0.1:61967 id: 2
+[23:12:54] [connection] incoming connection: 127.0.0.1:61968 id: 3
+[23:12:54] [connection] incoming connection: 127.0.0.1:61969 id: 4
+[23:12:54] [connection] incoming connection: 127.0.0.1:61970 id: 5
+[23:12:54] [connection] incoming connection: 127.0.0.1:61971 id: 6
+[23:12:54] [npc:join] [SAP]Bus[65][0] has joined the server (0:127.0.0.1)
+[23:12:55] [npc:join] [SAP]Bus[52][0] has joined the server (1:127.0.0.1)
+[23:12:55] [npc:join] [SAP]Bus[07][0] has joined the server (2:127.0.0.1)
+[23:12:55] [npc:join] [SAP]Bus[30][0] has joined the server (3:127.0.0.1)
+[23:12:55] [npc:join] [SAP]Bus[40][0] has joined the server (4:127.0.0.1)
+[23:12:55] [npc:join] [SAP]Bus[57][0] has joined the server (5:127.0.0.1)
+[23:12:55] [npc:join] [SAP]Bus[18][0] has joined the server (6:127.0.0.1)
+[23:13:00] [connection] 127.0.0.1:61972 requests connection cookie.
+[23:13:01] [connection] incoming connection: 127.0.0.1:61972 id: 7
+[23:13:01] [join] XeonTM has joined the server (7:127.0.0.1)
+[23:13:13] *** IRC_OnConnectAttempt: Bot ID 1 attempting to connect to 37.59.63.55:6667...
+[23:13:14] [connection] 192.168.1.37:52963 requests connection cookie.
+[23:13:15] [connection] incoming connection: 192.168.1.37:52963 id: 8
+[23:13:15] [join] [GK]ZakiTM has joined the server (8:192.168.1.37)
+[23:13:15] [part] [GK]ZakiTM has left the server (8:2)
+[23:13:23] *** IRC_OnConnectAttempt: Bot ID 3 attempting to connect to 37.59.63.55:6667...
+[23:13:23] *** IRC_OnConnectAttempt: Bot ID 2 attempting to connect to 37.59.63.55:6667...
+[23:13:23] *** IRC_OnConnectAttempt: Bot ID 4 attempting to connect to 37.59.63.55:6667...
+[23:13:24] *** IRC_OnDisconnect: Bot ID 1 disconnected from 37.59.63.55:6667 (End of file)
+[23:13:35] *** IRC_OnDisconnect: Bot ID 4 disconnected from 37.59.63.55:6667 (End of file)
+[23:13:35] *** IRC_OnDisconnect: Bot ID 2 disconnected from 37.59.63.55:6667 (End of file)
+[23:13:35] *** IRC_OnDisconnect: Bot ID 3 disconnected from 37.59.63.55:6667 (End of file)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:15:03] 
+[23:15:03] Server Plugins
+[23:15:03] --------------
+[23:15:03]  Loading plugin: mysql.dll
+[23:15:03]  >> plugin.mysql: R41-4 successfully loaded.
+[23:15:03]   Loaded.
+[23:15:03]  Loading plugin: sscanf.dll
+[23:15:03] 
+
+[23:15:03]  ===============================
+
+[23:15:03]       sscanf plugin loaded.     
+
+[23:15:03]          Version:  2.8.3        
+
+[23:15:03]   (c) 2018 Alex "Y_Less" Cole  
+
+[23:15:03]  ===============================
+
+[23:15:03]   Loaded.
+[23:15:03]  Loading plugin: mapandreas.dll
+[23:15:03]   Loaded.
+[23:15:03]  Loading plugin: irc.dll
+[23:15:03] 
+
+*** IRC Plugin v1.4.8 by Incognito loaded ***
+
+[23:15:03]   Loaded.
+[23:15:03]  Loaded 4 plugins.
+
+[23:15:03] 
+[23:15:03] Ban list
+[23:15:03] --------
+[23:15:03]  Loaded: samp.ban
+[23:15:03] 
+[23:15:03] 
+[23:15:03] Filterscripts
+[23:15:03] ---------------
+[23:15:03]   Loaded 0 filterscripts.
+
+[23:15:03] Initialization of 'SEF Global Gamemode'..
+[23:15:03] Loaded 3 vehicles from: vehicles/trains.txt
+[23:15:03] Loaded 3 vehicles from: vehicles/pilots.txt
+[23:15:03] Loaded 15 vehicles from: vehicles/lv_law.txt
+[23:15:03] Loaded 39 vehicles from: vehicles/lv_airport.txt
+[23:15:03] Loaded 255 vehicles from: vehicles/lv_gen.txt
+[23:15:03] Loaded 38 vehicles from: vehicles/sf_law.txt
+[23:15:03] Loaded 35 vehicles from: vehicles/sf_airport.txt
+[23:15:03] Loaded 353 vehicles from: vehicles/sf_gen.txt
+[23:15:03] Loaded 24 vehicles from: vehicles/ls_law.txt
+[23:15:03] Loaded 37 vehicles from: vehicles/ls_airport.txt
+[23:15:03] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
+[23:15:03] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
+[23:15:03] Loaded 71 vehicles from: vehicles/whetstone.txt
+[23:15:03] Loaded 168 vehicles from: vehicles/bone.txt
+[23:15:03] Loaded 61 vehicles from: vehicles/flint.txt
+[23:15:03] Loaded 96 vehicles from: vehicles/tierra.txt
+[23:15:03] Loaded 96 vehicles from: vehicles/red_county.txt
+[23:15:03] [connection] 127.0.0.1:49173 requests connection cookie.
+[23:15:03] [connection] 127.0.0.1:49174 requests connection cookie.
+[23:15:03] Completed... (1/4)
+[23:15:03] Initialization of 'MySQL Connection'..
+[23:15:03] [SFMySQL]: Connected.
+[23:15:03] Completed... (2/4)
+[23:15:03] Initialization of 'Discord Connection'..
+[23:15:03] Completed... (3/4)
+[23:15:03] Initialization of 'IRC Connection'..
+[23:15:03] Completed... (4/5)
+[23:15:03] Initialization of 'Other startup plugins'..
+[23:15:03] [connection] 127.0.0.1:49175 requests connection cookie.
+[23:15:03] [connection] 127.0.0.1:49176 requests connection cookie.
+[23:15:03] [connection] 127.0.0.1:49177 requests connection cookie.
+[23:15:03] Completed... (5/5)
+[23:15:03] -------------------------------------------------------------
+[23:15:03] 	Everything Loaded, Welcome to.
+[23:15:03] -------------------------------------------------------------
+[23:15:03] -------------------------------------------------------------
+[23:15:03]      #####                            
+[23:15:03]     #     #  #####  #    #  #    #  ##### 
+[23:15:03]     #          #    #    #  ##   #    #   
+[23:15:03]      #####     #    #    #  # #  #    #   
+[23:15:03]           #    #    #    #  #  # #    #   
+[23:15:03]     #     #    #    #    #  #   ##    #   
+[23:15:03]      #####     #     ####   #    #    #   
+[23:15:03]     #######                                                  
+[23:15:03]     #       #####  ###### ###### #####   ####    ##   #    # 
+[23:15:03]     #       #    # #      #      #    # #    #  #  #  ##  ## 
+[23:15:03]     #####   #    # #####  #####  #    # #    # #    # # ## # 
+[23:15:03]     #       #####  #      #      #####  #    # ###### #    # 
+[23:15:03]     #       #   #  #      #      #   #  #    # #    # #    # 
+[23:15:03]     #       #    # ###### ###### #    #  ####  #    # #    # 
+[23:15:03]      #####                                     
+[23:15:03] [connection] 127.0.0.1:49178 requests connection cookie.
+[23:15:03]     #     #  ######  #####   #    #  ######  #####  
+[23:15:03]     #        #       #    #  #    #  #       #    # 
+[23:15:03]      #####   #####   #    #  #    #  #####   #    # 
+[23:15:03]           #  #       #####   #    #  #       #####  
+[23:15:03]     #     #  #       #   #    #  #   #       #   #  
+[23:15:03]      #####   ######  #    #    ##    ######  #    # 
+[23:15:03] 
+
+[23:15:03] -------------------------------------------------------------
+[23:15:03] -------------------------------------------------------------
+[23:15:03] 	Version: 1.0 | Author: XeonMaster   
+[23:15:03] -------------------------------------------------------------
+[23:15:03] Number of vehicle models: 173
+[23:15:03] [connection] 127.0.0.1:49179 requests connection cookie.
+[23:15:04] [connection] incoming connection: 127.0.0.1:49173 id: 0
+[23:15:04] [connection] incoming connection: 127.0.0.1:49174 id: 1
+[23:15:04] [connection] incoming connection: 127.0.0.1:49175 id: 2
+[23:15:04] [connection] incoming connection: 127.0.0.1:49176 id: 3
+[23:15:04] [connection] incoming connection: 127.0.0.1:49177 id: 4
+[23:15:04] [connection] incoming connection: 127.0.0.1:49178 id: 5
+[23:15:04] [connection] incoming connection: 127.0.0.1:49179 id: 6
+[23:15:04] [npc:join] [SAP]Bus[65][0] has joined the server (0:127.0.0.1)
+[23:15:04] [npc:join] [SAP]Bus[52][0] has joined the server (1:127.0.0.1)
+[23:15:04] [npc:join] [SAP]Bus[07][0] has joined the server (2:127.0.0.1)
+[23:15:04] [npc:join] [SAP]Bus[40][0] has joined the server (4:127.0.0.1)
+[23:15:04] [npc:join] [SAP]Bus[30][0] has joined the server (3:127.0.0.1)
+[23:15:04] [npc:join] [SAP]Bus[57][0] has joined the server (5:127.0.0.1)
+[23:15:04] [npc:join] [SAP]Bus[18][0] has joined the server (6:127.0.0.1)
+[23:15:23] *** IRC_OnConnectAttempt: Bot ID 1 attempting to connect to 37.59.63.55:6667...
+[23:15:24] *** IRC_OnConnect: Bot ID 1 connected to 37.59.63.55:6667
+[23:15:26] *** IRC_OnJoinChannel: Bot ID 1 joined channel #sfs.echo
+[23:15:26] *** IRC_OnJoinChannel: Bot ID 1 joined channel #sfs
+[23:15:33] *** IRC_OnConnectAttempt: Bot ID 2 attempting to connect to 37.59.63.55:6667...
+[23:15:33] *** IRC_OnConnectAttempt: Bot ID 3 attempting to connect to 37.59.63.55:6667...
+[23:15:33] *** IRC_OnConnectAttempt: Bot ID 4 attempting to connect to 37.59.63.55:6667...
+[23:15:33] *** IRC_OnConnect: Bot ID 3 connected to 37.59.63.55:6667
+[23:15:35] *** IRC_OnConnect: Bot ID 4 connected to 37.59.63.55:6667
+[23:15:36] *** IRC_OnJoinChannel: Bot ID 3 joined channel #sfs.echo
+[23:15:36] *** IRC_OnJoinChannel: Bot ID 3 joined channel #sfs
+[23:15:37] *** IRC_OnJoinChannel: Bot ID 4 joined channel #sfs.echo
+[23:15:37] *** IRC_OnJoinChannel: Bot ID 4 joined channel #sfs
+[23:15:39] [connection] 127.0.0.1:63062 requests connection cookie.
+[23:15:40] [connection] incoming connection: 127.0.0.1:63062 id: 7
+[23:15:40] [join] XeonTM has joined the server (7:127.0.0.1)
+[23:15:44] *** IRC_OnDisconnect: Bot ID 2 disconnected from 37.59.63.55:6667 (End of file)
+[23:16:09] [connection] 127.0.0.1:51884 requests connection cookie.
+[23:16:09] [connection] 127.0.0.1:51885 requests connection cookie.
+[23:16:09] [connection] 127.0.0.1:51886 requests connection cookie.
+[23:16:09] [connection] 127.0.0.1:51887 requests connection cookie.
+[23:16:09] [connection] 127.0.0.1:51888 requests connection cookie.
+[23:16:09] [connection] 127.0.0.1:51889 requests connection cookie.
+[23:16:09] [connection] 127.0.0.1:51890 requests connection cookie.
+[23:16:10] [connection] incoming connection: 127.0.0.1:51884 id: 8
+[23:16:10] [connection] incoming connection: 127.0.0.1:51885 id: 9
+[23:16:10] [connection] incoming connection: 127.0.0.1:51886 id: 10
+[23:16:10] [connection] incoming connection: 127.0.0.1:51887 id: 11
+[23:16:10] [connection] incoming connection: 127.0.0.1:51888 id: 12
+[23:16:10] [connection] incoming connection: 127.0.0.1:51889 id: 13
+[23:16:10] [connection] incoming connection: 127.0.0.1:51890 id: 14
+[23:16:10] [npc:join] [SAP]Bus[65][1] has joined the server (8:127.0.0.1)
+[23:16:10] [npc:join] [SAP]Bus[52][1] has joined the server (9:127.0.0.1)
+[23:16:10] [npc:join] [SAP]Bus[07][1] has joined the server (10:127.0.0.1)
+[23:16:10] [npc:join] [SAP]Bus[30][1] has joined the server (11:127.0.0.1)
+[23:16:10] [npc:join] [SAP]Bus[40][1] has joined the server (12:127.0.0.1)
+[23:16:10] [npc:join] [SAP]Bus[57][1] has joined the server (13:127.0.0.1)
+[23:16:10] [npc:join] [SAP]Bus[18][1] has joined the server (14:127.0.0.1)
+[23:16:14] *** IRC_OnConnectAttempt: Bot ID 2 attempting to connect to 37.59.63.55:6667...
+[23:16:17] *** IRC_OnConnect: Bot ID 2 connected to 37.59.63.55:6667
+[23:16:19] *** IRC_OnJoinChannel: Bot ID 2 joined channel #sfs.echo
+[23:16:19] *** IRC_OnJoinChannel: Bot ID 2 joined channel #sfs
+[23:17:30] [part] XeonTM has left the server (7:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:17:46] 
+[23:17:46] Server Plugins
+[23:17:46] --------------
+[23:17:46]  Loading plugin: mysql.dll
+[23:17:46]  >> plugin.mysql: R41-4 successfully loaded.
+[23:17:46]   Loaded.
+[23:17:46]  Loading plugin: sscanf.dll
+[23:17:46] 
+
+[23:17:46]  ===============================
+
+[23:17:46]       sscanf plugin loaded.     
+
+[23:17:46]          Version:  2.8.3        
+
+[23:17:46]   (c) 2018 Alex "Y_Less" Cole  
+
+[23:17:46]  ===============================
+
+[23:17:46]   Loaded.
+[23:17:46]  Loading plugin: mapandreas.dll
+[23:17:46]   Loaded.
+[23:17:46]  Loading plugin: irc.dll
+[23:17:46] 
+
+*** IRC Plugin v1.4.8 by Incognito loaded ***
+
+[23:17:46]   Loaded.
+[23:17:46]  Loaded 4 plugins.
+
+[23:17:46] 
+[23:17:46] Filterscripts
+[23:17:46] ---------------
+[23:17:46]   Loaded 0 filterscripts.
+
+[23:17:46] Initialization of 'SEF Global Gamemode'..
+[23:17:46] Loaded 3 vehicles from: vehicles/trains.txt
+[23:17:46] Loaded 3 vehicles from: vehicles/pilots.txt
+[23:17:46] Loaded 15 vehicles from: vehicles/lv_law.txt
+[23:17:46] Loaded 39 vehicles from: vehicles/lv_airport.txt
+[23:17:46] Loaded 255 vehicles from: vehicles/lv_gen.txt
+[23:17:46] Loaded 38 vehicles from: vehicles/sf_law.txt
+[23:17:46] Loaded 35 vehicles from: vehicles/sf_airport.txt
+[23:17:46] Loaded 353 vehicles from: vehicles/sf_gen.txt
+[23:17:46] Loaded 24 vehicles from: vehicles/ls_law.txt
+[23:17:46] Loaded 37 vehicles from: vehicles/ls_airport.txt
+[23:17:46] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
+[23:17:46] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
+[23:17:46] Loaded 71 vehicles from: vehicles/whetstone.txt
+[23:17:46] Loaded 168 vehicles from: vehicles/bone.txt
+[23:17:46] Loaded 61 vehicles from: vehicles/flint.txt
+[23:17:46] Loaded 96 vehicles from: vehicles/tierra.txt
+[23:17:46] Loaded 96 vehicles from: vehicles/red_county.txt
+[23:17:46] [connection] 127.0.0.1:57417 requests connection cookie.
+[23:17:46] [connection] 127.0.0.1:57418 requests connection cookie.
+[23:17:46] Completed... (1/4)
+[23:17:46] Initialization of 'MySQL Connection'..
+[23:17:46] [SFMySQL]: Connected.
+[23:17:46] Completed... (2/4)
+[23:17:46] Initialization of 'Discord Connection'..
+[23:17:46] Completed... (3/4)
+[23:17:46] Initialization of 'IRC Connection'..
+[23:17:46] Completed... (4/5)
+[23:17:46] [connection] 127.0.0.1:57419 requests connection cookie.
+[23:17:46] Initialization of 'Other startup plugins'..
+[23:17:46] [connection] 127.0.0.1:57420 requests connection cookie.
+[23:17:46] [connection] 127.0.0.1:60601 requests connection cookie.
+[23:17:46] Completed... (5/5)
+[23:17:46] -------------------------------------------------------------
+[23:17:46] 	Everything Loaded, Welcome to.
+[23:17:46] -------------------------------------------------------------
+[23:17:46] -------------------------------------------------------------
+[23:17:46]      #####                            
+[23:17:46]     #     #  #####  #    #  #    #  ##### 
+[23:17:46]     #          #    #    #  ##   #    #   
+[23:17:46]      #####     #    #    #  # #  #    #   
+[23:17:46]           #    #    #    #  #  # #    #   
+[23:17:46]     #     #    #    #    #  #   ##    #   
+[23:17:46]      #####     #     ####   #    #    #   
+[23:17:46]     #######                                                  
+[23:17:46]     #       #####  ###### ###### #####   ####    ##   #    # 
+[23:17:46]     #       #    # #      #      #    # #    #  #  #  ##  ## 
+[23:17:46]     #####   #    # #####  #####  #    # #    # #    # # ## # 
+[23:17:46]     #       #####  #      #      #####  #    # ###### #    # 
+[23:17:46]     #       #   #  #      #      #   #  #    # #    # #    # 
+[23:17:46]     #       #    # ###### ###### #    #  ####  #    # #    # 
+[23:17:46]      #####                                     
+[23:17:46]     #     #  ######  #####   #    #  ######  #####  
+[23:17:46]     #        #       #    #  #    #  #       #    # 
+[23:17:46]      #####   #####   #    #  #    #  #####   #    # 
+[23:17:46]           #  #       #####   #    #  #       #####  
+[23:17:46]     #     #  #       #   #    #  #   #       #   #  
+[23:17:46]      #####   ######  #    #    ##    ######  #    # 
+[23:17:46] 
+
+[23:17:46] -------------------------------------------------------------
+[23:17:46] -------------------------------------------------------------
+[23:17:46] 	Version: 1.0 | Author: XeonMaster   
+[23:17:46] -------------------------------------------------------------
+[23:17:46] Number of vehicle models: 173
+[23:17:46] [connection] 127.0.0.1:60602 requests connection cookie.
+[23:17:46] [connection] 127.0.0.1:60603 requests connection cookie.
+[23:17:47] [connection] incoming connection: 127.0.0.1:57417 id: 0
+[23:17:47] [connection] incoming connection: 127.0.0.1:57418 id: 1
+[23:17:47] [connection] incoming connection: 127.0.0.1:57419 id: 2
+[23:17:47] [connection] incoming connection: 127.0.0.1:57420 id: 3
+[23:17:47] [connection] incoming connection: 127.0.0.1:60601 id: 4
+[23:17:47] [connection] incoming connection: 127.0.0.1:60602 id: 5
+[23:17:47] [connection] incoming connection: 127.0.0.1:60603 id: 6
+[23:17:47] [npc:join] [SAP]Bus[65][0] has joined the server (0:127.0.0.1)
+[23:17:47] [npc:join] [SAP]Bus[52][0] has joined the server (1:127.0.0.1)
+[23:17:47] [npc:join] [SAP]Bus[07][0] has joined the server (2:127.0.0.1)
+[23:17:47] [npc:join] [SAP]Bus[30][0] has joined the server (3:127.0.0.1)
+[23:17:47] [npc:join] [SAP]Bus[40][0] has joined the server (4:127.0.0.1)
+[23:17:47] [npc:join] [SAP]Bus[57][0] has joined the server (5:127.0.0.1)
+[23:17:47] [npc:join] [SAP]Bus[18][0] has joined the server (6:127.0.0.1)
+[23:18:06] *** IRC_OnConnectAttempt: Bot ID 1 attempting to connect to 37.59.63.55:6667...
+[23:18:06] [connection] 192.168.1.37:61837 requests connection cookie.
+[23:18:07] [connection] 127.0.0.1:60604 requests connection cookie.
+[23:18:07] *** IRC_OnConnect: Bot ID 1 connected to 37.59.63.55:6667
+[23:18:07] [connection] incoming connection: 192.168.1.37:61837 id: 7
+[23:18:07] [join] [GK]ZakiTM has joined the server (7:192.168.1.37)
+[23:18:08] [connection] incoming connection: 127.0.0.1:60604 id: 8
+[23:18:08] [join] XeonTM has joined the server (8:127.0.0.1)
+[23:18:09] *** IRC_OnJoinChannel: Bot ID 1 joined channel #sfs.echo
+[23:18:09] *** IRC_OnJoinChannel: Bot ID 1 joined channel #sfs
+[23:18:16] *** IRC_OnConnectAttempt: Bot ID 2 attempting to connect to 37.59.63.55:6667...
+[23:18:16] *** IRC_OnConnectAttempt: Bot ID 3 attempting to connect to 37.59.63.55:6667...
+[23:18:16] *** IRC_OnConnectAttempt: Bot ID 4 attempting to connect to 37.59.63.55:6667...
+[23:18:17] *** IRC_OnConnect: Bot ID 2 connected to 37.59.63.55:6667
+[23:18:18] *** IRC_OnConnect: Bot ID 3 connected to 37.59.63.55:6667
+[23:18:19] *** IRC_OnConnect: Bot ID 4 connected to 37.59.63.55:6667
+[23:18:22] *** IRC_OnJoinChannel: Bot ID 2 joined channel #sfs.echo
+[23:18:22] *** IRC_OnJoinChannel: Bot ID 2 joined channel #sfs
+[23:18:22] *** IRC_OnJoinChannel: Bot ID 3 joined channel #sfs.echo
+[23:18:22] *** IRC_OnJoinChannel: Bot ID 3 joined channel #sfs
+[23:18:22] *** IRC_OnJoinChannel: Bot ID 4 joined channel #sfs.echo
+[23:18:22] *** IRC_OnJoinChannel: Bot ID 4 joined channel #sfs
+[23:18:37] [kill] [GK]ZakiTM killed XeonTM Sawn-off Shotgun
+[23:18:52] [connection] 127.0.0.1:65276 requests connection cookie.
+[23:18:52] [connection] 127.0.0.1:65277 requests connection cookie.
+[23:18:52] [connection] 127.0.0.1:65278 requests connection cookie.
+[23:18:52] [connection] 127.0.0.1:65279 requests connection cookie.
+[23:18:53] [connection] 127.0.0.1:65280 requests connection cookie.
+[23:18:53] [connection] 127.0.0.1:65281 requests connection cookie.
+[23:18:53] [connection] 127.0.0.1:65282 requests connection cookie.
+[23:18:53] [connection] incoming connection: 127.0.0.1:65276 id: 9
+[23:18:53] [connection] incoming connection: 127.0.0.1:65277 id: 10
+[23:18:53] [connection] incoming connection: 127.0.0.1:65278 id: 11
+[23:18:53] [connection] incoming connection: 127.0.0.1:65279 id: 12
+[23:18:54] [connection] incoming connection: 127.0.0.1:65280 id: 13
+[23:18:54] [connection] incoming connection: 127.0.0.1:65281 id: 14
+[23:18:54] [connection] incoming connection: 127.0.0.1:65282 id: 15
+[23:18:54] [npc:join] [SAP]Bus[65][1] has joined the server (9:127.0.0.1)
+[23:18:54] [npc:join] [SAP]Bus[52][1] has joined the server (10:127.0.0.1)
+[23:18:54] [npc:join] [SAP]Bus[07][1] has joined the server (11:127.0.0.1)
+[23:18:54] [npc:join] [SAP]Bus[30][1] has joined the server (12:127.0.0.1)
+[23:18:54] [npc:join] [SAP]Bus[40][1] has joined the server (13:127.0.0.1)
+[23:18:54] [npc:join] [SAP]Bus[57][1] has joined the server (14:127.0.0.1)
+[23:18:54] [npc:join] [SAP]Bus[18][1] has joined the server (15:127.0.0.1)
+[23:19:25] [part] [GK]ZakiTM has left the server (7:2)
+[23:22:29] RCON (In-Game): Player #8 (XeonTM) has logged in.
+[23:22:35] RCON (In-Game): Player [XeonTM] sent command: unban *.*.*.*
+[23:23:29] [part] XeonTM has left the server (8:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:23:32] 
+[23:23:32] Server Plugins
+[23:23:32] --------------
+[23:23:32]  Loading plugin: mysql.dll
+[23:23:32]  >> plugin.mysql: R41-4 successfully loaded.
+[23:23:32]   Loaded.
+[23:23:32]  Loading plugin: sscanf.dll
+[23:23:32] 
+
+[23:23:32]  ===============================
+
+[23:23:32]       sscanf plugin loaded.     
+
+[23:23:32]          Version:  2.8.3        
+
+[23:23:32]   (c) 2018 Alex "Y_Less" Cole  
+
+[23:23:32]  ===============================
+
+[23:23:32]   Loaded.
+[23:23:32]  Loading plugin: mapandreas.dll
+[23:23:32]   Loaded.
+[23:23:32]  Loading plugin: irc.dll
+[23:23:32] 
+
+*** IRC Plugin v1.4.8 by Incognito loaded ***
+
+[23:23:32]   Loaded.
+[23:23:32]  Loaded 4 plugins.
+
+[23:23:32] 
+[23:23:32] Filterscripts
+[23:23:32] ---------------
+[23:23:32]   Loaded 0 filterscripts.
+
+[23:23:32] Initialization of 'SEF Global Gamemode'..
+[23:23:32] Loaded 3 vehicles from: vehicles/trains.txt
+[23:23:32] Loaded 3 vehicles from: vehicles/pilots.txt
+[23:23:32] Loaded 15 vehicles from: vehicles/lv_law.txt
+[23:23:32] Loaded 39 vehicles from: vehicles/lv_airport.txt
+[23:23:32] Loaded 255 vehicles from: vehicles/lv_gen.txt
+[23:23:32] Loaded 38 vehicles from: vehicles/sf_law.txt
+[23:23:32] Loaded 35 vehicles from: vehicles/sf_airport.txt
+[23:23:32] Loaded 353 vehicles from: vehicles/sf_gen.txt
+[23:23:32] Loaded 24 vehicles from: vehicles/ls_law.txt
+[23:23:32] Loaded 37 vehicles from: vehicles/ls_airport.txt
+[23:23:32] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
+[23:23:32] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
+[23:23:32] Loaded 71 vehicles from: vehicles/whetstone.txt
+[23:23:32] Loaded 168 vehicles from: vehicles/bone.txt
+[23:23:32] Loaded 61 vehicles from: vehicles/flint.txt
+[23:23:32] Loaded 96 vehicles from: vehicles/tierra.txt
+[23:23:32] Loaded 96 vehicles from: vehicles/red_county.txt
+[23:23:32] [connection] 127.0.0.1:52430 requests connection cookie.
+[23:23:32] Completed... (1/4)
+[23:23:32] Initialization of 'MySQL Connection'..
+[23:23:32] [connection] 127.0.0.1:52431 requests connection cookie.
+[23:23:32] [SFMySQL]: Connected.
+[23:23:32] Completed... (2/4)
+[23:23:32] Initialization of 'Discord Connection'..
+[23:23:32] Completed... (3/4)
+[23:23:32] Initialization of 'IRC Connection'..
+[23:23:32] Completed... (4/5)
+[23:23:32] Initialization of 'Other startup plugins'..
+[23:23:32] [connection] 127.0.0.1:52432 requests connection cookie.
+[23:23:32] [connection] 127.0.0.1:55651 requests connection cookie.
+[23:23:32] Completed... (5/5)
+[23:23:32] -------------------------------------------------------------
+[23:23:32] 	Everything Loaded, Welcome to.
+[23:23:32] -------------------------------------------------------------
+[23:23:32] -------------------------------------------------------------
+[23:23:32]      #####                            
+[23:23:32]     #     #  #####  #    #  #    #  ##### 
+[23:23:32]     #          #    #    #  ##   #    #   
+[23:23:32]      #####     #    #    #  # #  #    #   
+[23:23:32]           #    #    #    #  #  # #    #   
+[23:23:32]     #     #    #    #    #  #   ##    #   
+[23:23:32]      #####     #     ####   #    #    #   
+[23:23:32]     #######                                                  
+[23:23:32]     #       #####  ###### ###### #####   ####    ##   #    # 
+[23:23:32]     #       #    # #      #      #    # #    #  #  #  ##  ## 
+[23:23:32]     #####   #    # #####  #####  #    # #    # #    # # ## # 
+[23:23:32] [connection] 127.0.0.1:55652 requests connection cookie.
+[23:23:32]     #       #####  #      #      #####  #    # ###### #    # 
+[23:23:32]     #       #   #  #      #      #   #  #    # #    # #    # 
+[23:23:32]     #       #    # ###### ###### #    #  ####  #    # #    # 
+[23:23:32]      #####                                     
+[23:23:32]     #     #  ######  #####   #    #  ######  #####  
+[23:23:32]     #        #       #    #  #    #  #       #    # 
+[23:23:32]      #####   #####   #    #  #    #  #####   #    # 
+[23:23:32]           #  #       #####   #    #  #       #####  
+[23:23:32]     #     #  #       #   #    #  #   #       #   #  
+[23:23:32]      #####   ######  #    #    ##    ######  #    # 
+[23:23:32] 
+
+[23:23:32] -------------------------------------------------------------
+[23:23:32] -------------------------------------------------------------
+[23:23:32] 	Version: 1.0 | Author: XeonMaster   
+[23:23:32] -------------------------------------------------------------
+[23:23:32] Number of vehicle models: 173
+[23:23:32] [connection] 127.0.0.1:55653 requests connection cookie.
+[23:23:32] [connection] 127.0.0.1:55654 requests connection cookie.
+[23:23:33] [connection] incoming connection: 127.0.0.1:52430 id: 0
+[23:23:33] [connection] incoming connection: 127.0.0.1:52431 id: 1
+[23:23:33] [connection] incoming connection: 127.0.0.1:52432 id: 2
+[23:23:33] [connection] incoming connection: 127.0.0.1:55651 id: 3
+[23:23:33] [connection] incoming connection: 127.0.0.1:55652 id: 4
+[23:23:33] [connection] incoming connection: 127.0.0.1:55654 id: 5
+[23:23:33] [connection] incoming connection: 127.0.0.1:55653 id: 6
+[23:23:34] [npc:join] [SAP]Bus[65][0] has joined the server (0:127.0.0.1)
+[23:23:34] [npc:join] [SAP]Bus[52][0] has joined the server (1:127.0.0.1)
+[23:23:34] [npc:join] [SAP]Bus[07][0] has joined the server (2:127.0.0.1)
+[23:23:34] [npc:join] [SAP]Bus[30][0] has joined the server (3:127.0.0.1)
+[23:23:34] [npc:join] [SAP]Bus[40][0] has joined the server (4:127.0.0.1)
+[23:23:34] [npc:join] [SAP]Bus[18][0] has joined the server (5:127.0.0.1)
+[23:23:34] [npc:join] [SAP]Bus[57][0] has joined the server (6:127.0.0.1)
+[23:23:52] *** IRC_OnConnectAttempt: Bot ID 1 attempting to connect to 37.59.63.55:6667...
+[23:23:53] *** IRC_OnConnect: Bot ID 1 connected to 37.59.63.55:6667
+[23:23:55] *** IRC_OnJoinChannel: Bot ID 1 joined channel #sfs.echo
+[23:23:55] *** IRC_OnJoinChannel: Bot ID 1 joined channel #sfs
+[23:23:55] [connection] 127.0.0.1:55655 requests connection cookie.
+[23:23:56] [connection] incoming connection: 127.0.0.1:55655 id: 7
+[23:23:56] [join] XeonTM has joined the server (7:127.0.0.1)
+[23:24:02] [connection] 192.168.1.37:57570 requests connection cookie.
+[23:24:02] *** IRC_OnConnectAttempt: Bot ID 4 attempting to connect to 37.59.63.55:6667...
+[23:24:02] *** IRC_OnConnectAttempt: Bot ID 2 attempting to connect to 37.59.63.55:6667...
+[23:24:02] *** IRC_OnConnectAttempt: Bot ID 3 attempting to connect to 37.59.63.55:6667...
+[23:24:03] [connection] incoming connection: 192.168.1.37:57570 id: 8
+[23:24:04] [join] [GK]ZakiTM has joined the server (8:192.168.1.37)
+[23:24:04] *** IRC_OnConnect: Bot ID 4 connected to 37.59.63.55:6667
+[23:24:05] *** IRC_OnConnect: Bot ID 2 connected to 37.59.63.55:6667
+[23:24:06] *** IRC_OnConnect: Bot ID 3 connected to 37.59.63.55:6667
+[23:24:08] *** IRC_OnJoinChannel: Bot ID 4 joined channel #sfs.echo
+[23:24:08] *** IRC_OnJoinChannel: Bot ID 4 joined channel #sfs
+[23:24:08] *** IRC_OnJoinChannel: Bot ID 2 joined channel #sfs.echo
+[23:24:09] *** IRC_OnJoinChannel: Bot ID 2 joined channel #sfs
+[23:24:09] *** IRC_OnJoinChannel: Bot ID 3 joined channel #sfs.echo
+[23:24:09] *** IRC_OnJoinChannel: Bot ID 3 joined channel #sfs
+[23:24:39] [connection] 127.0.0.1:57811 requests connection cookie.
+[23:24:39] [connection] 127.0.0.1:57812 requests connection cookie.
+[23:24:39] [connection] 127.0.0.1:57813 requests connection cookie.
+[23:24:39] [connection] 127.0.0.1:57814 requests connection cookie.
+[23:24:39] [connection] 127.0.0.1:57815 requests connection cookie.
+[23:24:39] [connection] 127.0.0.1:57816 requests connection cookie.
+[23:24:39] [connection] 127.0.0.1:57817 requests connection cookie.
+[23:24:40] [connection] incoming connection: 127.0.0.1:57811 id: 9
+[23:24:40] [connection] incoming connection: 127.0.0.1:57812 id: 10
+[23:24:40] [connection] incoming connection: 127.0.0.1:57813 id: 11
+[23:24:40] [connection] incoming connection: 127.0.0.1:57814 id: 12
+[23:24:40] [connection] incoming connection: 127.0.0.1:57815 id: 13
+[23:24:40] [connection] incoming connection: 127.0.0.1:57816 id: 14
+[23:24:40] [connection] incoming connection: 127.0.0.1:57817 id: 15
+[23:24:40] [npc:join] [SAP]Bus[65][1] has joined the server (9:127.0.0.1)
+[23:24:40] [npc:join] [SAP]Bus[52][1] has joined the server (10:127.0.0.1)
+[23:24:40] [npc:join] [SAP]Bus[07][1] has joined the server (11:127.0.0.1)
+[23:24:40] [npc:join] [SAP]Bus[30][1] has joined the server (12:127.0.0.1)
+[23:24:40] [npc:join] [SAP]Bus[40][1] has joined the server (13:127.0.0.1)
+[23:24:40] [npc:join] [SAP]Bus[57][1] has joined the server (14:127.0.0.1)
+[23:24:40] [npc:join] [SAP]Bus[18][1] has joined the server (15:127.0.0.1)
+[23:26:32] [part] XeonTM has left the server (7:1)
+[23:32:10] [chat] [[GK]ZakiTM]: #j
+[02:59:05] [part] [GK]ZakiTM has left the server (8:0)
+[02:59:07] *** IRC_OnDisconnect: Bot ID 4 disconnected from 37.59.63.55:6667 (An existing connection was forcibly closed by the remote host)
+[03:00:11] *** IRC_OnConnectAttempt: Bot ID 4 attempting to connect to 37.59.63.55:6667...
+[03:00:12] *** IRC_OnConnect: Bot ID 4 connected to 37.59.63.55:6667
+[03:00:13] *** IRC_OnJoinChannel: Bot ID 4 joined channel #sfs.echo
+[03:00:13] *** IRC_OnJoinChannel: Bot ID 4 joined channel #sfs
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:53:48] 
+[12:53:48] Server Plugins
+[12:53:48] --------------
+[12:53:48]  Loading plugin: mysql.dll
+[12:53:48]  >> plugin.mysql: R41-4 successfully loaded.
+[12:53:48]   Loaded.
+[12:53:48]  Loading plugin: sscanf.dll
+[12:53:48] 
+
+[12:53:48]  ===============================
+
+[12:53:48]       sscanf plugin loaded.     
+
+[12:53:48]          Version:  2.8.3        
+
+[12:53:48]   (c) 2018 Alex "Y_Less" Cole  
+
+[12:53:48]  ===============================
+
+[12:53:48]   Loaded.
+[12:53:48]  Loading plugin: mapandreas.dll
+[12:53:48]   Loaded.
+[12:53:48]  Loading plugin: irc.dll
+[12:53:48] 
+
+*** IRC Plugin v1.4.8 by Incognito loaded ***
+
+[12:53:48]   Loaded.
+[12:53:48]  Loaded 4 plugins.
+
+[12:53:48] 
+[12:53:48] Filterscripts
+[12:53:48] ---------------
+[12:53:48]   Loaded 0 filterscripts.
+
+[12:53:48] Initialization of 'SEF Global Gamemode'..
+[12:53:48] Loaded 3 vehicles from: vehicles/trains.txt
+[12:53:48] Loaded 3 vehicles from: vehicles/pilots.txt
+[12:53:48] Loaded 15 vehicles from: vehicles/lv_law.txt
+[12:53:48] Loaded 39 vehicles from: vehicles/lv_airport.txt
+[12:53:48] Loaded 255 vehicles from: vehicles/lv_gen.txt
+[12:53:48] Loaded 38 vehicles from: vehicles/sf_law.txt
+[12:53:48] Loaded 35 vehicles from: vehicles/sf_airport.txt
+[12:53:48] Loaded 353 vehicles from: vehicles/sf_gen.txt
+[12:53:48] Loaded 24 vehicles from: vehicles/ls_law.txt
+[12:53:48] Loaded 37 vehicles from: vehicles/ls_airport.txt
+[12:53:48] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
+[12:53:48] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
+[12:53:48] Loaded 71 vehicles from: vehicles/whetstone.txt
+[12:53:48] Loaded 168 vehicles from: vehicles/bone.txt
+[12:53:48] Loaded 61 vehicles from: vehicles/flint.txt
+[12:53:48] Loaded 96 vehicles from: vehicles/tierra.txt
+[12:53:48] Loaded 96 vehicles from: vehicles/red_county.txt
+[12:53:48] [connection] 127.0.0.1:60938 requests connection cookie.
+[12:53:48] Completed... (1/4)
+[12:53:48] Initialization of 'MySQL Connection'..
+[12:53:48] [connection] 127.0.0.1:60939 requests connection cookie.
+[12:53:48] [SFMySQL]: Connected.
+[12:53:48] Completed... (2/4)
+[12:53:48] Initialization of 'Discord Connection'..
+[12:53:48] Completed... (3/4)
+[12:53:48] Initialization of 'IRC Connection'..
+[12:53:48] Completed... (4/5)
+[12:53:48] Initialization of 'Other startup plugins'..
+[12:53:48] [connection] 127.0.0.1:60940 requests connection cookie.
+[12:53:48] [connection] 127.0.0.1:60345 requests connection cookie.
+[12:53:48] [connection] 127.0.0.1:60346 requests connection cookie.
+[12:53:48] Completed... (5/5)
+[12:53:48] -------------------------------------------------------------
+[12:53:48] 	Everything Loaded, Welcome to.
+[12:53:48] -------------------------------------------------------------
+[12:53:48] -------------------------------------------------------------
+[12:53:48]      #####                            
+[12:53:48]     #     #  #####  #    #  #    #  ##### 
+[12:53:48]     #          #    #    #  ##   #    #   
+[12:53:48]      #####     #    #    #  # #  #    #   
+[12:53:48]           #    #    #    #  #  # #    #   
+[12:53:48]     #     #    #    #    #  #   ##    #   
+[12:53:48]      #####     #     ####   #    #    #   
+[12:53:48]     #######                                                  
+[12:53:48]     #       #####  ###### ###### #####   ####    ##   #    # 
+[12:53:48]     #       #    # #      #      #    # #    #  #  #  ##  ## 
+[12:53:48]     #####   #    # #####  #####  #    # #    # #    # # ## # 
+[12:53:48]     #       #####  #      #      #####  #    # ###### #    # 
+[12:53:48]     #       #   #  #      #      #   #  #    # #    # #    # 
+[12:53:48]     #       #    # ###### ###### #    #  ####  #    # #    # 
+[12:53:48]      #####                                     
+[12:53:48]     #     #  ######  #####   #    #  ######  #####  
+[12:53:48]     #        #       #    #  #    #  #       #    # 
+[12:53:48]      #####   #####   #    #  #    #  #####   #    # 
+[12:53:48]           #  #       #####   #    #  #       #####  
+[12:53:48]     #     #  #       #   #    #  #   #       #   #  
+[12:53:48]      #####   ######  #    #    ##    ######  #    # 
+[12:53:48] 
+
+[12:53:48] -------------------------------------------------------------
+[12:53:48] -------------------------------------------------------------
+[12:53:48] 	Version: 1.0 | Author: XeonMaster   
+[12:53:48] -------------------------------------------------------------
+[12:53:48] Number of vehicle models: 173
+[12:53:48] [connection] 127.0.0.1:60347 requests connection cookie.
+[12:53:48] [connection] 127.0.0.1:60348 requests connection cookie.
+[12:53:49] [connection] incoming connection: 127.0.0.1:60938 id: 0
+[12:53:49] [connection] incoming connection: 127.0.0.1:60939 id: 1
+[12:53:49] [connection] incoming connection: 127.0.0.1:60940 id: 2
+[12:53:49] [connection] incoming connection: 127.0.0.1:60345 id: 3
+[12:53:49] [connection] incoming connection: 127.0.0.1:60346 id: 4
+[12:53:49] [connection] incoming connection: 127.0.0.1:60347 id: 5
+[12:53:49] [connection] incoming connection: 127.0.0.1:60348 id: 6
+[12:53:49] [npc:join] [SAP]Bus[65][0] has joined the server (0:127.0.0.1)
+[12:53:49] [npc:join] [SAP]Bus[52][0] has joined the server (1:127.0.0.1)
+[12:53:49] [npc:join] [SAP]Bus[07][0] has joined the server (2:127.0.0.1)
+[12:53:49] [npc:join] [SAP]Bus[30][0] has joined the server (3:127.0.0.1)
+[12:53:49] [npc:join] [SAP]Bus[40][0] has joined the server (4:127.0.0.1)
+[12:53:49] [npc:join] [SAP]Bus[57][0] has joined the server (5:127.0.0.1)
+[12:53:49] [npc:join] [SAP]Bus[18][0] has joined the server (6:127.0.0.1)
+[12:54:08] *** IRC_OnConnectAttempt: Bot ID 1 attempting to connect to 37.59.63.55:6667...
+[12:54:10] *** IRC_OnConnect: Bot ID 1 connected to 37.59.63.55:6667
+[12:54:11] *** IRC_OnJoinChannel: Bot ID 1 joined channel #sfs.echo
+[12:54:11] *** IRC_OnJoinChannel: Bot ID 1 joined channel #sfs
+[12:54:18] *** IRC_OnConnectAttempt: Bot ID 3 attempting to connect to 37.59.63.55:6667...
+[12:54:18] *** IRC_OnConnectAttempt: Bot ID 4 attempting to connect to 37.59.63.55:6667...
+[12:54:18] *** IRC_OnConnectAttempt: Bot ID 2 attempting to connect to 37.59.63.55:6667...
+[12:54:19] *** IRC_OnConnect: Bot ID 3 connected to 37.59.63.55:6667
+[12:54:20] *** IRC_OnConnect: Bot ID 4 connected to 37.59.63.55:6667
+[12:54:22] *** IRC_OnConnect: Bot ID 2 connected to 37.59.63.55:6667
+[12:54:24] *** IRC_OnJoinChannel: Bot ID 3 joined channel #sfs.echo
+[12:54:24] *** IRC_OnJoinChannel: Bot ID 3 joined channel #sfs
+[12:54:24] *** IRC_OnJoinChannel: Bot ID 4 joined channel #sfs.echo
+[12:54:24] *** IRC_OnJoinChannel: Bot ID 4 joined channel #sfs
+[12:54:24] *** IRC_OnJoinChannel: Bot ID 2 joined channel #sfs.echo
+[12:54:24] *** IRC_OnJoinChannel: Bot ID 2 joined channel #sfs
+[12:54:24] [connection] 127.0.0.1:55040 requests connection cookie.
+[12:54:25] [connection] incoming connection: 127.0.0.1:55040 id: 7
+[12:54:26] [join] XeonTM has joined the server (7:127.0.0.1)
+[12:54:54] [connection] 127.0.0.1:60150 requests connection cookie.
+[12:54:54] [connection] 127.0.0.1:60151 requests connection cookie.
+[12:54:54] [connection] 127.0.0.1:60152 requests connection cookie.
+[12:54:54] [connection] 127.0.0.1:60153 requests connection cookie.
+[12:54:54] [connection] 127.0.0.1:60154 requests connection cookie.
+[12:54:54] [connection] 127.0.0.1:60155 requests connection cookie.
+[12:54:54] [connection] 127.0.0.1:60156 requests connection cookie.
+[12:54:55] [connection] incoming connection: 127.0.0.1:60150 id: 8
+[12:54:55] [connection] incoming connection: 127.0.0.1:60151 id: 9
+[12:54:55] [connection] incoming connection: 127.0.0.1:60152 id: 10
+[12:54:55] [connection] incoming connection: 127.0.0.1:60153 id: 11
+[12:54:55] [connection] incoming connection: 127.0.0.1:60154 id: 12
+[12:54:55] [connection] incoming connection: 127.0.0.1:60155 id: 13
+[12:54:55] [connection] incoming connection: 127.0.0.1:60156 id: 14
+[12:54:56] [npc:join] [SAP]Bus[65][1] has joined the server (8:127.0.0.1)
+[12:54:56] [npc:join] [SAP]Bus[52][1] has joined the server (9:127.0.0.1)
+[12:54:56] [npc:join] [SAP]Bus[07][1] has joined the server (10:127.0.0.1)
+[12:54:56] [npc:join] [SAP]Bus[30][1] has joined the server (11:127.0.0.1)
+[12:54:56] [npc:join] [SAP]Bus[40][1] has joined the server (12:127.0.0.1)
+[12:54:56] [npc:join] [SAP]Bus[57][1] has joined the server (13:127.0.0.1)
+[12:54:56] [npc:join] [SAP]Bus[18][1] has joined the server (14:127.0.0.1)
+[12:55:02] [death] XeonTM died 255
+[12:55:10] [death] XeonTM died 255
+[12:55:17] [death] XeonTM died 255
+[13:01:53] [part] XeonTM has left the server (7:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:24:44] 
+[13:24:44] Server Plugins
+[13:24:44] --------------
+[13:24:44]  Loading plugin: mysql.dll
+[13:24:44]  >> plugin.mysql: R41-4 successfully loaded.
+[13:24:44]   Loaded.
+[13:24:44]  Loading plugin: sscanf.dll
+[13:24:44] 
+
+[13:24:44]  ===============================
+
+[13:24:44]       sscanf plugin loaded.     
+
+[13:24:44]          Version:  2.8.3        
+
+[13:24:44]   (c) 2018 Alex "Y_Less" Cole  
+
+[13:24:44]  ===============================
+
+[13:24:44]   Loaded.
+[13:24:44]  Loading plugin: mapandreas.dll
+[13:24:44]   Loaded.
+[13:24:44]  Loading plugin: irc.dll
+[13:24:44] 
+
+*** IRC Plugin v1.4.8 by Incognito loaded ***
+
+[13:24:44]   Loaded.
+[13:24:44]  Loaded 4 plugins.
+
+[13:24:44] 
+[13:24:44] Filterscripts
+[13:24:44] ---------------
+[13:24:44]   Loaded 0 filterscripts.
+
+[13:24:44] Initialization of 'SEF Global Gamemode'..
+[13:24:44] Loaded 3 vehicles from: vehicles/trains.txt
+[13:24:44] Loaded 3 vehicles from: vehicles/pilots.txt
+[13:24:44] Loaded 15 vehicles from: vehicles/lv_law.txt
+[13:24:44] Loaded 39 vehicles from: vehicles/lv_airport.txt
+[13:24:44] Loaded 255 vehicles from: vehicles/lv_gen.txt
+[13:24:44] Loaded 38 vehicles from: vehicles/sf_law.txt
+[13:24:44] Loaded 35 vehicles from: vehicles/sf_airport.txt
+[13:24:44] Loaded 353 vehicles from: vehicles/sf_gen.txt
+[13:24:44] Loaded 24 vehicles from: vehicles/ls_law.txt
+[13:24:44] Loaded 37 vehicles from: vehicles/ls_airport.txt
+[13:24:44] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
+[13:24:44] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
+[13:24:44] Loaded 71 vehicles from: vehicles/whetstone.txt
+[13:24:44] Loaded 168 vehicles from: vehicles/bone.txt
+[13:24:44] Loaded 61 vehicles from: vehicles/flint.txt
+[13:24:44] Loaded 96 vehicles from: vehicles/tierra.txt
+[13:24:44] Loaded 96 vehicles from: vehicles/red_county.txt
+[13:24:44] [connection] 127.0.0.1:57898 requests connection cookie.
+[13:24:44] [connection] 127.0.0.1:57899 requests connection cookie.
+[13:24:44] Completed... (1/4)
+[13:24:44] Initialization of 'MySQL Connection'..
+[13:24:44] [SFMySQL]: Connected.
+[13:24:44] Completed... (2/4)
+[13:24:44] [connection] 127.0.0.1:57900 requests connection cookie.
+[13:24:44] Initialization of 'Discord Connection'..
+[13:24:44] Completed... (3/4)
+[13:24:44] Initialization of 'IRC Connection'..
+[13:24:44] Completed... (4/5)
+[13:24:44] Initialization of 'Other startup plugins'..
+[13:24:44] [connection] 127.0.0.1:57901 requests connection cookie.
+[13:24:44] [connection] 127.0.0.1:63198 requests connection cookie.
+[13:24:44] Completed... (5/5)
+[13:24:44] -------------------------------------------------------------
+[13:24:44] 	Everything Loaded, Welcome to.
+[13:24:44] -------------------------------------------------------------
+[13:24:44] -------------------------------------------------------------
+[13:24:44]      #####                            
+[13:24:44]     #     #  #####  #    #  #    #  ##### 
+[13:24:44]     #          #    #    #  ##   #    #   
+[13:24:44]      #####     #    #    #  # #  #    #   
+[13:24:44]           #    #    #    #  #  # #    #   
+[13:24:44]     #     #    #    #    #  #   ##    #   
+[13:24:44]      #####     #     ####   #    #    #   
+[13:24:44]     #######                                                  
+[13:24:44]     #       #####  ###### ###### #####   ####    ##   #    # 
+[13:24:44]     #       #    # #      #      #    # #    #  #  #  ##  ## 
+[13:24:44]     #####   #    # #####  #####  #    # #    # #    # # ## # 
+[13:24:44]     #       #####  #      #      #####  #    # ###### #    # 
+[13:24:44]     #       #   #  #      #      #   #  #    # #    # #    # 
+[13:24:44]     #       #    # ###### ###### #    #  ####  #    # #    # 
+[13:24:44]      #####                                     
+[13:24:44]     #     #  ######  #####   #    #  ######  #####  
+[13:24:44]     #        #       #    #  #    #  #       #    # 
+[13:24:44]      #####   #####   #    #  #    #  #####   #    # 
+[13:24:44]           #  #       #####   #    #  #       #####  
+[13:24:44]     #     #  #       #   #    #  #   #       #   #  
+[13:24:44]      #####   ######  #    #    ##    ######  #    # 
+[13:24:44] 
+
+[13:24:44] -------------------------------------------------------------
+[13:24:44] -------------------------------------------------------------
+[13:24:44] 	Version: 1.0 | Author: XeonMaster   
+[13:24:44] -------------------------------------------------------------
+[13:24:44] [connection] 127.0.0.1:63199 requests connection cookie.
+[13:24:44] Number of vehicle models: 173
+[13:24:44] [connection] 127.0.0.1:63200 requests connection cookie.
+[13:24:45] [connection] incoming connection: 127.0.0.1:57898 id: 0
+[13:24:45] [connection] incoming connection: 127.0.0.1:57899 id: 1
+[13:24:45] [connection] incoming connection: 127.0.0.1:57900 id: 2
+[13:24:45] [connection] incoming connection: 127.0.0.1:57901 id: 3
+[13:24:45] [connection] incoming connection: 127.0.0.1:63198 id: 4
+[13:24:45] [connection] incoming connection: 127.0.0.1:63199 id: 5
+[13:24:45] [connection] incoming connection: 127.0.0.1:63200 id: 6
+[13:24:45] [npc:join] [SAP]Bus[65][0] has joined the server (0:127.0.0.1)
+[13:24:45] [npc:join] [SAP]Bus[52][0] has joined the server (1:127.0.0.1)
+[13:24:45] [npc:join] [SAP]Bus[07][0] has joined the server (2:127.0.0.1)
+[13:24:45] [npc:join] [SAP]Bus[30][0] has joined the server (3:127.0.0.1)
+[13:24:45] [npc:join] [SAP]Bus[40][0] has joined the server (4:127.0.0.1)
+[13:24:45] [npc:join] [SAP]Bus[57][0] has joined the server (5:127.0.0.1)
+[13:24:45] [npc:join] [SAP]Bus[18][0] has joined the server (6:127.0.0.1)
+[13:25:04] *** IRC_OnConnectAttempt: Bot ID 1 attempting to connect to 37.59.63.55:6667...
+[13:25:04] *** IRC_OnConnect: Bot ID 1 connected to 37.59.63.55:6667
+[13:25:06] *** IRC_OnJoinChannel: Bot ID 1 joined channel #sfs.echo
+[13:25:06] *** IRC_OnJoinChannel: Bot ID 1 joined channel #sfs
+[13:25:11] [connection] 127.0.0.1:64979 requests connection cookie.
+[13:25:12] [connection] incoming connection: 127.0.0.1:64979 id: 7
+[13:25:12] [join] XeonTM has joined the server (7:127.0.0.1)
+[13:25:14] *** IRC_OnConnectAttempt: Bot ID 3 attempting to connect to 37.59.63.55:6667...
+[13:25:14] *** IRC_OnConnectAttempt: Bot ID 2 attempting to connect to 37.59.63.55:6667...
+[13:25:14] *** IRC_OnConnectAttempt: Bot ID 4 attempting to connect to 37.59.63.55:6667...
+[13:25:14] *** IRC_OnConnect: Bot ID 3 connected to 37.59.63.55:6667
+[13:25:16] *** IRC_OnJoinChannel: Bot ID 3 joined channel #sfs.echo
+[13:25:16] *** IRC_OnJoinChannel: Bot ID 3 joined channel #sfs
+[13:25:16] *** IRC_OnConnect: Bot ID 4 connected to 37.59.63.55:6667
+[13:25:17] *** IRC_OnConnect: Bot ID 2 connected to 37.59.63.55:6667
+[13:25:19] *** IRC_OnJoinChannel: Bot ID 4 joined channel #sfs.echo
+[13:25:19] *** IRC_OnJoinChannel: Bot ID 4 joined channel #sfs
+[13:25:19] *** IRC_OnJoinChannel: Bot ID 2 joined channel #sfs.echo
+[13:25:19] *** IRC_OnJoinChannel: Bot ID 2 joined channel #sfs
+[13:25:37] [death] XeonTM died 255
+[13:25:41] [part] XeonTM has left the server (7:1)
+[13:25:50] [connection] 127.0.0.1:50860 requests connection cookie.
+[13:25:50] [connection] 127.0.0.1:50861 requests connection cookie.
+[13:25:50] [connection] 127.0.0.1:50862 requests connection cookie.
+[13:25:50] [connection] 127.0.0.1:50863 requests connection cookie.
+[13:25:50] [connection] 127.0.0.1:50864 requests connection cookie.
+[13:25:50] [connection] 127.0.0.1:50866 requests connection cookie.
+[13:25:50] [connection] 127.0.0.1:50865 requests connection cookie.
+[13:25:51] [connection] incoming connection: 127.0.0.1:50860 id: 7
+[13:25:51] [connection] incoming connection: 127.0.0.1:50861 id: 8
+[13:25:51] [connection] incoming connection: 127.0.0.1:50862 id: 9
+[13:25:51] [connection] incoming connection: 127.0.0.1:50863 id: 10
+[13:25:51] [connection] incoming connection: 127.0.0.1:50864 id: 11
+[13:25:51] [connection] incoming connection: 127.0.0.1:50865 id: 12
+[13:25:51] [connection] incoming connection: 127.0.0.1:50866 id: 13
+[13:25:51] [npc:join] [SAP]Bus[65][1] has joined the server (7:127.0.0.1)
+[13:25:51] [npc:join] [SAP]Bus[52][1] has joined the server (8:127.0.0.1)
+[13:25:51] [npc:join] [SAP]Bus[07][1] has joined the server (9:127.0.0.1)
+[13:25:51] [npc:join] [SAP]Bus[30][1] has joined the server (10:127.0.0.1)
+[13:25:51] [npc:join] [SAP]Bus[40][1] has joined the server (11:127.0.0.1)
+[13:25:51] [npc:join] [SAP]Bus[18][1] has joined the server (13:127.0.0.1)
+[13:25:51] [npc:join] [SAP]Bus[57][1] has joined the server (12:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:36:18] 
+[13:36:18] Server Plugins
+[13:36:18] --------------
+[13:36:18]  Loading plugin: mysql.dll
+[13:36:19]  >> plugin.mysql: R41-4 successfully loaded.
+[13:36:19]   Loaded.
+[13:36:19]  Loading plugin: sscanf.dll
+[13:36:19] 
+
+[13:36:19]  ===============================
+
+[13:36:19]       sscanf plugin loaded.     
+
+[13:36:19]          Version:  2.8.3        
+
+[13:36:19]   (c) 2018 Alex "Y_Less" Cole  
+
+[13:36:19]  ===============================
+
+[13:36:19]   Loaded.
+[13:36:19]  Loading plugin: mapandreas.dll
+[13:36:19]   Loaded.
+[13:36:19]  Loading plugin: irc.dll
+[13:36:19] 
+
+*** IRC Plugin v1.4.8 by Incognito loaded ***
+
+[13:36:19]   Loaded.
+[13:36:19]  Loaded 4 plugins.
+
+[13:36:19] 
+[13:36:19] Filterscripts
+[13:36:19] ---------------
+[13:36:19]   Loaded 0 filterscripts.
+
+[13:36:19] Initialization of 'SEF Global Gamemode'..
+[13:36:19] Loaded 3 vehicles from: vehicles/trains.txt
+[13:36:19] Loaded 3 vehicles from: vehicles/pilots.txt
+[13:36:19] Loaded 15 vehicles from: vehicles/lv_law.txt
+[13:36:19] Loaded 39 vehicles from: vehicles/lv_airport.txt
+[13:36:19] Loaded 255 vehicles from: vehicles/lv_gen.txt
+[13:36:19] Loaded 38 vehicles from: vehicles/sf_law.txt
+[13:36:19] Loaded 35 vehicles from: vehicles/sf_airport.txt
+[13:36:19] Loaded 353 vehicles from: vehicles/sf_gen.txt
+[13:36:19] Loaded 24 vehicles from: vehicles/ls_law.txt
+[13:36:19] Loaded 37 vehicles from: vehicles/ls_airport.txt
+[13:36:19] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
+[13:36:19] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
+[13:36:19] Loaded 71 vehicles from: vehicles/whetstone.txt
+[13:36:19] Loaded 168 vehicles from: vehicles/bone.txt
+[13:36:19] Loaded 61 vehicles from: vehicles/flint.txt
+[13:36:19] Loaded 96 vehicles from: vehicles/tierra.txt
+[13:36:19] Loaded 96 vehicles from: vehicles/red_county.txt
+[13:36:19] [connection] 127.0.0.1:56341 requests connection cookie.
+[13:36:19] Completed... (1/4)
+[13:36:19] Initialization of 'MySQL Connection'..
+[13:36:19] [connection] 127.0.0.1:56342 requests connection cookie.
+[13:36:19] [SFMySQL]: Connected.
+[13:36:19] Completed... (2/4)
+[13:36:19] Initialization of 'Discord Connection'..
+[13:36:19] Completed... (3/4)
+[13:36:19] Initialization of 'IRC Connection'..
+[13:36:19] Completed... (4/5)
+[13:36:19] Initialization of 'Other startup plugins'..
+[13:36:19] [connection] 127.0.0.1:56343 requests connection cookie.
+[13:36:19] [connection] 127.0.0.1:56454 requests connection cookie.
+[13:36:19] [connection] 127.0.0.1:56455 requests connection cookie.
+[13:36:19] Completed... (5/5)
+[13:36:19] -------------------------------------------------------------
+[13:36:19] 	Everything Loaded, Welcome to.
+[13:36:19] -------------------------------------------------------------
+[13:36:19] -------------------------------------------------------------
+[13:36:19]      #####                            
+[13:36:19]     #     #  #####  #    #  #    #  ##### 
+[13:36:19]     #          #    #    #  ##   #    #   
+[13:36:19]      #####     #    #    #  # #  #    #   
+[13:36:19]           #    #    #    #  #  # #    #   
+[13:36:19]     #     #    #    #    #  #   ##    #   
+[13:36:19]      #####     #     ####   #    #    #   
+[13:36:19]     #######                                                  
+[13:36:19]     #       #####  ###### ###### #####   ####    ##   #    # 
+[13:36:19]     #       #    # #      #      #    # #    #  #  #  ##  ## 
+[13:36:19]     #####   #    # #####  #####  #    # #    # #    # # ## # 
+[13:36:19]     #       #####  #      #      #####  #    # ###### #    # 
+[13:36:19]     #       #   #  #      #      #   #  #    # #    # #    # 
+[13:36:19]     #       #    # ###### ###### #    #  ####  #    # #    # 
+[13:36:19]      #####                                     
+[13:36:19]     #     #  ######  #####   #    #  ######  #####  
+[13:36:19]     #        #       #    #  #    #  #       #    # 
+[13:36:19]      #####   #####   #    #  #    #  #####   #    # 
+[13:36:19]           #  #       #####   #    #  #       #####  
+[13:36:19]     #     #  #       #   #    #  #   #       #   #  
+[13:36:19]      #####   ######  #    #    ##    ######  #    # 
+[13:36:19] 
+
+[13:36:19] -------------------------------------------------------------
+[13:36:19] -------------------------------------------------------------
+[13:36:19] 	Version: 1.0 | Author: XeonMaster   
+[13:36:19] -------------------------------------------------------------
+[13:36:19] Number of vehicle models: 173
+[13:36:19] [connection] 127.0.0.1:56456 requests connection cookie.
+[13:36:19] [connection] 127.0.0.1:56457 requests connection cookie.
+[13:36:20] [connection] incoming connection: 127.0.0.1:56341 id: 0
+[13:36:20] [connection] incoming connection: 127.0.0.1:56342 id: 1
+[13:36:20] [connection] incoming connection: 127.0.0.1:56343 id: 2
+[13:36:20] [connection] incoming connection: 127.0.0.1:56454 id: 3
+[13:36:20] [connection] incoming connection: 127.0.0.1:56455 id: 4
+[13:36:20] [connection] incoming connection: 127.0.0.1:56456 id: 5
+[13:36:20] [connection] incoming connection: 127.0.0.1:56457 id: 6
+[13:36:20] [npc:join] [SAP]Bus[65][0] has joined the server (0:127.0.0.1)
+[13:36:20] [npc:join] [SAP]Bus[52][0] has joined the server (1:127.0.0.1)
+[13:36:20] [npc:join] [SAP]Bus[07][0] has joined the server (2:127.0.0.1)
+[13:36:20] [npc:join] [SAP]Bus[30][0] has joined the server (3:127.0.0.1)
+[13:36:20] [npc:join] [SAP]Bus[40][0] has joined the server (4:127.0.0.1)
+[13:36:20] [npc:join] [SAP]Bus[57][0] has joined the server (5:127.0.0.1)
+[13:36:20] [npc:join] [SAP]Bus[18][0] has joined the server (6:127.0.0.1)
+[13:36:39] *** IRC_OnConnectAttempt: Bot ID 1 attempting to connect to 37.59.63.55:6667...
+[13:36:39] [connection] 127.0.0.1:58371 requests connection cookie.
+[13:36:40] [connection] incoming connection: 127.0.0.1:58371 id: 7
+[13:36:40] [join] XeonTM has joined the server (7:127.0.0.1)
+[13:36:40] *** IRC_OnConnect: Bot ID 1 connected to 37.59.63.55:6667
+[13:36:42] *** IRC_OnJoinChannel: Bot ID 1 joined channel #sfs.echo
+[13:36:42] *** IRC_OnJoinChannel: Bot ID 1 joined channel #sfs
+[13:36:49] *** IRC_OnConnectAttempt: Bot ID 2 attempting to connect to 37.59.63.55:6667...
+[13:36:49] *** IRC_OnConnectAttempt: Bot ID 3 attempting to connect to 37.59.63.55:6667...
+[13:36:49] *** IRC_OnConnectAttempt: Bot ID 4 attempting to connect to 37.59.63.55:6667...
+[13:36:49] [death] XeonTM died 255
+[13:36:50] *** IRC_OnConnect: Bot ID 2 connected to 37.59.63.55:6667
+[13:36:51] *** IRC_OnConnect: Bot ID 3 connected to 37.59.63.55:6667
+[13:36:53] *** IRC_OnConnect: Bot ID 4 connected to 37.59.63.55:6667
+[13:36:55] *** IRC_OnJoinChannel: Bot ID 2 joined channel #sfs.echo
+[13:36:55] *** IRC_OnJoinChannel: Bot ID 2 joined channel #sfs
+[13:36:55] *** IRC_OnJoinChannel: Bot ID 3 joined channel #sfs.echo
+[13:36:55] *** IRC_OnJoinChannel: Bot ID 3 joined channel #sfs
+[13:36:55] [death] XeonTM died 255
+[13:36:55] *** IRC_OnJoinChannel: Bot ID 4 joined channel #sfs.echo
+[13:36:55] *** IRC_OnJoinChannel: Bot ID 4 joined channel #sfs
+[13:36:57] [part] XeonTM has left the server (7:1)
+[13:37:25] [connection] 127.0.0.1:54265 requests connection cookie.
+[13:37:25] [connection] 127.0.0.1:54266 requests connection cookie.
+[13:37:25] [connection] 127.0.0.1:54267 requests connection cookie.
+[13:37:25] [connection] 127.0.0.1:54268 requests connection cookie.
+[13:37:25] [connection] 127.0.0.1:54269 requests connection cookie.
+[13:37:25] [connection] 127.0.0.1:54270 requests connection cookie.
+[13:37:25] [connection] 127.0.0.1:54271 requests connection cookie.
+[13:37:26] [connection] incoming connection: 127.0.0.1:54265 id: 7
+[13:37:26] [connection] incoming connection: 127.0.0.1:54266 id: 8
+[13:37:26] [connection] incoming connection: 127.0.0.1:54267 id: 9
+[13:37:26] [connection] incoming connection: 127.0.0.1:54268 id: 10
+[13:37:26] [connection] incoming connection: 127.0.0.1:54269 id: 11
+[13:37:26] [connection] incoming connection: 127.0.0.1:54270 id: 12
+[13:37:26] [connection] incoming connection: 127.0.0.1:54271 id: 13
+[13:37:26] [npc:join] [SAP]Bus[65][1] has joined the server (7:127.0.0.1)
+[13:37:26] [npc:join] [SAP]Bus[52][1] has joined the server (8:127.0.0.1)
+[13:37:26] [npc:join] [SAP]Bus[07][1] has joined the server (9:127.0.0.1)
+[13:37:26] [npc:join] [SAP]Bus[30][1] has joined the server (10:127.0.0.1)
+[13:37:26] [npc:join] [SAP]Bus[40][1] has joined the server (11:127.0.0.1)
+[13:37:26] [npc:join] [SAP]Bus[57][1] has joined the server (12:127.0.0.1)
+[13:37:26] [npc:join] [SAP]Bus[18][1] has joined the server (13:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:38:13] 
+[13:38:13] Server Plugins
+[13:38:13] --------------
+[13:38:13]  Loading plugin: mysql.dll
+[13:38:13]  >> plugin.mysql: R41-4 successfully loaded.
+[13:38:13]   Loaded.
+[13:38:13]  Loading plugin: sscanf.dll
+[13:38:13] 
+
+[13:38:13]  ===============================
+
+[13:38:13]       sscanf plugin loaded.     
+
+[13:38:13]          Version:  2.8.3        
+
+[13:38:13]   (c) 2018 Alex "Y_Less" Cole  
+
+[13:38:13]  ===============================
+
+[13:38:13]   Loaded.
+[13:38:13]  Loading plugin: mapandreas.dll
+[13:38:13]   Loaded.
+[13:38:13]  Loading plugin: irc.dll
+[13:38:13] 
+
+*** IRC Plugin v1.4.8 by Incognito loaded ***
+
+[13:38:13]   Loaded.
+[13:38:13]  Loaded 4 plugins.
+
+[13:38:13] 
+[13:38:13] Filterscripts
+[13:38:13] ---------------
+[13:38:13]   Loaded 0 filterscripts.
+
+[13:38:13] Initialization of 'SEF Global Gamemode'..
+[13:38:13] Loaded 3 vehicles from: vehicles/trains.txt
+[13:38:13] Loaded 3 vehicles from: vehicles/pilots.txt
+[13:38:13] Loaded 15 vehicles from: vehicles/lv_law.txt
+[13:38:13] Loaded 39 vehicles from: vehicles/lv_airport.txt
+[13:38:13] Loaded 255 vehicles from: vehicles/lv_gen.txt
+[13:38:13] Loaded 38 vehicles from: vehicles/sf_law.txt
+[13:38:13] Loaded 35 vehicles from: vehicles/sf_airport.txt
+[13:38:13] Loaded 353 vehicles from: vehicles/sf_gen.txt
+[13:38:13] Loaded 24 vehicles from: vehicles/ls_law.txt
+[13:38:13] Loaded 37 vehicles from: vehicles/ls_airport.txt
+[13:38:13] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
+[13:38:13] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
+[13:38:13] Loaded 71 vehicles from: vehicles/whetstone.txt
+[13:38:13] Loaded 168 vehicles from: vehicles/bone.txt
+[13:38:13] Loaded 61 vehicles from: vehicles/flint.txt
+[13:38:13] Loaded 96 vehicles from: vehicles/tierra.txt
+[13:38:13] Loaded 96 vehicles from: vehicles/red_county.txt
+[13:38:13] [connection] 127.0.0.1:65126 requests connection cookie.
+[13:38:13] Completed... (1/4)
+[13:38:13] Initialization of 'MySQL Connection'..
+[13:38:13] [connection] 127.0.0.1:65127 requests connection cookie.
+[13:38:13] [SFMySQL]: Connected.
+[13:38:13] Completed... (2/4)
+[13:38:13] Initialization of 'Discord Connection'..
+[13:38:13] Completed... (3/4)
+[13:38:13] Initialization of 'IRC Connection'..
+[13:38:13] Completed... (4/5)
+[13:38:13] Initialization of 'Other startup plugins'..
+[13:38:13] [connection] 127.0.0.1:65128 requests connection cookie.
+[13:38:13] [connection] 127.0.0.1:65129 requests connection cookie.
+[13:38:13] [connection] 127.0.0.1:65130 requests connection cookie.
+[13:38:13] Completed... (5/5)
+[13:38:13] -------------------------------------------------------------
+[13:38:13] 	Everything Loaded, Welcome to.
+[13:38:13] -------------------------------------------------------------
+[13:38:13] -------------------------------------------------------------
+[13:38:13]      #####                            
+[13:38:13]     #     #  #####  #    #  #    #  ##### 
+[13:38:13]     #          #    #    #  ##   #    #   
+[13:38:13]      #####     #    #    #  # #  #    #   
+[13:38:13]           #    #    #    #  #  # #    #   
+[13:38:13]     #     #    #    #    #  #   ##    #   
+[13:38:13]      #####     #     ####   #    #    #   
+[13:38:13]     #######                                                  
+[13:38:13]     #       #####  ###### ###### #####   ####    ##   #    # 
+[13:38:13]     #       #    # #      #      #    # #    #  #  #  ##  ## 
+[13:38:13]     #####   #    # #####  #####  #    # #    # #    # # ## # 
+[13:38:13]     #       #####  #      #      #####  #    # ###### #    # 
+[13:38:13]     #       #   #  #      #      #   #  #    # #    # #    # 
+[13:38:13]     #       #    # ###### ###### #    #  ####  #    # #    # 
+[13:38:13]      #####                                     
+[13:38:13] [connection] 127.0.0.1:65131 requests connection cookie.
+[13:38:13]     #     #  ######  #####   #    #  ######  #####  
+[13:38:13]     #        #       #    #  #    #  #       #    # 
+[13:38:13]      #####   #####   #    #  #    #  #####   #    # 
+[13:38:13]           #  #       #####   #    #  #       #####  
+[13:38:13]     #     #  #       #   #    #  #   #       #   #  
+[13:38:13]      #####   ######  #    #    ##    ######  #    # 
+[13:38:13] 
+
+[13:38:13] -------------------------------------------------------------
+[13:38:13] -------------------------------------------------------------
+[13:38:13] 	Version: 1.0 | Author: XeonMaster   
+[13:38:13] -------------------------------------------------------------
+[13:38:13] Number of vehicle models: 173
+[13:38:13] [connection] 127.0.0.1:65132 requests connection cookie.
+[13:38:14] [connection] incoming connection: 127.0.0.1:65126 id: 0
+[13:38:14] [connection] incoming connection: 127.0.0.1:65127 id: 1
+[13:38:14] [connection] incoming connection: 127.0.0.1:65128 id: 2
+[13:38:14] [connection] incoming connection: 127.0.0.1:65129 id: 3
+[13:38:14] [connection] incoming connection: 127.0.0.1:65130 id: 4
+[13:38:14] [connection] incoming connection: 127.0.0.1:65131 id: 5
+[13:38:14] [connection] incoming connection: 127.0.0.1:65132 id: 6
+[13:38:14] [npc:join] [SAP]Bus[65][0] has joined the server (0:127.0.0.1)
+[13:38:14] [npc:join] [SAP]Bus[52][0] has joined the server (1:127.0.0.1)
+[13:38:15] [npc:join] [SAP]Bus[07][0] has joined the server (2:127.0.0.1)
+[13:38:15] [npc:join] [SAP]Bus[30][0] has joined the server (3:127.0.0.1)
+[13:38:15] [npc:join] [SAP]Bus[40][0] has joined the server (4:127.0.0.1)
+[13:38:15] [npc:join] [SAP]Bus[57][0] has joined the server (5:127.0.0.1)
+[13:38:15] [npc:join] [SAP]Bus[18][0] has joined the server (6:127.0.0.1)
+[13:38:33] [connection] 127.0.0.1:65133 requests connection cookie.
+[13:38:33] *** IRC_OnConnectAttempt: Bot ID 1 attempting to connect to 37.59.63.55:6667...
+[13:38:34] [connection] incoming connection: 127.0.0.1:65133 id: 7
+[13:38:34] *** IRC_OnConnect: Bot ID 1 connected to 37.59.63.55:6667
+[13:38:34] [join] XeonTM has joined the server (7:127.0.0.1)
+[13:38:36] *** IRC_OnJoinChannel: Bot ID 1 joined channel #sfs.echo
+[13:38:36] *** IRC_OnJoinChannel: Bot ID 1 joined channel #sfs
+[13:38:43] [death] XeonTM died 255
+[13:38:43] *** IRC_OnConnectAttempt: Bot ID 3 attempting to connect to 37.59.63.55:6667...
+[13:38:43] *** IRC_OnConnectAttempt: Bot ID 2 attempting to connect to 37.59.63.55:6667...
+[13:38:43] *** IRC_OnConnectAttempt: Bot ID 4 attempting to connect to 37.59.63.55:6667...
+[13:38:44] *** IRC_OnConnect: Bot ID 3 connected to 37.59.63.55:6667
+[13:38:45] *** IRC_OnConnect: Bot ID 4 connected to 37.59.63.55:6667
+[13:38:47] *** IRC_OnConnect: Bot ID 2 connected to 37.59.63.55:6667
+[13:38:47] [chat] [XeonTM]: test
+[13:38:48] *** IRC_OnJoinChannel: Bot ID 3 joined channel #sfs.echo
+[13:38:49] [death] XeonTM died 255
+[13:38:49] *** IRC_OnJoinChannel: Bot ID 3 joined channel #sfs
+[13:38:49] *** IRC_OnJoinChannel: Bot ID 4 joined channel #sfs.echo
+[13:38:49] *** IRC_OnJoinChannel: Bot ID 4 joined channel #sfs
+[13:38:49] [part] XeonTM has left the server (7:1)
+[13:38:49] *** IRC_OnJoinChannel: Bot ID 2 joined channel #sfs.echo
+[13:38:49] *** IRC_OnJoinChannel: Bot ID 2 joined channel #sfs
+[13:39:19] [connection] 127.0.0.1:50362 requests connection cookie.
+[13:39:19] [connection] 127.0.0.1:50363 requests connection cookie.
+[13:39:19] [connection] 127.0.0.1:50364 requests connection cookie.
+[13:39:19] [connection] 127.0.0.1:50365 requests connection cookie.
+[13:39:19] [connection] 127.0.0.1:50366 requests connection cookie.
+[13:39:19] [connection] 127.0.0.1:50367 requests connection cookie.
+[13:39:19] [connection] 127.0.0.1:50368 requests connection cookie.
+[13:39:20] [connection] incoming connection: 127.0.0.1:50362 id: 7
+[13:39:20] [connection] incoming connection: 127.0.0.1:50363 id: 8
+[13:39:20] [connection] incoming connection: 127.0.0.1:50364 id: 9
+[13:39:20] [connection] incoming connection: 127.0.0.1:50365 id: 10
+[13:39:20] [connection] incoming connection: 127.0.0.1:50366 id: 11
+[13:39:20] [connection] incoming connection: 127.0.0.1:50367 id: 12
+[13:39:20] [connection] incoming connection: 127.0.0.1:50368 id: 13
+[13:39:21] [npc:join] [SAP]Bus[65][1] has joined the server (7:127.0.0.1)
+[13:39:21] [npc:join] [SAP]Bus[52][1] has joined the server (8:127.0.0.1)
+[13:39:21] [npc:join] [SAP]Bus[07][1] has joined the server (9:127.0.0.1)
+[13:39:21] [npc:join] [SAP]Bus[30][1] has joined the server (10:127.0.0.1)
+[13:39:21] [npc:join] [SAP]Bus[40][1] has joined the server (11:127.0.0.1)
+[13:39:21] [npc:join] [SAP]Bus[57][1] has joined the server (12:127.0.0.1)
+[13:39:21] [npc:join] [SAP]Bus[18][1] has joined the server (13:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:40:49] 
+[13:40:49] Server Plugins
+[13:40:49] --------------
+[13:40:49]  Loading plugin: mysql.dll
+[13:40:49]  >> plugin.mysql: R41-4 successfully loaded.
+[13:40:49]   Loaded.
+[13:40:49]  Loading plugin: sscanf.dll
+[13:40:49] 
+
+[13:40:49]  ===============================
+
+[13:40:49]       sscanf plugin loaded.     
+
+[13:40:49]          Version:  2.8.3        
+
+[13:40:49]   (c) 2018 Alex "Y_Less" Cole  
+
+[13:40:49]  ===============================
+
+[13:40:49]   Loaded.
+[13:40:49]  Loading plugin: mapandreas.dll
+[13:40:49]   Loaded.
+[13:40:49]  Loading plugin: irc.dll
+[13:40:49] 
+
+*** IRC Plugin v1.4.8 by Incognito loaded ***
+
+[13:40:49]   Loaded.
+[13:40:49]  Loaded 4 plugins.
+
+[13:40:49] 
+[13:40:49] Filterscripts
+[13:40:49] ---------------
+[13:40:49]   Loaded 0 filterscripts.
+
+[13:40:49] Initialization of 'SEF Global Gamemode'..
+[13:40:49] Loaded 3 vehicles from: vehicles/trains.txt
+[13:40:49] Loaded 3 vehicles from: vehicles/pilots.txt
+[13:40:49] Loaded 15 vehicles from: vehicles/lv_law.txt
+[13:40:49] Loaded 39 vehicles from: vehicles/lv_airport.txt
+[13:40:49] Loaded 255 vehicles from: vehicles/lv_gen.txt
+[13:40:49] Loaded 38 vehicles from: vehicles/sf_law.txt
+[13:40:49] Loaded 35 vehicles from: vehicles/sf_airport.txt
+[13:40:49] Loaded 353 vehicles from: vehicles/sf_gen.txt
+[13:40:49] Loaded 24 vehicles from: vehicles/ls_law.txt
+[13:40:49] Loaded 37 vehicles from: vehicles/ls_airport.txt
+[13:40:49] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
+[13:40:49] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
+[13:40:49] Loaded 71 vehicles from: vehicles/whetstone.txt
+[13:40:49] Loaded 168 vehicles from: vehicles/bone.txt
+[13:40:49] Loaded 61 vehicles from: vehicles/flint.txt
+[13:40:49] Loaded 96 vehicles from: vehicles/tierra.txt
+[13:40:49] Loaded 96 vehicles from: vehicles/red_county.txt
+[13:40:49] [connection] 127.0.0.1:57554 requests connection cookie.
+[13:40:49] Completed... (1/4)
+[13:40:49] Initialization of 'MySQL Connection'..
+[13:40:49] [connection] 127.0.0.1:57555 requests connection cookie.
+[13:40:49] [SFMySQL]: Connected.
+[13:40:49] Completed... (2/4)
+[13:40:49] Initialization of 'Discord Connection'..
+[13:40:49] Completed... (3/4)
+[13:40:49] Initialization of 'IRC Connection'..
+[13:40:49] Completed... (4/5)
+[13:40:49] Initialization of 'Other startup plugins'..
+[13:40:49] [connection] 127.0.0.1:57556 requests connection cookie.
+[13:40:49] [connection] 127.0.0.1:57557 requests connection cookie.
+[13:40:49] [connection] 127.0.0.1:57558 requests connection cookie.
+[13:40:49] Completed... (5/5)
+[13:40:49] -------------------------------------------------------------
+[13:40:49] 	Everything Loaded, Welcome to.
+[13:40:49] -------------------------------------------------------------
+[13:40:49] -------------------------------------------------------------
+[13:40:49]      #####                            
+[13:40:49]     #     #  #####  #    #  #    #  ##### 
+[13:40:49]     #          #    #    #  ##   #    #   
+[13:40:49]      #####     #    #    #  # #  #    #   
+[13:40:49]           #    #    #    #  #  # #    #   
+[13:40:49]     #     #    #    #    #  #   ##    #   
+[13:40:49]      #####     #     ####   #    #    #   
+[13:40:49]     #######                                                  
+[13:40:49]     #       #####  ###### ###### #####   ####    ##   #    # 
+[13:40:49]     #       #    # #      #      #    # #    #  #  #  ##  ## 
+[13:40:49]     #####   #    # #####  #####  #    # #    # #    # # ## # 
+[13:40:49]     #       #####  #      #      #####  #    # ###### #    # 
+[13:40:49]     #       #   #  #      #      #   #  #    # #    # #    # 
+[13:40:49]     #       #    # ###### ###### #    #  ####  #    # #    # 
+[13:40:49]      #####                                     
+[13:40:49]     #     #  ######  #####   #    #  ######  #####  
+[13:40:49]     #        #       #    #  #    #  #       #    # 
+[13:40:49]      #####   #####   #    #  #    #  #####   #    # 
+[13:40:49]           #  #       #####   #    #  #       #####  
+[13:40:49]     #     #  #       #   #    #  #   #       #   #  
+[13:40:49]      #####   ######  #    #    ##    ######  #    # 
+[13:40:49] 
+
+[13:40:49] -------------------------------------------------------------
+[13:40:49] -------------------------------------------------------------
+[13:40:49] 	Version: 1.0 | Author: XeonMaster   
+[13:40:49] -------------------------------------------------------------
+[13:40:49] Number of vehicle models: 173
+[13:40:49] [connection] 127.0.0.1:57559 requests connection cookie.
+[13:40:49] [connection] 127.0.0.1:57560 requests connection cookie.
+[13:40:50] [connection] incoming connection: 127.0.0.1:57554 id: 0
+[13:40:50] [connection] incoming connection: 127.0.0.1:57555 id: 1
+[13:40:50] [connection] incoming connection: 127.0.0.1:57556 id: 2
+[13:40:50] [connection] incoming connection: 127.0.0.1:57557 id: 3
+[13:40:50] [connection] incoming connection: 127.0.0.1:57558 id: 4
+[13:40:50] [connection] incoming connection: 127.0.0.1:57559 id: 5
+[13:40:50] [connection] incoming connection: 127.0.0.1:57560 id: 6
+[13:40:51] [npc:join] [SAP]Bus[65][0] has joined the server (0:127.0.0.1)
+[13:40:51] [npc:join] [SAP]Bus[52][0] has joined the server (1:127.0.0.1)
+[13:40:51] [npc:join] [SAP]Bus[07][0] has joined the server (2:127.0.0.1)
+[13:40:51] [npc:join] [SAP]Bus[30][0] has joined the server (3:127.0.0.1)
+[13:40:51] [npc:join] [SAP]Bus[40][0] has joined the server (4:127.0.0.1)
+[13:40:51] [npc:join] [SAP]Bus[57][0] has joined the server (5:127.0.0.1)
+[13:40:51] [npc:join] [SAP]Bus[18][0] has joined the server (6:127.0.0.1)
+[13:41:08] [connection] 127.0.0.1:57561 requests connection cookie.
+[13:41:09] [connection] incoming connection: 127.0.0.1:57561 id: 7
+[13:41:09] [join] XeonTM has joined the server (7:127.0.0.1)
+[13:41:09] *** IRC_OnConnectAttempt: Bot ID 1 attempting to connect to 37.59.63.55:6667...
+[13:41:10] *** IRC_OnConnect: Bot ID 1 connected to 37.59.63.55:6667
+[13:41:12] *** IRC_OnJoinChannel: Bot ID 1 joined channel #sfs.echo
+[13:41:12] *** IRC_OnJoinChannel: Bot ID 1 joined channel #sfs
+[13:41:15] [death] XeonTM died 255
+[13:41:19] *** IRC_OnConnectAttempt: Bot ID 3 attempting to connect to 37.59.63.55:6667...
+[13:41:19] *** IRC_OnConnectAttempt: Bot ID 2 attempting to connect to 37.59.63.55:6667...
+[13:41:19] *** IRC_OnConnectAttempt: Bot ID 4 attempting to connect to 37.59.63.55:6667...
+[13:41:20] *** IRC_OnConnect: Bot ID 3 connected to 37.59.63.55:6667
+[13:41:20] [death] XeonTM died 255
+[13:41:21] [part] XeonTM has left the server (7:1)
+[13:41:22] *** IRC_OnConnect: Bot ID 2 connected to 37.59.63.55:6667
+[13:41:23] *** IRC_OnConnect: Bot ID 4 connected to 37.59.63.55:6667
+[13:41:25] *** IRC_OnJoinChannel: Bot ID 3 joined channel #sfs.echo
+[13:41:25] *** IRC_OnJoinChannel: Bot ID 3 joined channel #sfs
+[13:41:25] *** IRC_OnJoinChannel: Bot ID 2 joined channel #sfs.echo
+[13:41:25] *** IRC_OnJoinChannel: Bot ID 2 joined channel #sfs
+[13:41:25] *** IRC_OnJoinChannel: Bot ID 4 joined channel #sfs.echo
+[13:41:25] *** IRC_OnJoinChannel: Bot ID 4 joined channel #sfs
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:41:53] 
+[13:41:53] Server Plugins
+[13:41:53] --------------
+[13:41:53]  Loading plugin: mysql.dll
+[13:41:53]  >> plugin.mysql: R41-4 successfully loaded.
+[13:41:53]   Loaded.
+[13:41:53]  Loading plugin: sscanf.dll
+[13:41:54] 
+
+[13:41:54]  ===============================
+
+[13:41:54]       sscanf plugin loaded.     
+
+[13:41:54]          Version:  2.8.3        
+
+[13:41:54]   (c) 2018 Alex "Y_Less" Cole  
+
+[13:41:54]  ===============================
+
+[13:41:54]   Loaded.
+[13:41:54]  Loading plugin: mapandreas.dll
+[13:41:54]   Loaded.
+[13:41:54]  Loading plugin: irc.dll
+[13:41:54] 
+
+*** IRC Plugin v1.4.8 by Incognito loaded ***
+
+[13:41:54]   Loaded.
+[13:41:54]  Loaded 4 plugins.
+
+[13:41:54] 
+[13:41:54] Filterscripts
+[13:41:54] ---------------
+[13:41:54]   Loaded 0 filterscripts.
+
+[13:41:54] Initialization of 'SEF Global Gamemode'..
+[13:41:54] Loaded 3 vehicles from: vehicles/trains.txt
+[13:41:54] Loaded 3 vehicles from: vehicles/pilots.txt
+[13:41:54] Loaded 15 vehicles from: vehicles/lv_law.txt
+[13:41:54] Loaded 39 vehicles from: vehicles/lv_airport.txt
+[13:41:54] Loaded 255 vehicles from: vehicles/lv_gen.txt
+[13:41:54] Loaded 38 vehicles from: vehicles/sf_law.txt
+[13:41:54] Loaded 35 vehicles from: vehicles/sf_airport.txt
+[13:41:54] Loaded 353 vehicles from: vehicles/sf_gen.txt
+[13:41:54] Loaded 24 vehicles from: vehicles/ls_law.txt
+[13:41:54] Loaded 37 vehicles from: vehicles/ls_airport.txt
+[13:41:54] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
+[13:41:54] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
+[13:41:54] Loaded 71 vehicles from: vehicles/whetstone.txt
+[13:41:54] Loaded 168 vehicles from: vehicles/bone.txt
+[13:41:54] Loaded 61 vehicles from: vehicles/flint.txt
+[13:41:54] Loaded 96 vehicles from: vehicles/tierra.txt
+[13:41:54] Loaded 96 vehicles from: vehicles/red_county.txt
+[13:41:54] [connection] 127.0.0.1:53579 requests connection cookie.
+[13:41:54] [connection] 127.0.0.1:53580 requests connection cookie.
+[13:41:54] Completed... (1/4)
+[13:41:54] Initialization of 'MySQL Connection'..
+[13:41:54] [connection] 127.0.0.1:53581 requests connection cookie.
+[13:41:54] [SFMySQL]: Connected.
+[13:41:54] Completed... (2/4)
+[13:41:54] Initialization of 'Discord Connection'..
+[13:41:54] Completed... (3/4)
+[13:41:54] Initialization of 'IRC Connection'..
+[13:41:54] Completed... (4/5)
+[13:41:54] Initialization of 'Other startup plugins'..
+[13:41:54] [connection] 127.0.0.1:52855 requests connection cookie.
+[13:41:54] [connection] 127.0.0.1:52856 requests connection cookie.
+[13:41:54] Completed... (5/5)
+[13:41:54] -------------------------------------------------------------
+[13:41:54] 	Everything Loaded, Welcome to.
+[13:41:54] -------------------------------------------------------------
+[13:41:54] -------------------------------------------------------------
+[13:41:54]      #####                            
+[13:41:54]     #     #  #####  #    #  #    #  ##### 
+[13:41:54]     #          #    #    #  ##   #    #   
+[13:41:54]      #####     #    #    #  # #  #    #   
+[13:41:54]           #    #    #    #  #  # #    #   
+[13:41:54]     #     #    #    #    #  #   ##    #   
+[13:41:54]      #####     #     ####   #    #    #   
+[13:41:54]     #######                                                  
+[13:41:54]     #       #####  ###### ###### #####   ####    ##   #    # 
+[13:41:54]     #       #    # #      #      #    # #    #  #  #  ##  ## 
+[13:41:54]     #####   #    # #####  #####  #    # #    # #    # # ## # 
+[13:41:54]     #       #####  #      #      #####  #    # ###### #    # 
+[13:41:54]     #       #   #  #      #      #   #  #    # #    # #    # 
+[13:41:54]     #       #    # ###### ###### #    #  ####  #    # #    # 
+[13:41:54]      #####                                     
+[13:41:54]     #     #  ######  #####   #    #  ######  #####  
+[13:41:54]     #        #       #    #  #    #  #       #    # 
+[13:41:54] [connection] 127.0.0.1:52857 requests connection cookie.
+[13:41:54]      #####   #####   #    #  #    #  #####   #    # 
+[13:41:54]           #  #       #####   #    #  #       #####  
+[13:41:54]     #     #  #       #   #    #  #   #       #   #  
+[13:41:54]      #####   ######  #    #    ##    ######  #    # 
+[13:41:54] 
+
+[13:41:54] -------------------------------------------------------------
+[13:41:54] -------------------------------------------------------------
+[13:41:54] 	Version: 1.0 | Author: XeonMaster   
+[13:41:54] -------------------------------------------------------------
+[13:41:54] Number of vehicle models: 173
+[13:41:54] [connection] 127.0.0.1:52858 requests connection cookie.
+[13:41:55] [connection] incoming connection: 127.0.0.1:53579 id: 0
+[13:41:55] [connection] incoming connection: 127.0.0.1:53580 id: 1
+[13:41:55] [connection] incoming connection: 127.0.0.1:53581 id: 2
+[13:41:55] [connection] incoming connection: 127.0.0.1:52855 id: 3
+[13:41:55] [connection] incoming connection: 127.0.0.1:52856 id: 4
+[13:41:55] [connection] incoming connection: 127.0.0.1:52857 id: 5
+[13:41:55] [connection] incoming connection: 127.0.0.1:52858 id: 6
+[13:41:55] [npc:join] [SAP]Bus[65][0] has joined the server (0:127.0.0.1)
+[13:41:55] [npc:join] [SAP]Bus[52][0] has joined the server (1:127.0.0.1)
+[13:41:55] [npc:join] [SAP]Bus[07][0] has joined the server (2:127.0.0.1)
+[13:41:55] [npc:join] [SAP]Bus[30][0] has joined the server (3:127.0.0.1)
+[13:41:55] [npc:join] [SAP]Bus[40][0] has joined the server (4:127.0.0.1)
+[13:41:55] [npc:join] [SAP]Bus[57][0] has joined the server (5:127.0.0.1)
+[13:41:55] [npc:join] [SAP]Bus[18][0] has joined the server (6:127.0.0.1)
+[13:42:05] [connection] 127.0.0.1:49838 requests connection cookie.
+[13:42:06] [connection] incoming connection: 127.0.0.1:49838 id: 7
+[13:42:07] [join] XeonTM has joined the server (7:127.0.0.1)
+[13:42:14] *** IRC_OnConnectAttempt: Bot ID 1 attempting to connect to 37.59.63.55:6667...
+[13:42:15] *** IRC_OnConnect: Bot ID 1 connected to 37.59.63.55:6667
+[13:42:16] *** IRC_OnJoinChannel: Bot ID 1 joined channel #sfs.echo
+[13:42:17] *** IRC_OnJoinChannel: Bot ID 1 joined channel #sfs
+[13:42:18] [death] XeonTM died 255
+[13:42:22] [death] XeonTM died 255
+[13:42:24] *** IRC_OnConnectAttempt: Bot ID 2 attempting to connect to 37.59.63.55:6667...
+[13:42:24] *** IRC_OnConnectAttempt: Bot ID 3 attempting to connect to 37.59.63.55:6667...
+[13:42:24] *** IRC_OnConnectAttempt: Bot ID 4 attempting to connect to 37.59.63.55:6667...
+[13:42:25] *** IRC_OnConnect: Bot ID 2 connected to 37.59.63.55:6667
+[13:42:27] *** IRC_OnConnect: Bot ID 3 connected to 37.59.63.55:6667
+[13:42:28] [death] XeonTM died 255
+[13:42:28] *** IRC_OnConnect: Bot ID 4 connected to 37.59.63.55:6667
+[13:42:30] *** IRC_OnJoinChannel: Bot ID 2 joined channel #sfs.echo
+[13:42:30] *** IRC_OnJoinChannel: Bot ID 2 joined channel #sfs
+[13:42:30] *** IRC_OnJoinChannel: Bot ID 3 joined channel #sfs.echo
+[13:42:30] *** IRC_OnJoinChannel: Bot ID 3 joined channel #sfs
+[13:42:30] *** IRC_OnJoinChannel: Bot ID 4 joined channel #sfs.echo
+[13:42:30] *** IRC_OnJoinChannel: Bot ID 4 joined channel #sfs
+[13:42:31] [chat] [XeonTM]: test
+[13:43:00] [connection] 127.0.0.1:50076 requests connection cookie.
+[13:43:00] [connection] 127.0.0.1:50077 requests connection cookie.
+[13:43:00] [connection] 127.0.0.1:50078 requests connection cookie.
+[13:43:00] [connection] 127.0.0.1:50079 requests connection cookie.
+[13:43:00] [connection] 127.0.0.1:50080 requests connection cookie.
+[13:43:00] [connection] 127.0.0.1:50081 requests connection cookie.
+[13:43:00] [connection] 127.0.0.1:50082 requests connection cookie.
+[13:43:01] [connection] incoming connection: 127.0.0.1:50076 id: 8
+[13:43:01] [connection] incoming connection: 127.0.0.1:50077 id: 9
+[13:43:01] [connection] incoming connection: 127.0.0.1:50078 id: 10
+[13:43:01] [connection] incoming connection: 127.0.0.1:50079 id: 11
+[13:43:01] [connection] incoming connection: 127.0.0.1:50080 id: 12
+[13:43:01] [connection] incoming connection: 127.0.0.1:50081 id: 13
+[13:43:01] [connection] incoming connection: 127.0.0.1:50082 id: 14
+[13:43:01] [npc:join] [SAP]Bus[65][1] has joined the server (8:127.0.0.1)
+[13:43:01] [npc:join] [SAP]Bus[52][1] has joined the server (9:127.0.0.1)
+[13:43:01] [npc:join] [SAP]Bus[07][1] has joined the server (10:127.0.0.1)
+[13:43:01] [npc:join] [SAP]Bus[30][1] has joined the server (11:127.0.0.1)
+[13:43:01] [npc:join] [SAP]Bus[40][1] has joined the server (12:127.0.0.1)
+[13:43:01] [npc:join] [SAP]Bus[57][1] has joined the server (13:127.0.0.1)
+[13:43:01] [npc:join] [SAP]Bus[18][1] has joined the server (14:127.0.0.1)
+[13:48:37] [part] XeonTM has left the server (7:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:59:11] 
+[13:59:11] Server Plugins
+[13:59:11] --------------
+[13:59:11]  Loading plugin: mysql.dll
+[13:59:11]  >> plugin.mysql: R41-4 successfully loaded.
+[13:59:11]   Loaded.
+[13:59:11]  Loading plugin: sscanf.dll
+[13:59:11] 
+
+[13:59:11]  ===============================
+
+[13:59:11]       sscanf plugin loaded.     
+
+[13:59:11]          Version:  2.8.3        
+
+[13:59:11]   (c) 2018 Alex "Y_Less" Cole  
+
+[13:59:11]  ===============================
+
+[13:59:11]   Loaded.
+[13:59:11]  Loading plugin: mapandreas.dll
+[13:59:11]   Loaded.
+[13:59:11]  Loading plugin: irc.dll
+[13:59:11] 
+
+*** IRC Plugin v1.4.8 by Incognito loaded ***
+
+[13:59:11]   Loaded.
+[13:59:11]  Loaded 4 plugins.
+
+[13:59:11] 
+[13:59:11] Filterscripts
+[13:59:11] ---------------
+[13:59:11]   Loaded 0 filterscripts.
+
+[13:59:11] Initialization of 'SEF Global Gamemode'..
+[13:59:11] Loaded 3 vehicles from: vehicles/trains.txt
+[13:59:11] Loaded 3 vehicles from: vehicles/pilots.txt
+[13:59:11] Loaded 15 vehicles from: vehicles/lv_law.txt
+[13:59:11] Loaded 39 vehicles from: vehicles/lv_airport.txt
+[13:59:11] Loaded 255 vehicles from: vehicles/lv_gen.txt
+[13:59:11] Loaded 38 vehicles from: vehicles/sf_law.txt
+[13:59:11] Loaded 35 vehicles from: vehicles/sf_airport.txt
+[13:59:11] Loaded 353 vehicles from: vehicles/sf_gen.txt
+[13:59:11] Loaded 24 vehicles from: vehicles/ls_law.txt
+[13:59:11] Loaded 37 vehicles from: vehicles/ls_airport.txt
+[13:59:11] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
+[13:59:11] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
+[13:59:11] Loaded 71 vehicles from: vehicles/whetstone.txt
+[13:59:11] Loaded 168 vehicles from: vehicles/bone.txt
+[13:59:11] Loaded 61 vehicles from: vehicles/flint.txt
+[13:59:11] Loaded 96 vehicles from: vehicles/tierra.txt
+[13:59:11] Loaded 96 vehicles from: vehicles/red_county.txt
+[13:59:11] [connection] 127.0.0.1:56372 requests connection cookie.
+[13:59:11] [connection] 127.0.0.1:56373 requests connection cookie.
+[13:59:11] [connection] 127.0.0.1:56374 requests connection cookie.
+[13:59:11] [connection] 127.0.0.1:56375 requests connection cookie.
+[13:59:11] Completed... (1/4)
+[13:59:11] Initialization of 'MySQL Connection'..
+[13:59:11] [SFMySQL]: Connected.
+[13:59:11] Completed... (2/4)
+[13:59:11] Initialization of 'Discord Connection'..
+[13:59:11] Completed... (3/4)
+[13:59:11] Initialization of 'IRC Connection'..
+[13:59:11] Completed... (4/5)
+[13:59:11] Initialization of 'Other startup plugins'..
+[13:59:11] [connection] 127.0.0.1:56376 requests connection cookie.
+[13:59:12] [connection] 127.0.0.1:63174 requests connection cookie.
+[13:59:12] [connection] 127.0.0.1:63175 requests connection cookie.
+[13:59:12] Completed... (5/5)
+[13:59:12] -------------------------------------------------------------
+[13:59:12] 	Everything Loaded, Welcome to.
+[13:59:12] -------------------------------------------------------------
+[13:59:12] -------------------------------------------------------------
+[13:59:12]      #####                            
+[13:59:12]     #     #  #####  #    #  #    #  ##### 
+[13:59:12]     #          #    #    #  ##   #    #   
+[13:59:12]      #####     #    #    #  # #  #    #   
+[13:59:12]           #    #    #    #  #  # #    #   
+[13:59:12]     #     #    #    #    #  #   ##    #   
+[13:59:12]      #####     #     ####   #    #    #   
+[13:59:12]     #######                                                  
+[13:59:12]     #       #####  ###### ###### #####   ####    ##   #    # 
+[13:59:12]     #       #    # #      #      #    # #    #  #  #  ##  ## 
+[13:59:12]     #####   #    # #####  #####  #    # #    # #    # # ## # 
+[13:59:12]     #       #####  #      #      #####  #    # ###### #    # 
+[13:59:12]     #       #   #  #      #      #   #  #    # #    # #    # 
+[13:59:12]     #       #    # ###### ###### #    #  ####  #    # #    # 
+[13:59:12]      #####                                     
+[13:59:12]     #     #  ######  #####   #    #  ######  #####  
+[13:59:12]     #        #       #    #  #    #  #       #    # 
+[13:59:12]      #####   #####   #    #  #    #  #####   #    # 
+[13:59:12]           #  #       #####   #    #  #       #####  
+[13:59:12]     #     #  #       #   #    #  #   #       #   #  
+[13:59:12]      #####   ######  #    #    ##    ######  #    # 
+[13:59:12] 
+
+[13:59:12] -------------------------------------------------------------
+[13:59:12] -------------------------------------------------------------
+[13:59:12] 	Version: 1.0 | Author: XeonMaster   
+[13:59:12] -------------------------------------------------------------
+[13:59:12] Number of vehicle models: 173
+[13:59:12] [connection] 127.0.0.1:63176 requests connection cookie.
+[13:59:12] [connection] 127.0.0.1:63177 requests connection cookie.
+[13:59:12] [connection] incoming connection: 127.0.0.1:56372 id: 0
+[13:59:12] [connection] incoming connection: 127.0.0.1:56373 id: 1
+[13:59:12] [connection] incoming connection: 127.0.0.1:56374 id: 2
+[13:59:12] [connection] incoming connection: 127.0.0.1:56375 id: 3
+[13:59:12] [connection] incoming connection: 127.0.0.1:56376 id: 4
+[13:59:13] [connection] incoming connection: 127.0.0.1:63174 id: 5
+[13:59:13] [connection] incoming connection: 127.0.0.1:63175 id: 6
+[13:59:13] [connection] incoming connection: 127.0.0.1:63176 id: 7
+[13:59:13] [connection] incoming connection: 127.0.0.1:63177 id: 8
+[13:59:13] [npc:join] Bus[65][0] has joined the server (0:127.0.0.1)
+[13:59:13] [npc:join] Bus[52][0] has joined the server (1:127.0.0.1)
+[13:59:13] [npc:join] Bus[07][0] has joined the server (2:127.0.0.1)
+[13:59:13] [npc:join] Bus[30][0] has joined the server (3:127.0.0.1)
+[13:59:13] [npc:join] Bus[40][0] has joined the server (4:127.0.0.1)
+[13:59:13] [npc:join] Bus[57][0] has joined the server (5:127.0.0.1)
+[13:59:13] [npc:join] Bus[18][0] has joined the server (6:127.0.0.1)
+[13:59:13] [npc:join] Ship[01] has joined the server (7:127.0.0.1)
+[13:59:13] [npc:join] Ship[02] has joined the server (8:127.0.0.1)
+[13:59:28] [npc:part] Ship[01] has left the server (7:0)
+[13:59:28] [npc:part] Ship[02] has left the server (8:0)
+[13:59:31] *** IRC_OnConnectAttempt: Bot ID 1 attempting to connect to 37.59.63.55:6667...
+[13:59:32] *** IRC_OnConnect: Bot ID 1 connected to 37.59.63.55:6667
+[13:59:33] *** IRC_OnJoinChannel: Bot ID 1 joined channel #sfs.echo
+[13:59:33] *** IRC_OnJoinChannel: Bot ID 1 joined channel #sfs
+[13:59:41] *** IRC_OnConnectAttempt: Bot ID 4 attempting to connect to 37.59.63.55:6667...
+[13:59:42] *** IRC_OnConnectAttempt: Bot ID 2 attempting to connect to 37.59.63.55:6667...
+[13:59:42] *** IRC_OnConnectAttempt: Bot ID 3 attempting to connect to 37.59.63.55:6667...
+[13:59:42] *** IRC_OnConnect: Bot ID 4 connected to 37.59.63.55:6667
+[13:59:43] *** IRC_OnConnect: Bot ID 2 connected to 37.59.63.55:6667
+[13:59:44] *** IRC_OnConnect: Bot ID 3 connected to 37.59.63.55:6667
+[13:59:47] *** IRC_OnJoinChannel: Bot ID 4 joined channel #sfs.echo
+[13:59:47] *** IRC_OnJoinChannel: Bot ID 4 joined channel #sfs
+[13:59:47] *** IRC_OnJoinChannel: Bot ID 2 joined channel #sfs.echo
+[13:59:47] *** IRC_OnJoinChannel: Bot ID 2 joined channel #sfs
+[13:59:47] *** IRC_OnJoinChannel: Bot ID 3 joined channel #sfs.echo
+[13:59:47] *** IRC_OnJoinChannel: Bot ID 3 joined channel #sfs
+[14:00:17] [connection] 127.0.0.1:58208 requests connection cookie.
+[14:00:17] [connection] 127.0.0.1:58209 requests connection cookie.
+[14:00:17] [connection] 127.0.0.1:58210 requests connection cookie.
+[14:00:17] [connection] 127.0.0.1:58211 requests connection cookie.
+[14:00:17] [connection] 127.0.0.1:58212 requests connection cookie.
+[14:00:17] [connection] 127.0.0.1:58213 requests connection cookie.
+[14:00:17] [connection] 127.0.0.1:58214 requests connection cookie.
+[14:00:18] [connection] incoming connection: 127.0.0.1:58208 id: 7
+[14:00:18] [connection] incoming connection: 127.0.0.1:58209 id: 8
+[14:00:18] [connection] incoming connection: 127.0.0.1:58210 id: 9
+[14:00:18] [connection] incoming connection: 127.0.0.1:58211 id: 10
+[14:00:18] [connection] incoming connection: 127.0.0.1:58212 id: 11
+[14:00:18] [connection] incoming connection: 127.0.0.1:58213 id: 12
+[14:00:18] [connection] incoming connection: 127.0.0.1:58214 id: 13
+[14:00:18] [npc:join] Bus[65][1] has joined the server (7:127.0.0.1)
+[14:00:18] [npc:join] Bus[52][1] has joined the server (8:127.0.0.1)
+[14:00:18] [npc:join] Bus[07][1] has joined the server (9:127.0.0.1)
+[14:00:18] [npc:join] Bus[30][1] has joined the server (10:127.0.0.1)
+[14:00:18] [npc:join] Bus[40][1] has joined the server (11:127.0.0.1)
+[14:00:18] [npc:join] Bus[57][1] has joined the server (12:127.0.0.1)
+[14:00:18] [npc:join] Bus[18][1] has joined the server (13:127.0.0.1)
+[14:11:15] [connection] 127.0.0.1:58461 requests connection cookie.
+[14:11:16] [connection] incoming connection: 127.0.0.1:58461 id: 14
+[14:11:16] [join] XeonTM has joined the server (14:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:16:33] 
+[14:16:33] Server Plugins
+[14:16:33] --------------
+[14:16:33]  Loading plugin: mysql.dll
+[14:16:33]  >> plugin.mysql: R41-4 successfully loaded.
+[14:16:33]   Loaded.
+[14:16:33]  Loading plugin: sscanf.dll
+[14:16:33] 
+
+[14:16:33]  ===============================
+
+[14:16:33]       sscanf plugin loaded.     
+
+[14:16:33]          Version:  2.8.3        
+
+[14:16:33]   (c) 2018 Alex "Y_Less" Cole  
+
+[14:16:33]  ===============================
+
+[14:16:33]   Loaded.
+[14:16:33]  Loading plugin: mapandreas.dll
+[14:16:33]   Loaded.
+[14:16:33]  Loading plugin: irc.dll
+[14:16:33] 
+
+*** IRC Plugin v1.4.8 by Incognito loaded ***
+
+[14:16:33]   Loaded.
+[14:16:33]  Loaded 4 plugins.
+
+[14:16:33] 
+[14:16:33] Filterscripts
+[14:16:33] ---------------
+[14:16:33]   Loaded 0 filterscripts.
+
+[14:16:33] Initialization of 'SEF Global Gamemode'..
+[14:16:33] Loaded 3 vehicles from: vehicles/trains.txt
+[14:16:33] Loaded 3 vehicles from: vehicles/pilots.txt
+[14:16:33] Loaded 15 vehicles from: vehicles/lv_law.txt
+[14:16:33] Loaded 39 vehicles from: vehicles/lv_airport.txt
+[14:16:33] Loaded 255 vehicles from: vehicles/lv_gen.txt
+[14:16:33] Loaded 38 vehicles from: vehicles/sf_law.txt
+[14:16:33] Loaded 35 vehicles from: vehicles/sf_airport.txt
+[14:16:33] Loaded 353 vehicles from: vehicles/sf_gen.txt
+[14:16:33] Loaded 24 vehicles from: vehicles/ls_law.txt
+[14:16:33] Loaded 37 vehicles from: vehicles/ls_airport.txt
+[14:16:33] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
+[14:16:33] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
+[14:16:33] Loaded 71 vehicles from: vehicles/whetstone.txt
+[14:16:33] Loaded 168 vehicles from: vehicles/bone.txt
+[14:16:33] Loaded 61 vehicles from: vehicles/flint.txt
+[14:16:33] Loaded 96 vehicles from: vehicles/tierra.txt
+[14:16:33] Loaded 96 vehicles from: vehicles/red_county.txt
+[14:16:33] [connection] 127.0.0.1:65353 requests connection cookie.
+[14:16:33] [connection] 127.0.0.1:65354 requests connection cookie.
+[14:16:33] [connection] 127.0.0.1:65355 requests connection cookie.
+[14:16:33] Completed... (1/4)
+[14:16:33] Initialization of 'MySQL Connection'..
+[14:16:33] [connection] 127.0.0.1:65356 requests connection cookie.
+[14:16:33] [SFMySQL]: Connected.
+[14:16:33] Completed... (2/4)
+[14:16:33] Initialization of 'Discord Connection'..
+[14:16:33] Completed... (3/4)
+[14:16:33] Initialization of 'IRC Connection'..
+[14:16:33] Completed... (4/5)
+[14:16:33] Initialization of 'Other startup plugins'..
+[14:16:33] [connection] 127.0.0.1:65357 requests connection cookie.
+[14:16:33] [connection] 127.0.0.1:59261 requests connection cookie.
+[14:16:33] [connection] 127.0.0.1:59262 requests connection cookie.
+[14:16:33] Completed... (5/5)
+[14:16:33] -------------------------------------------------------------
+[14:16:33] 	Everything Loaded, Welcome to.
+[14:16:33] -------------------------------------------------------------
+[14:16:33] -------------------------------------------------------------
+[14:16:33]      #####                            
+[14:16:33]     #     #  #####  #    #  #    #  ##### 
+[14:16:33]     #          #    #    #  ##   #    #   
+[14:16:33]      #####     #    #    #  # #  #    #   
+[14:16:33]           #    #    #    #  #  # #    #   
+[14:16:33]     #     #    #    #    #  #   ##    #   
+[14:16:33]      #####     #     ####   #    #    #   
+[14:16:33]     #######                                                  
+[14:16:33]     #       #####  ###### ###### #####   ####    ##   #    # 
+[14:16:33]     #       #    # #      #      #    # #    #  #  #  ##  ## 
+[14:16:33]     #####   #    # #####  #####  #    # #    # #    # # ## # 
+[14:16:33]     #       #####  #      #      #####  #    # ###### #    # 
+[14:16:33]     #       #   #  #      #      #   #  #    # #    # #    # 
+[14:16:33]     #       #    # ###### ###### #    #  ####  #    # #    # 
+[14:16:33]      #####                                     
+[14:16:33]     #     #  ######  #####   #    #  ######  #####  
+[14:16:33]     #        #       #    #  #    #  #       #    # 
+[14:16:33]      #####   #####   #    #  #    #  #####   #    # 
+[14:16:33]           #  #       #####   #    #  #       #####  
+[14:16:33]     #     #  #       #   #    #  #   #       #   #  
+[14:16:33]      #####   ######  #    #    ##    ######  #    # 
+[14:16:33] 
+
+[14:16:33] -------------------------------------------------------------
+[14:16:33] -------------------------------------------------------------
+[14:16:33] 	Version: 1.0 | Author: XeonMaster   
+[14:16:33] -------------------------------------------------------------
+[14:16:33] Number of vehicle models: 173
+[14:16:33] [connection] 127.0.0.1:59263 requests connection cookie.
+[14:16:33] [connection] 127.0.0.1:59264 requests connection cookie.
+[14:16:34] [connection] incoming connection: 127.0.0.1:65353 id: 0
+[14:16:34] [connection] incoming connection: 127.0.0.1:65354 id: 1
+[14:16:34] [connection] incoming connection: 127.0.0.1:65355 id: 2
+[14:16:34] [connection] incoming connection: 127.0.0.1:65356 id: 3
+[14:16:34] [connection] incoming connection: 127.0.0.1:65357 id: 4
+[14:16:34] [connection] incoming connection: 127.0.0.1:59261 id: 5
+[14:16:34] [connection] incoming connection: 127.0.0.1:59262 id: 6
+[14:16:34] [connection] incoming connection: 127.0.0.1:59263 id: 7
+[14:16:34] [connection] incoming connection: 127.0.0.1:59264 id: 8
+[14:16:34] [npc:join] Bus[65][0] has joined the server (0:127.0.0.1)
+[14:16:34] [npc:join] Bus[52][0] has joined the server (1:127.0.0.1)
+[14:16:34] [npc:join] Bus[07][0] has joined the server (2:127.0.0.1)
+[14:16:34] [npc:join] Bus[30][0] has joined the server (3:127.0.0.1)
+[14:16:34] [npc:join] Bus[40][0] has joined the server (4:127.0.0.1)
+[14:16:34] [npc:join] Bus[57][0] has joined the server (5:127.0.0.1)
+[14:16:34] [npc:join] Bus[18][0] has joined the server (6:127.0.0.1)
+[14:16:34] [npc:join] Ship[01] has joined the server (7:127.0.0.1)
+[14:16:34] [npc:join] Ship[02] has joined the server (8:127.0.0.1)
+[14:16:49] [npc:part] Ship[01] has left the server (7:0)
+[14:16:49] [npc:part] Ship[02] has left the server (8:0)
+[14:16:53] *** IRC_OnConnectAttempt: Bot ID 1 attempting to connect to 37.59.63.55:6667...
+[14:16:54] *** IRC_OnConnect: Bot ID 1 connected to 37.59.63.55:6667
+[14:16:56] *** IRC_OnJoinChannel: Bot ID 1 joined channel #sfs.echo
+[14:16:56] *** IRC_OnJoinChannel: Bot ID 1 joined channel #sfs
+[14:17:00] [connection] 127.0.0.1:59266 requests connection cookie.
+[14:17:01] [connection] incoming connection: 127.0.0.1:59266 id: 7
+[14:17:02] [join] XeonTM has joined the server (7:127.0.0.1)
+[14:17:03] *** IRC_OnConnectAttempt: Bot ID 2 attempting to connect to 37.59.63.55:6667...
+[14:17:03] *** IRC_OnConnectAttempt: Bot ID 3 attempting to connect to 37.59.63.55:6667...
+[14:17:03] *** IRC_OnConnectAttempt: Bot ID 4 attempting to connect to 37.59.63.55:6667...
+[14:17:04] *** IRC_OnConnect: Bot ID 2 connected to 37.59.63.55:6667
+[14:17:06] *** IRC_OnConnect: Bot ID 3 connected to 37.59.63.55:6667
+[14:17:07] *** IRC_OnConnect: Bot ID 4 connected to 37.59.63.55:6667
+[14:17:09] *** IRC_OnJoinChannel: Bot ID 2 joined channel #sfs.echo
+[14:17:09] *** IRC_OnJoinChannel: Bot ID 2 joined channel #sfs
+[14:17:09] *** IRC_OnJoinChannel: Bot ID 3 joined channel #sfs.echo
+[14:17:09] *** IRC_OnJoinChannel: Bot ID 3 joined channel #sfs
+[14:17:09] *** IRC_OnJoinChannel: Bot ID 4 joined channel #sfs.echo
+[14:17:09] *** IRC_OnJoinChannel: Bot ID 4 joined channel #sfs
+[14:17:11] [death] XeonTM died 255
+[14:17:39] [connection] 127.0.0.1:60009 requests connection cookie.
+[14:17:39] [connection] 127.0.0.1:60010 requests connection cookie.
+[14:17:39] [connection] 127.0.0.1:60011 requests connection cookie.
+[14:17:39] [connection] 127.0.0.1:60012 requests connection cookie.
+[14:17:39] [connection] 127.0.0.1:60014 requests connection cookie.
+[14:17:39] [connection] 127.0.0.1:60013 requests connection cookie.
+[14:17:39] [connection] 127.0.0.1:60015 requests connection cookie.
+[14:17:40] [connection] incoming connection: 127.0.0.1:60009 id: 8
+[14:17:40] [connection] incoming connection: 127.0.0.1:60010 id: 9
+[14:17:40] [connection] incoming connection: 127.0.0.1:60011 id: 10
+[14:17:40] [connection] incoming connection: 127.0.0.1:60012 id: 11
+[14:17:40] [connection] incoming connection: 127.0.0.1:60014 id: 12
+[14:17:40] [connection] incoming connection: 127.0.0.1:60013 id: 13
+[14:17:40] [connection] incoming connection: 127.0.0.1:60015 id: 14
+[14:17:40] [npc:join] Bus[65][1] has joined the server (8:127.0.0.1)
+[14:17:40] [npc:join] Bus[52][1] has joined the server (9:127.0.0.1)
+[14:17:40] [npc:join] Bus[07][1] has joined the server (10:127.0.0.1)
+[14:17:40] [npc:join] Bus[30][1] has joined the server (11:127.0.0.1)
+[14:17:40] [npc:join] Bus[40][1] has joined the server (13:127.0.0.1)
+[14:17:40] [npc:join] Bus[57][1] has joined the server (12:127.0.0.1)
+[14:17:40] [npc:join] Bus[18][1] has joined the server (14:127.0.0.1)
+[14:17:48] [part] XeonTM has left the server (7:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:20:01] 
+[14:20:01] Server Plugins
+[14:20:01] --------------
+[14:20:01]  Loading plugin: mysql.dll
+[14:20:01]  >> plugin.mysql: R41-4 successfully loaded.
+[14:20:01]   Loaded.
+[14:20:01]  Loading plugin: sscanf.dll
+[14:20:01] 
+
+[14:20:01]  ===============================
+
+[14:20:01]       sscanf plugin loaded.     
+
+[14:20:01]          Version:  2.8.3        
+
+[14:20:01]   (c) 2018 Alex "Y_Less" Cole  
+
+[14:20:01]  ===============================
+
+[14:20:01]   Loaded.
+[14:20:01]  Loading plugin: mapandreas.dll
+[14:20:01]   Loaded.
+[14:20:01]  Loading plugin: irc.dll
+[14:20:01] 
+
+*** IRC Plugin v1.4.8 by Incognito loaded ***
+
+[14:20:01]   Loaded.
+[14:20:01]  Loaded 4 plugins.
+
+[14:20:01] 
+[14:20:01] Filterscripts
+[14:20:01] ---------------
+[14:20:01]   Loaded 0 filterscripts.
+
+[14:20:01] Initialization of 'SEF Global Gamemode'..
+[14:20:01] Loaded 3 vehicles from: vehicles/trains.txt
+[14:20:01] Loaded 3 vehicles from: vehicles/pilots.txt
+[14:20:01] Loaded 15 vehicles from: vehicles/lv_law.txt
+[14:20:01] Loaded 39 vehicles from: vehicles/lv_airport.txt
+[14:20:01] Loaded 255 vehicles from: vehicles/lv_gen.txt
+[14:20:01] Loaded 38 vehicles from: vehicles/sf_law.txt
+[14:20:01] Loaded 35 vehicles from: vehicles/sf_airport.txt
+[14:20:01] Loaded 353 vehicles from: vehicles/sf_gen.txt
+[14:20:01] Loaded 24 vehicles from: vehicles/ls_law.txt
+[14:20:01] Loaded 37 vehicles from: vehicles/ls_airport.txt
+[14:20:01] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
+[14:20:01] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
+[14:20:01] Loaded 71 vehicles from: vehicles/whetstone.txt
+[14:20:01] Loaded 168 vehicles from: vehicles/bone.txt
+[14:20:01] Loaded 61 vehicles from: vehicles/flint.txt
+[14:20:01] Loaded 96 vehicles from: vehicles/tierra.txt
+[14:20:01] Loaded 96 vehicles from: vehicles/red_county.txt
+[14:20:01] [connection] 127.0.0.1:58834 requests connection cookie.
+[14:20:01] [connection] 127.0.0.1:58835 requests connection cookie.
+[14:20:01] [connection] 127.0.0.1:58836 requests connection cookie.
+[14:20:01] [connection] 127.0.0.1:58837 requests connection cookie.
+[14:20:01] Completed... (1/4)
+[14:20:01] Initialization of 'MySQL Connection'..
+[14:20:01] [SFMySQL]: Connected.
+[14:20:01] Completed... (2/4)
+[14:20:01] Initialization of 'Discord Connection'..
+[14:20:01] Completed... (3/4)
+[14:20:01] Initialization of 'IRC Connection'..
+[14:20:01] Completed... (4/5)
+[14:20:01] Initialization of 'Other startup plugins'..
+[14:20:01] [connection] 127.0.0.1:58838 requests connection cookie.
+[14:20:01] [connection] 127.0.0.1:58839 requests connection cookie.
+[14:20:01] Completed... (5/5)
+[14:20:01] -------------------------------------------------------------
+[14:20:01] 	Everything Loaded, Welcome to.
+[14:20:01] -------------------------------------------------------------
+[14:20:01] -------------------------------------------------------------
+[14:20:01]      #####                            
+[14:20:01]     #     #  #####  #    #  #    #  ##### 
+[14:20:01]     #          #    #    #  ##   #    #   
+[14:20:01]      #####     #    #    #  # #  #    #   
+[14:20:01]           #    #    #    #  #  # #    #   
+[14:20:01]     #     #    #    #    #  #   ##    #   
+[14:20:01]      #####     #     ####   #    #    #   
+[14:20:01]     #######                                                  
+[14:20:01] [connection] 127.0.0.1:58840 requests connection cookie.
+[14:20:01]     #       #####  ###### ###### #####   ####    ##   #    # 
+[14:20:02]     #       #    # #      #      #    # #    #  #  #  ##  ## 
+[14:20:02]     #####   #    # #####  #####  #    # #    # #    # # ## # 
+[14:20:02]     #       #####  #      #      #####  #    # ###### #    # 
+[14:20:02]     #       #   #  #      #      #   #  #    # #    # #    # 
+[14:20:02]     #       #    # ###### ###### #    #  ####  #    # #    # 
+[14:20:02]      #####                                     
+[14:20:02]     #     #  ######  #####   #    #  ######  #####  
+[14:20:02]     #        #       #    #  #    #  #       #    # 
+[14:20:02]      #####   #####   #    #  #    #  #####   #    # 
+[14:20:02]           #  #       #####   #    #  #       #####  
+[14:20:02]     #     #  #       #   #    #  #   #       #   #  
+[14:20:02]      #####   ######  #    #    ##    ######  #    # 
+[14:20:02] 
+
+[14:20:02] -------------------------------------------------------------
+[14:20:02] -------------------------------------------------------------
+[14:20:02] 	Version: 1.0 | Author: XeonMaster   
+[14:20:02] -------------------------------------------------------------
+[14:20:02] Number of vehicle models: 173
+[14:20:02] [connection] 127.0.0.1:58841 requests connection cookie.
+[14:20:02] [connection] 127.0.0.1:58842 requests connection cookie.
+[14:20:02] [connection] incoming connection: 127.0.0.1:58834 id: 0
+[14:20:02] [connection] incoming connection: 127.0.0.1:58835 id: 1
+[14:20:02] [connection] incoming connection: 127.0.0.1:58836 id: 2
+[14:20:02] [connection] incoming connection: 127.0.0.1:58837 id: 3
+[14:20:02] [connection] incoming connection: 127.0.0.1:58838 id: 4
+[14:20:02] [connection] incoming connection: 127.0.0.1:58839 id: 5
+[14:20:03] [connection] incoming connection: 127.0.0.1:58840 id: 6
+[14:20:03] [connection] incoming connection: 127.0.0.1:58841 id: 7
+[14:20:03] [connection] incoming connection: 127.0.0.1:58842 id: 8
+[14:20:03] [npc:join] Bus[65][0] has joined the server (0:127.0.0.1)
+[14:20:03] [npc:join] Bus[52][0] has joined the server (1:127.0.0.1)
+[14:20:03] [npc:join] Bus[07][0] has joined the server (2:127.0.0.1)
+[14:20:03] [npc:join] Bus[30][0] has joined the server (3:127.0.0.1)
+[14:20:03] [npc:join] Bus[40][0] has joined the server (4:127.0.0.1)
+[14:20:03] [npc:join] Bus[57][0] has joined the server (5:127.0.0.1)
+[14:20:03] [npc:join] Bus[18][0] has joined the server (6:127.0.0.1)
+[14:20:03] [npc:join] Ship[01] has joined the server (7:127.0.0.1)
+[14:20:03] [npc:join] Ship[02] has joined the server (8:127.0.0.1)
+[14:20:21] *** IRC_OnConnectAttempt: Bot ID 1 attempting to connect to 37.59.63.55:6667...
+[14:20:22] *** IRC_OnConnect: Bot ID 1 connected to 37.59.63.55:6667
+[14:20:24] *** IRC_OnJoinChannel: Bot ID 1 joined channel #sfs.echo
+[14:20:24] *** IRC_OnJoinChannel: Bot ID 1 joined channel #sfs
+[14:20:31] *** IRC_OnConnectAttempt: Bot ID 2 attempting to connect to 37.59.63.55:6667...
+[14:20:31] *** IRC_OnConnectAttempt: Bot ID 3 attempting to connect to 37.59.63.55:6667...
+[14:20:31] *** IRC_OnConnectAttempt: Bot ID 4 attempting to connect to 37.59.63.55:6667...
+[14:20:32] *** IRC_OnConnect: Bot ID 2 connected to 37.59.63.55:6667
+[14:20:32] [connection] 127.0.0.1:58843 requests connection cookie.
+[14:20:33] [connection] incoming connection: 127.0.0.1:58843 id: 9
+[14:20:33] [join] XeonTM has joined the server (9:127.0.0.1)
+[14:20:33] *** IRC_OnConnect: Bot ID 3 connected to 37.59.63.55:6667
+[14:20:35] *** IRC_OnConnect: Bot ID 4 connected to 37.59.63.55:6667
+[14:20:37] *** IRC_OnJoinChannel: Bot ID 2 joined channel #sfs.echo
+[14:20:37] *** IRC_OnJoinChannel: Bot ID 2 joined channel #sfs
+[14:20:37] *** IRC_OnJoinChannel: Bot ID 3 joined channel #sfs.echo
+[14:20:37] *** IRC_OnJoinChannel: Bot ID 3 joined channel #sfs
+[14:20:37] *** IRC_OnJoinChannel: Bot ID 4 joined channel #sfs.echo
+[14:20:37] *** IRC_OnJoinChannel: Bot ID 4 joined channel #sfs
+[14:21:08] [connection] 127.0.0.1:49568 requests connection cookie.
+[14:21:08] [connection] 127.0.0.1:49569 requests connection cookie.
+[14:21:08] [connection] 127.0.0.1:49570 requests connection cookie.
+[14:21:08] [connection] 127.0.0.1:49571 requests connection cookie.
+[14:21:08] [connection] 127.0.0.1:49572 requests connection cookie.
+[14:21:08] [connection] 127.0.0.1:49573 requests connection cookie.
+[14:21:08] [connection] 127.0.0.1:49574 requests connection cookie.
+[14:21:09] [connection] incoming connection: 127.0.0.1:49568 id: 10
+[14:21:09] [connection] incoming connection: 127.0.0.1:49569 id: 11
+[14:21:09] [connection] incoming connection: 127.0.0.1:49570 id: 12
+[14:21:09] [connection] incoming connection: 127.0.0.1:49571 id: 13
+[14:21:09] [connection] incoming connection: 127.0.0.1:49572 id: 14
+[14:21:09] [connection] incoming connection: 127.0.0.1:49573 id: 15
+[14:21:09] [connection] incoming connection: 127.0.0.1:49574 id: 16
+[14:21:09] [npc:join] Bus[65][1] has joined the server (10:127.0.0.1)
+[14:21:09] [npc:join] Bus[52][1] has joined the server (11:127.0.0.1)
+[14:21:09] [npc:join] Bus[07][1] has joined the server (12:127.0.0.1)
+[14:21:09] [npc:join] Bus[30][1] has joined the server (13:127.0.0.1)
+[14:21:09] [npc:join] Bus[40][1] has joined the server (14:127.0.0.1)
+[14:21:09] [npc:join] Bus[57][1] has joined the server (15:127.0.0.1)
+[14:21:09] [npc:join] Bus[18][1] has joined the server (16:127.0.0.1)
+[14:23:20] [part] XeonTM has left the server (9:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:28:40] 
+[14:28:40] Server Plugins
+[14:28:40] --------------
+[14:28:40]  Loading plugin: mysql.dll
+[14:28:40]  >> plugin.mysql: R41-4 successfully loaded.
+[14:28:40]   Loaded.
+[14:28:40]  Loading plugin: sscanf.dll
+[14:28:40] 
+
+[14:28:40]  ===============================
+
+[14:28:40]       sscanf plugin loaded.     
+
+[14:28:40]          Version:  2.8.3        
+
+[14:28:40]   (c) 2018 Alex "Y_Less" Cole  
+
+[14:28:40]  ===============================
+
+[14:28:40]   Loaded.
+[14:28:40]  Loading plugin: mapandreas.dll
+[14:28:40]   Loaded.
+[14:28:40]  Loading plugin: irc.dll
+[14:28:40] 
+
+*** IRC Plugin v1.4.8 by Incognito loaded ***
+
+[14:28:40]   Loaded.
+[14:28:40]  Loaded 4 plugins.
+
+[14:28:40] 
+[14:28:40] Filterscripts
+[14:28:40] ---------------
+[14:28:40]   Loaded 0 filterscripts.
+
+[14:28:40] Initialization of 'SEF Global Gamemode'..
+[14:28:40] Loaded 3 vehicles from: vehicles/trains.txt
+[14:28:40] Loaded 3 vehicles from: vehicles/pilots.txt
+[14:28:40] Loaded 15 vehicles from: vehicles/lv_law.txt
+[14:28:40] Loaded 39 vehicles from: vehicles/lv_airport.txt
+[14:28:40] Loaded 255 vehicles from: vehicles/lv_gen.txt
+[14:28:40] Loaded 38 vehicles from: vehicles/sf_law.txt
+[14:28:40] Loaded 35 vehicles from: vehicles/sf_airport.txt
+[14:28:40] Loaded 353 vehicles from: vehicles/sf_gen.txt
+[14:28:40] Loaded 24 vehicles from: vehicles/ls_law.txt
+[14:28:40] Loaded 37 vehicles from: vehicles/ls_airport.txt
+[14:28:40] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
+[14:28:40] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
+[14:28:40] Loaded 71 vehicles from: vehicles/whetstone.txt
+[14:28:40] Loaded 168 vehicles from: vehicles/bone.txt
+[14:28:40] Loaded 61 vehicles from: vehicles/flint.txt
+[14:28:40] Loaded 96 vehicles from: vehicles/tierra.txt
+[14:28:40] Loaded 96 vehicles from: vehicles/red_county.txt
+[14:28:40] [connection] 127.0.0.1:62929 requests connection cookie.
+[14:28:40] [connection] 127.0.0.1:62930 requests connection cookie.
+[14:28:40] [connection] 127.0.0.1:62931 requests connection cookie.
+[14:28:40] Completed... (1/4)
+[14:28:40] Initialization of 'MySQL Connection'..
+[14:28:40] [SFMySQL]: Connected.
+[14:28:40] Completed... (2/4)
+[14:28:40] Initialization of 'Discord Connection'..
+[14:28:40] Completed... (3/4)
+[14:28:40] Initialization of 'IRC Connection'..
+[14:28:40] Completed... (4/5)
+[14:28:40] Initialization of 'Other startup plugins'..
+[14:28:40] [connection] 127.0.0.1:62932 requests connection cookie.
+[14:28:40] [connection] 127.0.0.1:62933 requests connection cookie.
+[14:28:41] [connection] 127.0.0.1:54412 requests connection cookie.
+[14:28:41] [connection] 127.0.0.1:54413 requests connection cookie.
+[14:28:41] Completed... (5/5)
+[14:28:41] -------------------------------------------------------------
+[14:28:41] 	Everything Loaded, Welcome to.
+[14:28:41] -------------------------------------------------------------
+[14:28:41] -------------------------------------------------------------
+[14:28:41]      #####                            
+[14:28:41]     #     #  #####  #    #  #    #  ##### 
+[14:28:41]     #          #    #    #  ##   #    #   
+[14:28:41]      #####     #    #    #  # #  #    #   
+[14:28:41]           #    #    #    #  #  # #    #   
+[14:28:41]     #     #    #    #    #  #   ##    #   
+[14:28:41]      #####     #     ####   #    #    #   
+[14:28:41]     #######                                                  
+[14:28:41]     #       #####  ###### ###### #####   ####    ##   #    # 
+[14:28:41]     #       #    # #      #      #    # #    #  #  #  ##  ## 
+[14:28:41]     #####   #    # #####  #####  #    # #    # #    # # ## # 
+[14:28:41]     #       #####  #      #      #####  #    # ###### #    # 
+[14:28:41]     #       #   #  #      #      #   #  #    # #    # #    # 
+[14:28:41]     #       #    # ###### ###### #    #  ####  #    # #    # 
+[14:28:41]      #####                                     
+[14:28:41]     #     #  ######  #####   #    #  ######  #####  
+[14:28:41]     #        #       #    #  #    #  #       #    # 
+[14:28:41]      #####   #####   #    #  #    #  #####   #    # 
+[14:28:41]           #  #       #####   #    #  #       #####  
+[14:28:41]     #     #  #       #   #    #  #   #       #   #  
+[14:28:41]      #####   ######  #    #    ##    ######  #    # 
+[14:28:41] 
+
+[14:28:41] -------------------------------------------------------------
+[14:28:41] -------------------------------------------------------------
+[14:28:41] 	Version: 1.0 | Author: XeonMaster   
+[14:28:41] -------------------------------------------------------------
+[14:28:41] Number of vehicle models: 173
+[14:28:41] [connection] 127.0.0.1:54414 requests connection cookie.
+[14:28:41] [connection] 127.0.0.1:54415 requests connection cookie.
+[14:28:41] [connection] incoming connection: 127.0.0.1:62929 id: 0
+[14:28:41] [connection] incoming connection: 127.0.0.1:62930 id: 1
+[14:28:41] [connection] incoming connection: 127.0.0.1:62931 id: 2
+[14:28:41] [connection] incoming connection: 127.0.0.1:62932 id: 3
+[14:28:42] [connection] incoming connection: 127.0.0.1:62933 id: 4
+[14:28:42] [connection] incoming connection: 127.0.0.1:54412 id: 5
+[14:28:42] [connection] incoming connection: 127.0.0.1:54413 id: 6
+[14:28:42] [connection] incoming connection: 127.0.0.1:54414 id: 7
+[14:28:42] [connection] incoming connection: 127.0.0.1:54415 id: 8
+[14:28:42] [npc:join] Bus[65][0] has joined the server (0:127.0.0.1)
+[14:28:42] [npc:join] Bus[52][0] has joined the server (1:127.0.0.1)
+[14:28:42] [npc:join] Bus[07][0] has joined the server (2:127.0.0.1)
+[14:28:42] [npc:join] Bus[30][0] has joined the server (3:127.0.0.1)
+[14:28:42] [npc:join] Bus[40][0] has joined the server (4:127.0.0.1)
+[14:28:42] [npc:join] Bus[57][0] has joined the server (5:127.0.0.1)
+[14:28:42] [npc:join] Bus[18][0] has joined the server (6:127.0.0.1)
+[14:28:42] [npc:join] Ship[01] has joined the server (7:127.0.0.1)
+[14:28:42] [npc:join] Ship[02] has joined the server (8:127.0.0.1)
+[14:29:01] *** IRC_OnConnectAttempt: Bot ID 1 attempting to connect to 37.59.63.55:6667...
+[14:29:01] *** IRC_OnConnect: Bot ID 1 connected to 37.59.63.55:6667
+[14:29:03] *** IRC_OnJoinChannel: Bot ID 1 joined channel #sfs.echo
+[14:29:03] *** IRC_OnJoinChannel: Bot ID 1 joined channel #sfs
+[14:29:11] *** IRC_OnConnectAttempt: Bot ID 3 attempting to connect to 37.59.63.55:6667...
+[14:29:11] *** IRC_OnConnectAttempt: Bot ID 2 attempting to connect to 37.59.63.55:6667...
+[14:29:11] *** IRC_OnConnectAttempt: Bot ID 4 attempting to connect to 37.59.63.55:6667...
+[14:29:11] *** IRC_OnConnect: Bot ID 2 connected to 37.59.63.55:6667
+[14:29:13] *** IRC_OnConnect: Bot ID 4 connected to 37.59.63.55:6667
+[14:29:13] [connection] 127.0.0.1:54416 requests connection cookie.
+[14:29:14] [connection] incoming connection: 127.0.0.1:54416 id: 9
+[14:29:14] *** IRC_OnConnect: Bot ID 3 connected to 37.59.63.55:6667
+[14:29:14] [join] XeonTM has joined the server (9:127.0.0.1)
+[14:29:16] *** IRC_OnJoinChannel: Bot ID 2 joined channel #sfs.echo
+[14:29:16] *** IRC_OnJoinChannel: Bot ID 2 joined channel #sfs
+[14:29:16] *** IRC_OnJoinChannel: Bot ID 4 joined channel #sfs.echo
+[14:29:16] *** IRC_OnJoinChannel: Bot ID 4 joined channel #sfs
+[14:29:16] *** IRC_OnJoinChannel: Bot ID 3 joined channel #sfs.echo
+[14:29:16] *** IRC_OnJoinChannel: Bot ID 3 joined channel #sfs
+[14:29:47] [connection] 127.0.0.1:54419 requests connection cookie.
+[14:29:47] [connection] 127.0.0.1:54420 requests connection cookie.
+[14:29:47] [connection] 127.0.0.1:54421 requests connection cookie.
+[14:29:47] [connection] 127.0.0.1:54422 requests connection cookie.
+[14:29:47] [connection] 127.0.0.1:54423 requests connection cookie.
+[14:29:47] [connection] 127.0.0.1:54424 requests connection cookie.
+[14:29:47] [connection] 127.0.0.1:54425 requests connection cookie.
+[14:29:48] [connection] incoming connection: 127.0.0.1:54419 id: 10
+[14:29:48] [connection] incoming connection: 127.0.0.1:54420 id: 11
+[14:29:48] [connection] incoming connection: 127.0.0.1:54421 id: 12
+[14:29:48] [connection] incoming connection: 127.0.0.1:54422 id: 13
+[14:29:48] [connection] incoming connection: 127.0.0.1:54423 id: 14
+[14:29:48] [connection] incoming connection: 127.0.0.1:54424 id: 15
+[14:29:48] [connection] incoming connection: 127.0.0.1:54425 id: 16
+[14:29:48] [npc:join] Bus[65][1] has joined the server (10:127.0.0.1)
+[14:29:48] [npc:join] Bus[52][1] has joined the server (11:127.0.0.1)
+[14:29:48] [npc:join] Bus[07][1] has joined the server (12:127.0.0.1)
+[14:29:48] [npc:join] Bus[30][1] has joined the server (13:127.0.0.1)
+[14:29:48] [npc:join] Bus[40][1] has joined the server (14:127.0.0.1)
+[14:29:48] [npc:join] Bus[57][1] has joined the server (15:127.0.0.1)
+[14:29:48] [npc:join] Bus[18][1] has joined the server (16:127.0.0.1)
+[14:31:24] [connection] 192.168.1.37:54324 requests connection cookie.
+[14:31:25] [connection] incoming connection: 192.168.1.37:54324 id: 17
+[14:31:25] [join] [GK]ZakiTM has joined the server (17:192.168.1.37)
+[14:31:38] [chat] [[GK]ZakiTM]: g
+[14:31:48] sscanf warning: Format specifier does not match parameter count.
+[14:31:53] sscanf warning: Format specifier does not match parameter count.
+[14:32:53] sscanf warning: Format specifier does not match parameter count.
+[14:33:41] sscanf warning: Format specifier does not match parameter count.
+[14:36:29] [part] XeonTM has left the server (9:1)
