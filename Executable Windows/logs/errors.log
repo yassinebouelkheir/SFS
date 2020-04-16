@@ -1,2 +1,0 @@
-[14:31:32] [plugins/mysql] cache_get_row_count: no active cache (Player/Spawn.pwn:225)
-[14:31:32] [plugins/mysql] error #1146 while executing query "DELETE FROM `WEAPONDATA` WHERE `ID` = 3": Table 'sfserver.weapondata' doesn't exist (Player/Spawn.pwn:238)

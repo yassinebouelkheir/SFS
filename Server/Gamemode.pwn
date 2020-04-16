@@ -120,6 +120,43 @@ public OnGameModeInit()
 	TextDrawSetPreviewModel(Login[7], 18749);
 	TextDrawSetPreviewRot(Login[7], 0.0, 0.0, 1980.0, 1.0);
 
+	Death[0] = TextDrawCreate(650.000000, 0.000000, ".");
+	TextDrawBackgroundColor(Death[0], 255);
+	TextDrawFont(Death[0], 1);
+	TextDrawLetterSize(Death[0], 0.500000, 51.000000);
+	TextDrawColor(Death[0], -1);
+	TextDrawSetOutline(Death[0], 0);
+	TextDrawSetProportional(Death[0], 1);
+	TextDrawSetShadow(Death[0], 1);
+	TextDrawUseBox(Death[0], 1);
+	TextDrawBoxColor(Death[0], 5111928);
+	TextDrawTextSize(Death[0], -3.000000, -23.000000);
+	TextDrawSetSelectable(Death[0], 0);
+
+	Death[1] = TextDrawCreate(641.000000, 160.000000, ".");
+	TextDrawBackgroundColor(Death[1], 255);
+	TextDrawFont(Death[1], 1);
+	TextDrawLetterSize(Death[1], 0.500000, 8.100000);
+	TextDrawColor(Death[1], -1);
+	TextDrawSetOutline(Death[1], 0);
+	TextDrawSetProportional(Death[1], 1);
+	TextDrawSetShadow(Death[1], 1);
+	TextDrawUseBox(Death[1], 1);
+	TextDrawBoxColor(Death[1], 100);
+	TextDrawTextSize(Death[1], -20.000000, 3.000000);
+	TextDrawSetSelectable(Death[1], 0);
+
+	Death[2] = TextDrawCreate(317.000000, 172.000000, "WASTED");
+	TextDrawAlignment(Death[2], 2);
+	TextDrawBackgroundColor(Death[2], 131272);
+	TextDrawFont(Death[2], 3);
+	TextDrawLetterSize(Death[2], 1.410000, 4.099999);
+	TextDrawColor(Death[2], -16776961);
+	TextDrawSetOutline(Death[2], 0);
+	TextDrawSetProportional(Death[2], 1);
+	TextDrawSetShadow(Death[2], 0);
+	TextDrawSetSelectable(Death[2], 0);
+	
 	TotalVeh += LoadStaticVehiclesFromFile("vehicles/trains.txt");
     TotalVeh += LoadStaticVehiclesFromFile("vehicles/pilots.txt");
 

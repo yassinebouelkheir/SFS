@@ -258,6 +258,25 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 				", "Cancel", "");
 			}
 		}
+		case DIALOG_DM:
+        {
+            if(response)
+		    {
+			 	switch(listitem)
+				{
+					case 0:return cmd_de(playerid);
+					case 1:return cmd_rw(playerid);
+					case 2:return cmd_sos(playerid);
+					case 3:return cmd_snipedm(playerid);
+					case 4:return cmd_sos2(playerid);
+					case 5:return cmd_snipedm2(playerid);
+					case 6:return cmd_shotdm(playerid);
+					case 7:return cmd_mini(playerid);
+					case 8:return cmd_wz(playerid);
+					case 9:return cmd_shipdm(playerid);
+				}
+			}
+		}
 	}
 	return 1;
 }

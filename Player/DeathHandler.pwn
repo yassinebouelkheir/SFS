@@ -23,6 +23,7 @@
 
 public OnPlayerDeath(playerid, killerid, reason)
 {
+	PlayAudioStreamForPlayer(playerid, "https://www.myinstants.com/media/sounds/gta-v-death-sound-effect-102.mp3");
 	SendDeathMessage(killerid, playerid, reason);
 
 	new msg[128],

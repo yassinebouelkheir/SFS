@@ -30,6 +30,8 @@
 #include "Server/IRC.pwn"
 #include "Server/Discord.pwn"
 #include "Server/MySQL.pwn"
+#include "Server/CommandHandler.pwn"
+#include "Server/DamageHandler.pwn"
 
 // Player
 #include "Player/Connections.pwn"
@@ -42,3 +44,6 @@
 #include "Player/Commands.pwn"
 #include "Player/AdminCommands.pwn"
 #include "Player/PlayerUpdate.pwn"
+
+// Games
+#include "Games/Deathmatches.pwn"

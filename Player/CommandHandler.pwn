@@ -28,9 +28,22 @@ public OnPlayerCommandReceived(playerid, cmdtext[])
 
 public OnPlayerCommandPerformed(playerid, cmdtext[], success)
 {
-	if(success == CMD_FAILURE)
+	if(!success) SendClientMessage(playerid, -1, "{FF0000}[SFServer]: {C3C3C3}Invalid Command, please use {CC6600}/cmds{C3C3C3} to see list of our commands.");
+	else
 	{
-		SendClientMessage(playerid, -1, "{FF0000}[SFServer]: {C3C3C3}Invalid Command, please use {CC6600}/cmds{C3C3C3} to see list of our commands.");
+        if(PlayerInfo[playerid][Admin] > 0) return 1;
+        if(PlayerInfo[playerid][InDM])
+        {
+            if(!strfind(cmdtext, "/leave")) return 1;
+            SendClientMessage(playerid, -1, "{00FF40}[SFDeathmatches]:{C3C3C3} You can't use any commands while you are in deathmatches area.");
+            return 0;
+        }     
+        if(PlayerInfo[playerid][Fighting])
+        {
+            SendClientMessage(playerid, -1, "{FF0000}[SFServer]: {C3C3C3}You can't use any commands after getting shot or shooting, you have to wait 10 seconds.");
+            return 0;
+        }
+        printf("[Gamemode::Command]: Player %s, Command: %s", GetName(playerid), cmdtext);
 	}
 	return 1;
 }

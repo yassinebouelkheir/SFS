@@ -275,6 +275,7 @@ public OnPlayerSpawn(playerid)
             break;
         }
     }*/
+    if(PlayerInfo[playerid][InDM]) return respawnindm(playerid);
 
     new Random = random(sizeof(RandomSpawns));
     SetPlayerPos(playerid, RandomSpawns[Random][0], RandomSpawns[Random][1], RandomSpawns[Random][2]);

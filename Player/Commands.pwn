@@ -137,38 +137,42 @@ CMD:change(playerid, params[])
 
 CMD:stats(playerid, params[])
 {
+	new id;
+	if(!sscanf(params, "u", id)) id = playerid;
+	if(!IsPlayerConnected(id)) return SendClientMessage(playerid, -1, "{FF0000}[SFServer]: {C3C3C3}Invalid playerid, This player is not connected."); 
+
 	new string[1512], hours = 0, minutes = 0, seconds = 0;
-	format(string, sizeof(string), "{FFFFFF}\t{%06x}%s [%d]{FFFFFF} Statistics:\n\n", GetPlayerColor(playerid) >>> 8, GetName(playerid), playerid);
+	format(string, sizeof(string), "{FFFFFF}\t{%06x}%s [%d]{FFFFFF} Statistics:\n\n", GetPlayerColor(id) >>> 8, GetName(id), id);
 
 	format(string, sizeof(string), "{FFFFFF}%s\t{0B98D4}General Statistics:\n\n", string);
-	format(string, sizeof(string), "{FFFFFF}%s\t{FF0000}- {C3C3C3}Nickname: {FFFFFF}%s\n", string, GetName(playerid));
-	format(string, sizeof(string), "{FFFFFF}%s\t{FF0000}- {C3C3C3}Country: {FFFFFF}%s\n", string, PlayerInfo[playerid][Country]);
-	format(string, sizeof(string), "{FFFFFF}%s\t{FF0000}- {C3C3C3}Skin: {FFFFFF}%d\n", string, GetPlayerSkin(playerid));
-	format(string, sizeof(string), "{FFFFFF}%s\t{FF0000}- {C3C3C3}Cash: {FFFFFF}%d\n", string, PlayerInfo[playerid][Cash]);
-	format(string, sizeof(string), "{FFFFFF}%s\t{FF0000}- {C3C3C3}Bank Money: {FFFFFF}%d\n", string, PlayerInfo[playerid][BankMoney]);
-	format(string, sizeof(string), "{FFFFFF}%s\t{FF0000}- {C3C3C3}Level: {FFFFFF}%s\n", string, GetLevelName(PlayerInfo[playerid][Admin]));
-	format(string, sizeof(string), "{FFFFFF}%s\t{FF0000}- {C3C3C3}VIP: {FFFFFF}%s\n\n\n", string, (PlayerInfo[playerid][VIP] ? ("{00FF00}Yes{C3C3C3}") : ("{FF0000}No{C3C3C3}")));
+	format(string, sizeof(string), "{FFFFFF}%s\t{FF0000}- {C3C3C3}Nickname: {FFFFFF}%s\n", string, GetName(id));
+	format(string, sizeof(string), "{FFFFFF}%s\t{FF0000}- {C3C3C3}Country: {FFFFFF}%s\n", string, PlayerInfo[id][Country]);
+	format(string, sizeof(string), "{FFFFFF}%s\t{FF0000}- {C3C3C3}Skin: {FFFFFF}%d\n", string, GetPlayerSkin(id));
+	format(string, sizeof(string), "{FFFFFF}%s\t{FF0000}- {C3C3C3}Cash: {FFFFFF}%d\n", string, PlayerInfo[id][Cash]);
+	format(string, sizeof(string), "{FFFFFF}%s\t{FF0000}- {C3C3C3}Bank Money: {FFFFFF}%d\n", string, PlayerInfo[id][BankMoney]);
+	format(string, sizeof(string), "{FFFFFF}%s\t{FF0000}- {C3C3C3}Level: {FFFFFF}%s\n", string, GetLevelName(PlayerInfo[id][Admin]));
+	format(string, sizeof(string), "{FFFFFF}%s\t{FF0000}- {C3C3C3}VIP: {FFFFFF}%s\n\n\n", string, (PlayerInfo[id][VIP] ? ("{00FF00}Yes{C3C3C3}") : ("{FF0000}No{C3C3C3}")));
 
 	format(string, sizeof(string), "{FFFFFF}%s\t{0B98D4}Gameplay Statistics:\n\n", string);
 	
-	minutes = PlayerInfo[playerid][TimePlayed] / 60;
-  	seconds = PlayerInfo[playerid][TimePlayed] % 60;
+	minutes = PlayerInfo[id][TimePlayed] / 60;
+  	seconds = PlayerInfo[id][TimePlayed] % 60;
   	hours = minutes / 60;
   	minutes = minutes % 60;
 	
 	format(string, sizeof(string), "{FFFFFF}%s\t{FF0000}-{C3C3C3}Time played: {FFFFFF}%02d {C3C3C3}hours,{FFFFFF} %02d {C3C3C3}minutes,{FFFFFF} %02d {C3C3C3}seconds{FFFFFF}\n", string, hours, minutes, seconds);
 
-	format(string, sizeof(string), "{FFFFFF}%s\t{FF0000}- {C3C3C3}Registration Date: {FFFFFF}%s\n", string, PlayerInfo[playerid][RegisterDate]);
-	format(string, sizeof(string), "{FFFFFF}%s\t{FF0000}- {C3C3C3}Kills: {FFFFFF}%d\n", string, PlayerInfo[playerid][Kills]);
-	format(string, sizeof(string), "{FFFFFF}%s\t{FF0000}- {C3C3C3}Deaths: {FFFFFF}%d\n", string, PlayerInfo[playerid][Deaths]);
+	format(string, sizeof(string), "{FFFFFF}%s\t{FF0000}- {C3C3C3}Registration Date: {FFFFFF}%s\n", string, PlayerInfo[id][RegisterDate]);
+	format(string, sizeof(string), "{FFFFFF}%s\t{FF0000}- {C3C3C3}Kills: {FFFFFF}%d\n", string, PlayerInfo[id][Kills]);
+	format(string, sizeof(string), "{FFFFFF}%s\t{FF0000}- {C3C3C3}Deaths: {FFFFFF}%d\n", string, PlayerInfo[id][Deaths]);
 
-	if(PlayerInfo[playerid][Deaths] == 0) format(string, sizeof(string), "{FFFFFF}%s\t{FF0000}- {C3C3C3}Ratio: {FFFFFF}0.00\n\n\n\n", string);
-	else format(string, sizeof(string), "{FFFFFF}%s\t{FF0000}- {C3C3C3}Ratio: {FFFFFF}%0.2f\n\n\n", string, (PlayerInfo[playerid][Kills]/PlayerInfo[playerid][Deaths]));
+	if(PlayerInfo[id][Deaths] == 0) format(string, sizeof(string), "{FFFFFF}%s\t{FF0000}- {C3C3C3}Ratio: {FFFFFF}0.00\n\n\n\n", string);
+	else format(string, sizeof(string), "{FFFFFF}%s\t{FF0000}- {C3C3C3}Ratio: {FFFFFF}%0.2f\n\n\n", string, (PlayerInfo[id][Kills]/PlayerInfo[id][Deaths]));
 
 	format(string, sizeof(string), "{FFFFFF}%s\t{0B98D4}Administrative Statistics:\n\n", string);
-	format(string, sizeof(string), "{FFFFFF}%s\t{FF0000}- {C3C3C3}PMDisabled: {FFFFFF}%s\n", string, (PlayerInfo[playerid][PMDisabled] ? ("{00FF00}Yes{C3C3C3}") : ("{FF0000}No{C3C3C3}")));
-	format(string, sizeof(string), "{FFFFFF}%s\t{FF0000}- {C3C3C3}Jailed: {FFFFFF}%s\n", string, (PlayerInfo[playerid][Jailed] ? ("{00FF00}Yes{C3C3C3}") : ("{FF0000}No{C3C3C3}")));
-	format(string, sizeof(string), "{FFFFFF}%s\t{FF0000}- {C3C3C3}Muted: {FFFFFF}%s\n\n", string, (PlayerInfo[playerid][Muted] ? ("{00FF00}Yes{C3C3C3}") : ("{FF0000}No{C3C3C3}")));
+	format(string, sizeof(string), "{FFFFFF}%s\t{FF0000}- {C3C3C3}PMDisabled: {FFFFFF}%s\n", string, (PlayerInfo[id][PMDisabled] ? ("{00FF00}Yes{C3C3C3}") : ("{FF0000}No{C3C3C3}")));
+	format(string, sizeof(string), "{FFFFFF}%s\t{FF0000}- {C3C3C3}Jailed: {FFFFFF}%s\n", string, (PlayerInfo[id][Jailed] ? ("{00FF00}Yes{C3C3C3}") : ("{FF0000}No{C3C3C3}")));
+	format(string, sizeof(string), "{FFFFFF}%s\t{FF0000}- {C3C3C3}Muted: {FFFFFF}%s\n\n", string, (PlayerInfo[id][Muted] ? ("{00FF00}Yes{C3C3C3}") : ("{FF0000}No{C3C3C3}")));
 
 	ShowPlayerDialog(playerid, DIALOG_INVALID, DIALOG_STYLE_MSGBOX, "{FF0000}SFS: {FFFFFF}Statistics", string, "Cancel", "");
 	return 1;
@@ -336,11 +340,13 @@ CMD:tp(playerid, params[])
 	if(sscanf(params, "i", id)) return SendClientMessage(playerid, -1, "{FF0000}[SFServer]: {C3C3C3}Invalid Syntax, please use {CC6600}/tp [playerid/name]{C3C3C3}."); 
 	if(!IsPlayerConnected(id)) return SendClientMessage(playerid, -1, "{FF0000}[SFServer]: {C3C3C3}This player is not connected");
 	if(playerid == id) return SendClientMessage(playerid, -1, "{FF0000}[SFServer]: {C3C3C3}Invalid playerid, you can't teleport to yourself.");
-
+	if(GetPlayerVirtualWorld(playerid) != GetPlayerVirtualWorld(id) && PlayerInfo[playerid][Admin] == 0) return SendClientMessage(playerid, -1, "{FF0000}[SFServer]: {C3C3C3}Invalid playerid, you can't teleport to this player right now.");
 	new Float:x, Float:y, Float:z; 
 
 	GetPlayerPos(id, x, y, z); 
 	SetPlayerPos(playerid, x+1, y+1, z+1); 
+	SetPlayerInterior(playerid, GetPlayerInterior(id));
+	if(PlayerInfo[playerid][Admin] != 0) SetPlayerVirtualWorld(playerid, GetPlayerVirtualWorld(id));
 
 	if(IsPlayerInAnyVehicle(playerid))
 	{

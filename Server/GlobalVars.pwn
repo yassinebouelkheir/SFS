@@ -34,10 +34,12 @@ native gpci(playerid, serial[], len);
 #define DIALOG_CHANGE_PASS (6)
 #define DIALOG_ACMDS_MOD   (7)
 #define DIALOG_ACMDS_ADMIN (8)
+#define DIALOG_DM          (9)
 
 // Constants - Worlds
 #define WORLD_LOGIN 	   (1)
 #define WORLD_KICK		   (2)
+#define WORLD_DM           (3)
 
 // Macros
 #define PRESSED(%0) \
@@ -58,7 +60,8 @@ new
     XeonGarage,
     XeonVeh[2],
     GuardVeh[3],
-    bool: GarageOpen = false
+    bool: GarageOpen = false,
+    Text: Death[3]
 ;
 
 enum ENUM_PLAYER_DATA
@@ -97,6 +100,10 @@ enum ENUM_PLAYER_DATA
     LastNameChange,
     ClientID[41],
     bool: IsSpectating,
+    bool: InDM,
+    DmZone,
+
+    bool: Fighting
 }
 
 new PlayerInfo[MAX_PLAYERS][ENUM_PLAYER_DATA]; 
@@ -251,6 +258,13 @@ new Float:RandomSpawns[][] =
 };
 
 // Functions
+forward OnPlayerFinishFight(playerid);
+public OnPlayerFinishFight(playerid)
+{
+    PlayerInfo[playerid][Fighting] = false;
+    return 1;
+}
+
 forward KickTimer(type, playerid);
 public KickTimer(type, playerid)
 {

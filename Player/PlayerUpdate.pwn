@@ -48,5 +48,6 @@ public OnPlayerUpdate(playerid)
 		SetPlayerHealth(playerid, 99.0);
 		SetPVarInt(playerid, "Safezone", 0);
 	}
+	SetPlayerScore(playerid, GetPlayerMoney(playerid));
 	return 1;
 }
