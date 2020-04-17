@@ -380,6 +380,6 @@ stock IRC_Reply(reponseid, channel[], str[])
         case USAGE:  format(string, sizeof(string), "7Usage: 1%s", str);
         case SUCCESS: format(string, sizeof(string), "3Success: 1%s", str);
     }
-    IRC_GroupSay(groupID, channel, string);
+    IRC_Say(botIDs[3], channel, string);
     return 1;
 }
