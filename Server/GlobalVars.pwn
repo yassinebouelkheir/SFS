@@ -61,7 +61,8 @@ new
     XeonVeh[2],
     GuardVeh[3],
     bool: GarageOpen = false,
-    Text: Death[3]
+    Text: Death[3],
+    starttime
 ;
 
 enum ENUM_PLAYER_DATA
@@ -601,4 +602,13 @@ stock token_by_delim(const string[], return_str[], delim, start_index)
 	return_str[x] = EOS;
 	if(string[start_index] == EOS) start_index = (-1);
 	return start_index;
+}
+
+forward secs2hms(secs, &hours, &minutes, &seconds);
+stock secs2hms(secs, &hours, &minutes, &seconds)
+{
+    if (secs < 0) return false;
+    minutes = secs / 60; seconds = secs % 60;
+    hours = minutes / 60; minutes = minutes % 60;
+    return 1;
 }

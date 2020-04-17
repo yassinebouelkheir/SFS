@@ -28,6 +28,7 @@
 #include "Server/Gamemode.pwn"
 #include "Server/Dialogs.pwn"
 #include "Server/IRC.pwn"
+#include "Server/IRCommands.pwn"
 #include "Server/Discord.pwn"
 #include "Server/MySQL.pwn"
 #include "Server/CommandHandler.pwn"

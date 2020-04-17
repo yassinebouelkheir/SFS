@@ -26,7 +26,7 @@ main() { }
 public OnGameModeInit()
 {
 	printf("Initialization of 'SEF Global Gamemode'..");
-
+	starttime = gettime();
 	// Textdraws
 	Login[0] = TextDrawCreate(1025.000000, 0.000000, ".");
 	TextDrawBackgroundColor(Login[0], 255);

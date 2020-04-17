@@ -41,7 +41,6 @@
 #define BOT_4_REALNAME "SA-MP Bot"
 #define BOT_4_USERNAME "Rune"
 
-
 #define IRC_SERVER "pool.irc.tl"
 #define IRC_PORT (6667)
 #define IRC_ECHO "#sfs.echo"
@@ -65,8 +64,6 @@ stock IRC_Init()
 
 	groupID = IRC_CreateGroup();
 
-	IRC_Say(botIDs[3], IRC_MAIN, "Global gamemode initialization...");
-	IRC_Say(botIDs[3], IRC_ECHO, "Global gamemode initialization...");
 	return 1;
 }
 
@@ -76,6 +73,12 @@ public IRC_OnConnect(botid, const ip[], port)
 	IRC_JoinChannel(botid, IRC_ECHO);
 	IRC_JoinChannel(botid, IRC_MAIN);
 	if(botid != 3) IRC_AddToGroup(groupID, botid);
+	else 
+	{
+		IRC_SendRaw(botIDs[3], "PRIVMSG NickServ :IDENTIFY KYassine20010609");
+		IRC_Say(botIDs[3], IRC_MAIN, "Global gamemode initialization...");
+		IRC_Say(botIDs[3], IRC_ECHO, "Global gamemode initialization...");
+	}
 	return 1;
 }
 
