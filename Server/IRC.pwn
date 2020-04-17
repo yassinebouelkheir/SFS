@@ -75,7 +75,7 @@ public IRC_OnConnect(botid, const ip[], port)
 	if(botid != 3) IRC_AddToGroup(groupID, botid);
 	else 
 	{
-		IRC_SendRaw(botIDs[3], "PRIVMSG NickServ :IDENTIFY KYassine20010609");
+		IRC_SendRaw(botIDs[3], "PRIVMSG NickServ ");
 		IRC_Say(botIDs[3], IRC_MAIN, "Global gamemode initialization...");
 		IRC_Say(botIDs[3], IRC_ECHO, "Global gamemode initialization...");
 	}
